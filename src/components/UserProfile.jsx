@@ -4,14 +4,10 @@ import { Link } from 'react-router-dom';
 const UserProfile = () => {
   return (
     <div className="register">
-      <div className="block md:hidden">
-        <button className="avatar">
-          <UserRoundX />
-        </button>
-      </div>
-      <div className="hidden md:block">
-        <Link to={`#`}>Log in</Link>
-        <button className="sign">Sign up</button>
+    
+      <div className="">
+        {/* <Link to={`#`}>Log in</Link> */}
+        <button className="sign">777-777-7777</button>
       </div>
     </div>
   );

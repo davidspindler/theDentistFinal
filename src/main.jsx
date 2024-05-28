@@ -10,7 +10,7 @@ import {
 import Layout from './routes/layout';
 import NotMatch from './routes/not-match';
 import RentPage from './routes/rent';
-import BuyPage from './routes/buy';
+import AboutPage from './routes/about';
 import SellPage from './routes/sell';
 import HomePage from './routes/home';
 import NewsPage from './routes/news';
@@ -31,8 +31,35 @@ const router = createBrowserRouter([
         element: <RentPage />,
       },
       {
-        path: 'buy',
-        element: <BuyPage />,
+        path: 'about/*',
+        element: <AboutPage />,
+        children: [
+          {
+            index: true,
+            element: <div>Main About Page</div>
+          },
+          {
+            path:"OCCFAD",
+            element: <div>OCCFAD</div>
+          },
+          {
+            path:"address",
+            element: <div>address</div>
+          },
+          {
+            path:"meetthedoctors",
+            element: <div>meetthedoctors</div>
+          },
+          {
+            path:"officetour",
+            element: <div>officetour</div>
+          },
+          {
+            path:"patientexperiences",
+            element: <div>Patient Experiences</div>
+          },
+
+        ]
       },
       {
         path: 'sell',

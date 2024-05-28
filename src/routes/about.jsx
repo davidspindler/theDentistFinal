@@ -3,15 +3,14 @@ import HeroContent from '../components/hero/HeroContent';
 import HeroTitle from '../components/hero/HeroTitle';
 
 import image from '../assets/images/buy_banner.jpg';
+import { Outlet } from 'react-router-dom';
 
-const BuyPage = () => {
+const AboutPage = () => {
   return (
-    <Hero>
-      <HeroContent imageSrc={image}>
-        <HeroTitle title="The buy page hero title" />
-      </HeroContent>
-    </Hero>
+ <div>
+<Outlet />
+ </div>
   );
 };
 
-export default BuyPage;
+export default AboutPage;

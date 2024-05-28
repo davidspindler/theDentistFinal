@@ -28,6 +28,7 @@ const Navigation = () => {
           </button>
           <Link className="logo__link" to={'/'}>
             <img src={logo} />
+            <h2>OCCFAD</h2>
           </Link>
 
           <div className="hidden md:block">

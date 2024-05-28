@@ -257,7 +257,7 @@ Mobile
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   max-width: 280px;
   height: 100vh;
   z-index: 99;
@@ -350,6 +350,8 @@ MEDIA QUERIES
   .nav__container ul li:focus-within .dropdown,
   .nav__container ul li:hover .dropdown {
     visibility: visible;
+    width: auto;
+    left:auto;
   }
 
   .nav_item_content:hover a:before,
@@ -360,6 +362,8 @@ MEDIA QUERIES
     bottom: 0;
     width: 100%;
     border-bottom: 2px solid var(--mainColor);
+    /* transition: 1s; */
+   
   }
 
   .dropdown_content {

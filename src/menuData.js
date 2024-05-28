@@ -1,193 +1,89 @@
 export const menuData = [
+  { label: 'Home', href: '/' },
   {
-    label: 'Buy properties',
-    href: '/buy',
+    label: 'Meet Us',
+    href: '/about',
     children: [
       {
-        heading: 'Homes for sale',
+        heading: 'More about us',
         submenu: [
-          {
-            label: 'Lorem ipsum dolor sit amet consectetur',
-            href: '#',
-          },
-          { label: 'Ipsam sequi provident', href: '#' },
-          { label: 'Porro impedit exercitationem', href: '#' },
+          { label: 'About OCCFAD', href: '/about/occfad' },
+          { label: 'Meet the Doctors', href: '/about/meetthedoctors' },
+          { label: 'Address / Google Map / Location Dot', href: 'about/address' },
+          { label: 'Office Tour (location / building / how to access / photos)', href: 'about/officetour' },
+          { label: 'Patient Experiences', href: '/about/patientexperiences' }
         ],
-      },
-      {
-        heading: 'New Construction For Sale',
-        submenu: [
-          { label: 'Excepturi corporis atque libero', href: '#' },
-          {
-            label: 'Ratione recusandae incidunt atque libero',
-            href: '#',
-          },
-          {
-            label: 'Excepturi corporis atque libero',
-            href: '#',
-          },
-        ],
-      },
-      {
-        heading: 'Homes values',
-        submenu: [
-          {
-            label:
-              'Exercitationem corporis a voluptas at atque libero',
-            href: '#',
-          },
-          { label: 'Provident, odio obcaecati', href: '#' },
-          {
-            label:
-              'Porro impedit corporis atque libero dolor impedit corporis',
-            href: '#',
-          },
-        ],
-      },
-      {
-        heading: 'Home buying tips',
-        submenu: [
-          { label: 'Corporis consequatur consectetur', href: '#' },
-          {
-            label: 'Accusamus vero beatae dolor impedit corporis',
-            href: '#',
-          },
-          { label: 'Ab corrupti deserunt laborum', href: '#' },
-        ],
-      },
+      }
     ],
   },
   {
-    label: 'Rent homes',
-    href: '/rent',
+    label: 'Patient Care Services',
+    href: '/services',
     children: [
       {
-        heading: 'Apartments for rent',
+        heading: 'Cosmetic and Restorative Dentistry',
         submenu: [
-          { label: 'Lorem ipsum dolor sit consectetur', href: '#' },
+          { label: 'Smile Design', href: '#' },
           {
             label:
-              'Ratione recusandae incidunt dolor impedit corporis',
+              'Veneers',
             href: '#',
           },
-          { label: 'Accusamus vero beatae dolor', href: '#' },
+          { label: 'Crowns', href: '#' },
+          { label: 'Teeth Whitening', href: '#' },
+          { label: 'Crown Lengthening', href: '#' },
+          { label: 'Gingival/Gum Contouring', href: '#' },
+          { label: 'Fillings (Resin and porcelain)', href: '#' },
+          { label: 'Root Canals', href: '#' },
         ],
       },
       {
-        heading: 'Landlord tools',
+        heading: 'Oral and Perio Surgery',
         submenu: [
-          { label: 'Excepturi sapiente sequi', href: '#' },
-          {
-            label: 'Ratione recusandae dolor impedit corporis',
-            href: '#',
-          },
-          { label: 'Dolor sit consectetur dolor impedit', href: '#' },
-          { label: 'Repellat corporis excepturi', href: '#' },
-          { label: 'Corporis consequatur', href: '#' },
+          { label: 'Tooth Extractions (including Wisdom Teeth)', href: '/toothextractions' },
+          { label: 'Full Mouth Extractions', href: '/fullmouthextractions' },
+          { label: 'Bone Augmentations (PRF and BMP)', href: '/boneaugmentations' },
+          { label: 'Gingival / Gum Contouring', href: '/gingivalgumcontouring' },
+          { label: 'Gum Treatment', href: '/gumtreatment' }
         ],
       },
       {
-        heading: 'Home renting tips',
+        heading: 'Implants and Prosthetics',
         submenu: [
-          { label: 'Lorem ipsum dolor sit consectetur', href: '#' },
-          { label: 'Repellat corporis excepturi?', href: '#' },
-          {
-            label: 'Dolor sit consectetur dolor impedit corporis',
-            href: '#',
-          },
-          { label: 'Ratione recusandae', href: '#' },
-        ],
-      },
-    ],
-  },
-  {
-    label: 'Sell',
-    href: '/sell',
-    children: [
-      {
-        heading: 'Home selling tools',
-        submenu: [
-          { label: 'Lorem ipsum dolor sit consectetur', href: '#' },
-          {
-            label: 'Dolor sit consectetur dolor impedit corporis',
-            href: '#',
-          },
-          { label: 'Corporis consequatur', href: '#' },
+          { label: 'Implant Treatment', href: '/implanttreatment' },
+          { label: 'Failed Implant Treatment', href: '/failedimplanttreatment' },
+          { label: 'Sinus Lift', href: '/sinuslift' },
+          { label: 'Implant Supported Dentures', href: '/implantsupporteddentures' },
+          { label: 'All on X and All on 4s', href: '/allonxandallon4s' },
+          { label: 'Other Prosthetics', href: '/otherprosthetics' }
         ],
       },
       {
-        heading: 'Home selling advice',
+        heading: 'Preventative Dentistry',
         submenu: [
-          {
-            label: 'Lorem ipsum dolor sit amet consectetur',
-            href: '#',
-          },
-          { label: 'Lorem ipsum dolor sit consectetur', href: '#' },
-          {
-            label:
-              'Ratione recusandae incidunt dolor impedit corporis',
-            href: '#',
-          },
-          {
-            label: 'Accusamus vero beatae dolor dolor impedit ',
-            href: '#',
-          },
-          { label: 'Lorem ipsum dolor sit consectetur', href: '#' },
-          { label: 'Ratione recusandae incidunt', href: '#' },
-          { label: 'Accusamus vero beatae dolor', href: '#' },
+          { label: 'Checkup and Cleanings', href: '/checkupandcleanings' },
+          { label: 'Sealants', href: '/sealants' },
+          { label: 'Fluoride Treatments', href: '/fluoridetreatments' }
         ],
       },
       {
-        heading: 'Recently sold',
+        heading: 'Sedation',
         submenu: [
-          {
-            label:
-              'Ratione recusandae incidunt dolor impedit corporis',
-            href: '#',
-          },
-        ],
-      },
-    ],
-  },
-  { label: 'News & Insights', href: '/news' },
-  {
-    label: 'Mortgage',
-    href: '/mortgage',
-    children: [
-      {
-        heading: 'Mortgage rates',
-        submenu: [
-          { label: 'Lorem ipsum dolor', href: '#' },
-          { label: 'Repellat corporis?', href: '#' },
-          { label: 'Dolor sit consectetur dolor impedit', href: '#' },
-          { label: 'Ratione recusandae', href: '#' },
-          { label: 'Dolor sit consectetur', href: '#' },
-          { label: 'Ratione recusandae', href: '#' },
+          { label: 'IV Anesthesia Sedation', href: '/ivanestesiasedation' },
+          { label: 'Oral Sedation', href: '/oralsedation' }
         ],
       },
       {
-        heading: 'Calculators',
+        heading: 'Technological Advancements',
         submenu: [
-          { label: 'Dolor sit consectetur', href: '#' },
-          { label: 'Ratione recusandae dolor impedit', href: '#' },
-          { label: 'Dolor sit consectetur', href: '#' },
-          { label: 'Ratione recusandae', href: '#' },
+          { label: '3D Image / CT Scans', href: '/3dimagectscans' },
+          { label: 'Intraoral Scanners', href: '/intraoralscanners' },
+          { label: 'Biolase Laser', href: '/biolaselaser' },
+          { label: 'Soft Tissue Lasers', href: '/softtissuelasers' },
+          { label: 'Bone Grafting', href: '/bonegrafting' }
         ],
       },
-      {
-        heading: 'Financial advice',
-        submenu: [
-          { label: 'Lorem ipsum dolor', href: '#' },
-          { label: 'Repellat corporis?', href: '#' },
-          { label: 'Dolor sit consectetur', href: '#' },
-          {
-            label: 'Ratione recusandae dolor impedit corporis',
-            href: '#',
-          },
-          { label: 'Dolor sit consectetur', href: '#' },
-          { label: 'Ratione recusandae', href: '#' },
-        ],
-      },
+
     ],
   },
 ];
