@@ -59,7 +59,7 @@ End Global
 .nav__header {
   position: static;
   height: 50px;
-  background-color: white;
+  background-color: #87CEEB;
   border-bottom: 1px solid var(--borderColor);
 }
 
