@@ -282,11 +282,18 @@ Mobile
   border: none;
   background-color: white;
 }
-
+.logo_text {
+  color: rgb(0, 0, 0);
+  width: 10rem;
+  font-size: 14px;
+  padding-left: 1rem;
+}
 /* ================================ 
 MEDIA QUERIES
 =======================================*/
-
+.hero-title {
+  font-size: 3rem;
+}
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -294,6 +301,10 @@ MEDIA QUERIES
 }
 
 @media (min-width: 996px) {
+  .hero-title {
+    color: white;
+    font-size: 4rem;
+  }
   .container {
     max-width: 996px;
   }

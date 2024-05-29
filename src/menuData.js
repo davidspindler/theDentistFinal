@@ -23,64 +23,64 @@ export const menuData = [
       {
         heading: 'Cosmetic and Restorative Dentistry',
         submenu: [
-          { label: 'Smile Design', href: '#' },
+          { label: 'Smile Design', href: '/services/smiledesign' },
           {
             label:
               'Veneers',
-            href: '#',
+            href: '/services/veneers',
           },
-          { label: 'Crowns', href: '#' },
-          { label: 'Teeth Whitening', href: '#' },
-          { label: 'Crown Lengthening', href: '#' },
-          { label: 'Gingival/Gum Contouring', href: '#' },
-          { label: 'Fillings (Resin and porcelain)', href: '#' },
-          { label: 'Root Canals', href: '#' },
+          { label: 'Crowns', href: '/services/crowns' },
+          { label: 'Teeth Whitening', href: '/services/teethwhitening' },
+          { label: 'Crown Lengthening', href: '/services/crownlengthening' },
+          { label: 'Gingival/Gum Contouring', href: '/services/gingivalgumcontouring' },
+          { label: 'Fillings (Resin and porcelain)', href: '/services/fillings' },
+          { label: 'Root Canals', href: '/services/rootcanals' },
         ],
       },
       {
         heading: 'Oral and Perio Surgery',
         submenu: [
-          { label: 'Tooth Extractions (including Wisdom Teeth)', href: '/toothextractions' },
-          { label: 'Full Mouth Extractions', href: '/fullmouthextractions' },
-          { label: 'Bone Augmentations (PRF and BMP)', href: '/boneaugmentations' },
-          { label: 'Gingival / Gum Contouring', href: '/gingivalgumcontouring' },
-          { label: 'Gum Treatment', href: '/gumtreatment' }
+          { label: 'Tooth Extractions (including Wisdom Teeth)', href: '/services/toothextractions' },
+          { label: 'Full Mouth Extractions', href: '/services/fullmouthextractions' },
+          { label: 'Bone Augmentations (PRF and BMP)', href: '/services/boneaugmentations' },
+          { label: 'Gingival / Gum Contouring', href: '/services/gingivalgumcontouring' },
+          { label: 'Gum Treatment', href: '/services/gumtreatment' }
         ],
       },
       {
         heading: 'Implants and Prosthetics',
         submenu: [
-          { label: 'Implant Treatment', href: '/implanttreatment' },
-          { label: 'Failed Implant Treatment', href: '/failedimplanttreatment' },
-          { label: 'Sinus Lift', href: '/sinuslift' },
-          { label: 'Implant Supported Dentures', href: '/implantsupporteddentures' },
-          { label: 'All on X and All on 4s', href: '/allonxandallon4s' },
-          { label: 'Other Prosthetics', href: '/otherprosthetics' }
+          { label: 'Implant Treatment', href: '/services/implanttreatment' },
+          { label: 'Failed Implant Treatment', href: '/services/failedimplanttreatment' },
+          { label: 'Sinus Lift', href: '/services/sinuslift' },
+          { label: 'Implant Supported Dentures', href: '/services/implantsupporteddentures' },
+          { label: 'All on X and All on 4s', href: '/services/allonxandallon4s' },
+          { label: 'Other Prosthetics', href: '/services/otherprosthetics' }
         ],
       },
       {
         heading: 'Preventative Dentistry',
         submenu: [
-          { label: 'Checkup and Cleanings', href: '/checkupandcleanings' },
-          { label: 'Sealants', href: '/sealants' },
-          { label: 'Fluoride Treatments', href: '/fluoridetreatments' }
+          { label: 'Checkup and Cleanings', href: '/services/checkupandcleanings' },
+          { label: 'Sealants', href: '/services/sealants' },
+          { label: 'Fluoride Treatments', href: '/services/fluoridetreatments' }
         ],
       },
       {
         heading: 'Sedation',
         submenu: [
-          { label: 'IV Anesthesia Sedation', href: '/ivanestesiasedation' },
-          { label: 'Oral Sedation', href: '/oralsedation' }
+          { label: 'IV Anesthesia Sedation', href: '/services/ivanestesiasedation' },
+          { label: 'Oral Sedation', href: '/services/oralsedation' }
         ],
       },
       {
         heading: 'Technological Advancements',
         submenu: [
-          { label: '3D Image / CT Scans', href: '/3dimagectscans' },
-          { label: 'Intraoral Scanners', href: '/intraoralscanners' },
-          { label: 'Biolase Laser', href: '/biolaselaser' },
-          { label: 'Soft Tissue Lasers', href: '/softtissuelasers' },
-          { label: 'Bone Grafting', href: '/bonegrafting' }
+          { label: '3D Image / CT Scans', href: '/services/3dimagectscans' },
+          { label: 'Intraoral Scanners', href: '/services/intraoralscanners' },
+          { label: 'Biolase Laser', href: '/services/biolaselaser' },
+          { label: 'Soft Tissue Lasers', href: '/services/softtissuelasers' },
+          { label: 'Bone Grafting', href: '/services/bonegrafting' }
         ],
       },
 

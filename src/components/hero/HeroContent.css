@@ -23,17 +23,41 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+    /* width:100%; */
+    /* border:1px solid blue; */
     color: white;
     text-align: center;
     background: rgba(0, 0, 0, 0.5); /* Optional: add a dark overlay for better text readability */
 }
+.hero-title {
+    /* border:1px solid pink; */
+    width:50%;
+    margin-right: 20%;
+    padding-right: 10%;
+    text-align: left;
+    /* width: 40%;
+    position: absolute;
+    left: 4rem;
+    text-align: left; */
+}
+.hero-desc {
+    /* border: 1px solid red; */
+    width: 50%;
+    margin-right: 20%;
+    text-align: left;
+    /* left:4rem;
+    margin-top:10rem;
+    position: absolute;
+    margin-right: 33%;
+    text-align: left; */
+}
 
 .hero-content h1 {
-    font-size: 3rem;
+    /* font-size: 6rem; */
     margin-bottom: 0.5rem;
 }
 
 .hero-content p {
     font-size: 1.5rem;
-    margin: 0;
+    /* margin: 0; */
 }

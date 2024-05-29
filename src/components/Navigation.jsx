@@ -28,7 +28,7 @@ const Navigation = () => {
           </button>
           <Link className="logo__link" to={'/'}>
             <img src={logo} />
-            <h2>OCCFAD</h2>
+            <h2 className='logo_text'>OC Center for Advanced Dentistry</h2>
           </Link>
 
           <div className="hidden md:block">
