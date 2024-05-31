@@ -1,4 +1,46 @@
-.smile-design {
+.generic-service-component {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-item {
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .sidebar-item:hover, .active {
+    background-color: #d9edf7; /* Light blue background on hover and active state */
+  }
+  
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sidebar-icon {
+    margin-left: auto;
+    fill: #333;
+  }
+
+  .main-content {
+    width: 70%;
+    padding: 20px;
+  }
+  
+  .smile-design {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +74,7 @@
   }
   
   .card {
-    background-color: #f0f0f0;
+    background-color: #c20000;
     border-radius: 8px;
     margin: 10px;
     width: 300px;
@@ -84,7 +126,7 @@
     font-size: 16px;
     line-height: 1.5;
   }
-
+  
   .style-one {
     border: 0;
     width: 80vw;
@@ -92,15 +134,25 @@
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
   }
+  
   .styled-content {
     display: flex;
   }
+  
   .padding-20 {
     padding: 20px;
   }
+  
   @media (max-width: 768px) {
-
+    .generic-service-component {
+      flex-direction: column;
+    }
+  
+    .sidebar, .main-content {
+      width: 100%;
+    }
+  
     .styled-content {
-        flex-direction: column;
+      flex-direction: column;
     }
   }

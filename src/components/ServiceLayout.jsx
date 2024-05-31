@@ -11,7 +11,7 @@ const ServiceComponent = ({ title, description, bullets, isEven }) => {
             <ul className="service-bullets">
               {bullets.map((bullet, index) => (
                 <li key={index}>
-                    <Link to={bullet.href}>
+                    <Link to={bullet.href} className='text-decorate'>
                     {bullet.label}   
                     </Link>
                     </li>

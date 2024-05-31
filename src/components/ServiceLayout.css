@@ -12,8 +12,12 @@
     /* max-width: 1200px; */
   }
   
+  .text-decorate:hover {
+    text-decoration:underline;
+  }
+  
   .service.even {
-    background-color: #4caf50; /* Alternating background color */
+    background-color: #0d47a1; /* Alternating background color */
   }
   
   .service.odd {

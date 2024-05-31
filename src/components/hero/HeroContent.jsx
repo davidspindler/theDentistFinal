@@ -20,6 +20,7 @@ const HeroContent = ({ imageSrc = defaultBanner, children }) => {
                 Your browser does not support the video tag.
             </video>
             <div className="hero-content">
+              
                 <h1 className='hero-title'>
                   Bringing Joy One Smile at a Time
                   </h1>

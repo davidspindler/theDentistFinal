@@ -9,6 +9,7 @@
 :root {
   --mainColor: #2b2b2b;
   --borderColor: #cacaca;
+  --navbarText: #fff;
 }
 
 body,
@@ -21,7 +22,11 @@ Global
 =======================================*/
 a {
   text-decoration: none;
+  color: white;
 }
+/* a:hover {
+  text-decoration: underline;
+} */
 
 ul {
   list-style: none;
@@ -59,8 +64,8 @@ End Global
 .nav__header {
   position: static;
   height: 50px;
-  background-color: #87CEEB;
-  border-bottom: 1px solid var(--borderColor);
+  background-color: #50B8E7;
+  /* border-bottom: 1px solid var(--borderColor); */
 }
 
 .container {
@@ -111,12 +116,12 @@ End Global
   display: flex;
   width: 100%;
   justify-content: space-between;
-  border-bottom: 1px solid var(--borderColor);
+  /* border-bottom: 1px solid var(--navbarText); */
   height: 3rem;
 }
 
 .nav_item_content a {
-  color: inherit;
+  color:var(--navbarText);
   width: 100%;
   font-size: 14.5px;
   font-weight: 500;
@@ -148,8 +153,8 @@ End Global
   cursor: pointer;
   font-weight: 500;
   font-size: 14px;
-  color: #fff;
-  background-color: var(--mainColor);
+  color: black;
+  background-color: var(--navbarText);
   border-radius: 50px;
 }
 
@@ -167,7 +172,7 @@ End Global
 }
 
 .dropdown {
-  background-color: #87CEEB;
+  background-color: #50B8E7;
   box-shadow: 25px 24px 74px 18px rgba(0, 0, 0, .15);
 }
 
@@ -178,6 +183,7 @@ End Global
 .dropdown_content h4 {
   font-weight: 700;
   line-height: 1.25rem;
+  color:white;
   margin-top: 0.75rem;
 }
 
@@ -186,7 +192,7 @@ End Global
 }
 
 .dropdown_content li a {
-  color: inherit;
+  color: var(--navbarText);
   font-weight: 400;
 }
 
@@ -256,7 +262,7 @@ Mobile
 }
 
 .drawer_content {
-  background-color: white;
+  background-color: #50B8E7;
   position: fixed;
   top: 0;
   left: 0;
@@ -283,7 +289,7 @@ Mobile
   background-color: white;
 }
 .logo_text {
-  color: rgb(0, 0, 0);
+  color: var(--navbarText);
   width: 10rem;
   font-size: 14px;
   padding-left: 1rem;
@@ -375,10 +381,12 @@ MEDIA QUERIES
     left: 0;
     bottom: 0;
     width: 100%;
-    border-bottom: 2px solid var(--mainColor);
-    /* transition: 1s; */
+    border-bottom: 2px solid var(--navbarText);
+    /* transition: 0.5s ease-in-out; */
+    /* transform: translateY(50%); */
    
   }
+
 
   .dropdown_content {
     display: grid;
