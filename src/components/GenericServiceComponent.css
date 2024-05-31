@@ -6,6 +6,7 @@
     width: 30%;
     background-color: #f4f4f4;
     padding: 20px;
+    /* height: 100vh; */
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   }
   
@@ -19,8 +20,8 @@
     margin-bottom: 5px;
   }
   
-  .sidebar-item:hover, .active {
-    background-color: #d9edf7; /* Light blue background on hover and active state */
+  .sidebar-item:hover, .active2 {
+    background-color: #d9edf7; 
   }
   
   .sidebar-link {

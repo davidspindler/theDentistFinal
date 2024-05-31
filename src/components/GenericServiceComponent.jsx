@@ -74,7 +74,7 @@ const GenericServiceComponent = ({
         <h2>{sidebarTitle}</h2>
         <ul>
           {sidebarLinks.map((link, index) => (
-            <li key={index} className={`sidebar-item ${location.pathname.includes(link.path) ? 'active' : ''}`}>
+            <li key={index} className={`sidebar-item ${location.pathname.includes(link.path) ? 'active2' : ''}`}>
               <Link to={link.path} className="sidebar-link">
                 <div className="sidebar-content">
                   <span className="sidebar-label">{link.label}</span>
