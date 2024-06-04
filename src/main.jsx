@@ -17,8 +17,34 @@ import HomePage from './routes/home';
 import NewsPage from './routes/news';
 import Mortgage from './routes/mortgage';
 import ServiceComponent from './components/ServiceLayout';
-import SmileDesignComponent from './components/SmileDesign';
+import SmileDesign from './components/SmileDesign';
 import Veneers from './components/Veneers';
+import Crowns from './components/Crowns';
+import TeethWhitening from './components/TeethWhitening';
+import CrownLengthening from './components/CrownLenghthening';
+import GingivalGumContouring from './components/GingivalGumContouring';
+import Fillings from './components/Fillings';
+import RootCanals from './components/RootCanals';
+import ToothExtractions from './components/ToothExtractions';
+import ImplantTreatment from './components/ImplantTreatment';
+import CheckupAndCleanings from './components/CheckupAndCleanings';
+import OralSedation from './components/OralSedation';
+import Threedimagectscans from './components/3dimagectscans';
+import Ivanesthesiasedation from './components/ivanesthesiasedation';
+import BoneGrafting from './components/BoneGrafting';
+import BiolaseLaser from './components/BiolaseLaser';
+import IntraoralScanners from './components/IntraoralScanners';
+import SoftTissueLasers from './components/SoftTissueLasers';
+import Sealants from './components/Sealants';
+import FlourideTreatments from './components/FlourideTreatments';
+import FailedImplantTreatment from './components/FailedImplantTreatment';
+import SinusLift from './components/SinusLift';
+import ImplantSupportedDentures from './components/ImplantSupportedDentures';
+import AllOnX from './components/AllOnX';
+import OtherProsthetics from './components/OtherProsthetics';
+import FullMouthExtractions from './components/FullMouthExtractions';
+import BoneAugmentations from './components/BoneAugmentations';
+import GumTreatment from './components/GumTreatment';
 const services = [
   {
     title: 'Cosmetic and Restorative Dentistry',
@@ -93,7 +119,7 @@ const router = createBrowserRouter([
           },
           {
             path:"smiledesign",
-            element: <SmileDesignComponent />
+            element: <SmileDesign />
           },
           {
             path:"veneers",
@@ -101,107 +127,107 @@ const router = createBrowserRouter([
           },
           {
             path:"crowns",
-            element: <div>crowns</div>
+            element: <Crowns />
           },
           {
             path:"teethwhitening",
-            element: <div>teethwhitening</div>
+            element: <TeethWhitening />
           },
           {
             path:"crownlengthening",
-            element: <div>crownlengthening</div>
+            element: <CrownLengthening />
           },
           {
             path:"Gingivalgumcontouring",
-            element: <div>Gingivalgumcontouring</div>
+            element: <GingivalGumContouring />
           },
           {
             path:"fillings",
-            element: <div>fillings</div>
+            element: <Fillings />
           },
           {
             path:"rootcanals",
-            element: <div>rootcanals</div>
+            element: <RootCanals />
           },
           {
             path:"toothextractions",
-            element: <div>tooth extractions</div>
+            element: <ToothExtractions />
           },
           {
             path:"fullmouthextractions",
-            element: <div>full mouth extractions</div>
+            element: <FullMouthExtractions />
           },
           {
             path:"boneaugmentations",
-            element: <div>boneaugmentations</div>
+            element: <BoneAugmentations />
           },
           {
             path:"gumtreatment",
-            element: <div>gum treatment</div>
+            element: <GumTreatment />
           },
           {
             path:"implanttreatment",
-            element: <div>implant treatment extractions</div>
+            element: <ImplantTreatment />
           },
           {
             path:"failedimplanttreatment",
-            element: <div>failed implant treatment</div>
+            element: <FailedImplantTreatment />
           },
           {
             path:"sinuslift",
-            element: <div>sinus lift</div>
+            element: <SinusLift />
           },
           { 
             path:"implantsupporteddentures",
-            element: <div>implant supported dentures</div>
+            element: <ImplantSupportedDentures />
           },
           {
-            path:"allonxandallon4s",
-            element: <div>allonxandallon4s</div>
+            path:"allonx",
+            element: <AllOnX />
           },
           {
             path:"otherprosthetics",
-            element: <div>otherprosthetics</div>
+            element: <OtherProsthetics />
           },
           {
             path:"checkupandcleanings",
-            element: <div>checkupandcleanings</div>
+            element: <CheckupAndCleanings />
           },
           {
             path:"sealants",
-            element: <div>sealants</div>
+            element: <Sealants />
           },
           {
-            path:"flouride treatments",
-            element: <div>flouride treatments</div>
+            path:"flouridetreatments",
+            element: <FlourideTreatments />
           },
           {
             path:"ivanesthesiasedation",
-            element: <div>iv anesthesia sedation</div>
+            element: <Ivanesthesiasedation />
           },
           {
-            path:"oral sedation",
-            element: <div>flouride treatments</div>
+            path:"oralsedation",
+            element: <OralSedation />
           },
           {
-            path:"3dimaging",
-            element: <div>3d</div>
+            path:"3dimagectscans",
+            element: <Threedimagectscans />
           },
           {
             path:"intraoralscanners",
-            element: <div>intraoralscanners</div>
+            element: <IntraoralScanners />
           },
           {
             path:"biolaselaser",
-            element: <div>biolase laser</div>
+            element: <BiolaseLaser />
           },
           {
             path:"softtissuelasers",
-            element: <div>soft tissue lasers</div>
+            element: <SoftTissueLasers />
           },
           {
             path:"bonegrafting",
-            element: <div>bone grafting</div>
+            element: <BoneGrafting />
           },
 
         ]

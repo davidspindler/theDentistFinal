@@ -54,7 +54,7 @@ export const menuData = [
           { label: 'Failed Implant Treatment', href: '/services/failedimplanttreatment' },
           { label: 'Sinus Lift', href: '/services/sinuslift' },
           { label: 'Implant Supported Dentures', href: '/services/implantsupporteddentures' },
-          { label: 'All on X and All on 4s', href: '/services/allonxandallon4s' },
+          { label: 'All on X and All on 4s', href: '/services/allonx' },
           { label: 'Other Prosthetics', href: '/services/otherprosthetics' }
         ],
       },
@@ -63,13 +63,13 @@ export const menuData = [
         submenu: [
           { label: 'Checkup and Cleanings', href: '/services/checkupandcleanings' },
           { label: 'Sealants', href: '/services/sealants' },
-          { label: 'Fluoride Treatments', href: '/services/fluoridetreatments' }
+          { label: 'Flouride Treatments', href: '/services/flouridetreatments' }
         ],
       },
       {
         heading: 'Sedation',
         submenu: [
-          { label: 'IV Anesthesia Sedation', href: '/services/ivanestesiasedation' },
+          { label: 'IV Anesthesia Sedation', href: '/services/ivanesthesiasedation' },
           { label: 'Oral Sedation', href: '/services/oralsedation' }
         ],
       },

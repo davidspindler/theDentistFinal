@@ -1,6 +1,7 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 import './Veneers.css'
 const veneersData = {
+    mainTitleText: 'Veneers',
     title: 'What are Veneers?',
     description: `Veneers are thin, custom-made shells that are bonded to the front surface of your teeth. They are
     typically made from porcelain or composite resin, both of which are strong, durable, and tooth-colored.`,
@@ -76,35 +77,38 @@ const Veneers = () => {
       ];
     return (
         <>
+        {/* <div className="bongo"> */}
    <GenericServiceComponent {...veneersData}/>
-   <div className="veneers-benefits">
+ 
+        {/* </div> */}
+          <div className="veneers-benefits">
       <div className="section">
-        <h2 className="section-title">Benefits of Veneers</h2>
-        <ul className="card-list">
-          {benefits.map((benefit, index) => (
-            <li className="card" key={index}>
-              <div className="card-content">
-                <p className="card-description">{benefit}</p>
-              </div>
-            </li>
+      <h2 className="section-title">Benefits of Veneers</h2>
+      <ul className="card-list">
+      {benefits.map((benefit, index) => (
+          <li className="card" key={index}>
+          <div className="card-content">
+          <p className="card-description">{benefit}</p>
+          </div>
+          </li>
           ))}
-        </ul>
-      </div>
-
-      <div className="section">
-        <h2 className="section-title">Considerations for Veneers</h2>
-        <ul className="feature-list">
+          </ul>
+          </div>
+          
+          <div className="section">
+          <h2 className="section-title">Considerations for Veneers</h2>
+          <ul className="feature-list">
           {considerations.map((consideration, index) => (
-            <li className="feature" key={index}>
+              <li className="feature" key={index}>
               <div className="feature-content">
-                <p className="feature-description">{consideration}</p>
+              <p className="feature-description">{consideration}</p>
               </div>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </div>
-        </>
+              </li>
+              ))}
+              </ul>
+              </div>
+            </div>
+            </>
     );
   };
   
