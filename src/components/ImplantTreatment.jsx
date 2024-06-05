@@ -1,63 +1,70 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './implantTreatment.css'
 const implantTreatmentData = {
-    title: 'What are dental implantTreatment?',
-    description: `Dental implantTreatment are essentially tooth-shaped caps custom-made to fit over your existing tooth,
-    restoring its function and appearance. They're like little protective helmets for your teeth!`,
-    sectionOneTitle: 'implantTreatment serve various purposes, including:',
+    mainTitleText: 'Implant Treatment',
+    title: 'What is Implant Treatment?',
+    description: `Dental implant treatment is a surgical procedure in which a titanium post is surgically inserted into
+    the jawbone to replace a missing tooth root. This post acts as a foundation for a crown, bridge, or
+    denture. Dental implants are a popular choice for replacing missing teeth because they look, feel, and
+    function like natural teeth.`,
+    sectionOneTitle: 'Some benefits of dental implants include:',
     sectionOneData: [
-      {
-        title: 'Restoring a damaged or decayed tooth:',
-        description: `implantTreatment can strengthen a weakened tooth, protect it
-        from further damage, and prevent future decay.`,
-      },
-      {
-        title: 'Improving functionality:',
-        description: `They can rebuild a severely broken or worn-down tooth, allowing you
-        to chew and speak effectively.`,
-      },
-      {
-        title: 'Enhancing aesthetics:',
-        description: `implantTreatment can cover discolored or misshapen teeth, improve a misaligned
-        tooth, or even close gaps between teeth, creating a more aesthetically pleasing smile.`,
-      },
-      {
-        title: 'Supporting other dental procedures:',
-        description: `implantTreatment can anchor dental bridges or hold a tooth implant
-        in place.`,
-      },
+        {
+            title: 'Improved appearance:',
+            description: `Dental implants can give a natural-looking smile that one can be
+            confident in.`,
+          },
+          {
+            title: 'Improved oral health:',
+            description: `Dental implants can help to prevent bone loss in the jaw, which can occur
+            after tooth loss. They can also help to improve the bite and speech.`,
+          },
+          {
+            title: 'Durability:',
+            description: `Dental implants are very durable and can last for many years with proper care.`,
+          },
+          {
+            title: 'Comfort:',
+            description: `Dental implants are comfortable to wear and feel like natural teeth.`,
+          },
+    
+    
     ],
-    sectionTwoTitle: 'What are different types of Crown materials:',
-    sectionTwoData: [
-      {
-        title: 'Porcelain implantTreatment:',
-        description: `These implantTreatment provide a natural appearance and are suitable for front teeth.`,
-      },
-      {
-        title: 'Metal implantTreatment:',
-        description: `Made of various metals, these implantTreatment are highly durable and are often used for
-        back teeth.`,
-      },
-      {
-        title: 'Porcelain-fused-to-metal (PFM) implantTreatment:',
-        description: `Combine the strength of metal with the aesthetics of
-        porcelain.`,
-      },
-      {
-        title: 'All-Ceramic or All-Porcelain implantTreatment:',
-        description: `Offer excellent aesthetics and are suitable for use in various
-        areas of the mouth.`,
-      },
-     
-    ],
+    
   };
 
 const ImplantTreatment = () => {
-
+const stages = [
+    "Consultation with the dentist.",
+    "Establishing a treatment plan.",
+    "Performing all prerequisite procedures to ensure a good outcome, including extractions and bone grafts.",
+    "Allow for healing time for procedures.",
+    "Return for placement of the post. (In some instances, both extractions and placements can be done at the same time by an experienced dentist)",
+    "Allow time for gums to heal.",
+    "Return for placement of the abutment and taking impressions.",
+    "Return for installation of your implant crown.",
+]
     return (
         <>
      
    <GenericServiceComponent {...implantTreatmentData}/>
+<div className="container3">
+
+   <div className="section">
+      <h2 className="section-title">The process of getting an implant involves several stages:</h2>
+      <ul className="card-list">
+      {stages.map((benefit, index) => (
+          <li className="card" key={index}>
+          <div className="card-content">
+          <p className="card-description">{benefit}</p>
+          </div>
+          </li>
+          ))}
+          </ul>
+          </div>
+          </div>
+          <div className="container3">Our dental implants will restore your health and breathe new life into your smile.
+PICTURE FOR IMPLANTS</div>
             </>
     );
   };

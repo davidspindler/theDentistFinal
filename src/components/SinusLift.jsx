@@ -1,55 +1,43 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './implantTreatment.css'
 const sinusLiftData = {
-    title: 'What are dental sinusLift?',
-    description: `Dental implantTreatment are essentially tooth-shaped caps custom-made to fit over your existing tooth,
-    restoring its function and appearance. They're like little protective helmets for your teeth!`,
-    sectionOneTitle: 'implantTreatment serve various purposes, including:',
+    mainTitleText: 'Sinus Lift',
+    title: 'What is a Sinus Lift?',
+    description: `A sinus lift, also known as sinus augmentation, is a surgical procedure that is typically done in
+    preparation for dental implant placement in the upper jaw where the bone density is often insufficient
+    due to the presence of the sinus cavity. The upper jawbone (maxilla) naturally has less bone than the
+    lower jaw, and it can lose even more bone after tooth loss or gum disease. When there isn't enough
+    bone to support dental implants, a sinus lift can be performed to create a stronger foundation.
+    During a sinus lift, the sinus membrane is gently lifted or pushed upward, and bone graft material is
+    inserted into the space created. This helps to promote bone growth and provides a solid foundation for
+    the future dental implant.
+    The bone grafting material can be made from your own bone, donated bone, or synthetic bone. It will
+    take several months for the new bone to grow in place. Once the healing is complete, dental implants
+    can be placed.`,
+    sectionOneTitle: 'Some of the benefits of a sinus lift include:',
     sectionOneData: [
       {
-        title: 'Restoring a damaged or decayed tooth:',
-        description: `implantTreatment can strengthen a weakened tooth, protect it
-        from further damage, and prevent future decay.`,
+        title: 'Arresting on-going deterioration of the jawbone and associated long term deleterious effects.',
+        description: ``,
       },
       {
-        title: 'Improving functionality:',
-        description: `They can rebuild a severely broken or worn-down tooth, allowing you
-        to chew and speak effectively.`,
+        title: 'Increased success rate of dental implants',
+        description: ``,
       },
       {
-        title: 'Enhancing aesthetics:',
-        description: `implantTreatment can cover discolored or misshapen teeth, improve a misaligned
-        tooth, or even close gaps between teeth, creating a more aesthetically pleasing smile.`,
+        title: 'Improved appearance of your smile',
+        description: ``,
       },
       {
-        title: 'Supporting other dental procedures:',
-        description: `implantTreatment can anchor dental bridges or hold a tooth implant
-        in place.`,
+        title: 'Improved chewing function',
+        description: ``,
+      },
+      {
+        title: 'Enhanced self-confidence',
+        description: ``,
       },
     ],
-    sectionTwoTitle: 'What are different types of Crown materials:',
-    sectionTwoData: [
-      {
-        title: 'Porcelain implantTreatment:',
-        description: `These implantTreatment provide a natural appearance and are suitable for front teeth.`,
-      },
-      {
-        title: 'Metal implantTreatment:',
-        description: `Made of various metals, these implantTreatment are highly durable and are often used for
-        back teeth.`,
-      },
-      {
-        title: 'Porcelain-fused-to-metal (PFM) implantTreatment:',
-        description: `Combine the strength of metal with the aesthetics of
-        porcelain.`,
-      },
-      {
-        title: 'All-Ceramic or All-Porcelain implantTreatment:',
-        description: `Offer excellent aesthetics and are suitable for use in various
-        areas of the mouth.`,
-      },
-     
-    ],
+    
   };
 
 const SinusLift = () => {

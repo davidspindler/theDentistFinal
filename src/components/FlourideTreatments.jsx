@@ -1,55 +1,17 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 import './Fillings.css'
 const flourideTreatmentsData = {
-    title: 'What are flourideTreatmentsData?',
-    description: `Dental fillings are essentially tooth-shaped caps custom-made to fit over your existing tooth,
-    restoring its function and appearance. They're like little protective helmets for your teeth!`,
-    sectionOneTitle: 'teethWhitening serve various purposes, including:',
-    sectionOneData: [
-      {
-        title: 'Restoring a damaged or decayed tooth:',
-        description: `teethWhitening can strengthen a weakened tooth, protect it
-        from further damage, and prevent future decay.`,
-      },
-      {
-        title: 'Improving functionality:',
-        description: `They can rebuild a severely broken or worn-down tooth, allowing you
-        to chew and speak effectively.`,
-      },
-      {
-        title: 'Enhancing aesthetics:',
-        description: `teethWhitening can cover discolored or misshapen teeth, improve a misaligned
-        tooth, or even close gaps between teeth, creating a more aesthetically pleasing smile.`,
-      },
-      {
-        title: 'Supporting other dental procedures:',
-        description: `teethWhitening can anchor dental bridges or hold a tooth implant
-        in place.`,
-      },
-    ],
-    sectionTwoTitle: 'What are different types of Crown materials:',
-    sectionTwoData: [
-      {
-        title: 'Porcelain teethWhitening:',
-        description: `These teethWhitening provide a natural appearance and are suitable for front teeth.`,
-      },
-      {
-        title: 'Metal teethWhitening:',
-        description: `Made of various metals, these teethWhitening are highly durable and are often used for
-        back teeth.`,
-      },
-      {
-        title: 'Porcelain-fused-to-metal (PFM) teethWhitening:',
-        description: `Combine the strength of metal with the aesthetics of
-        porcelain.`,
-      },
-      {
-        title: 'All-Ceramic or All-Porcelain teethWhitening:',
-        description: `Offer excellent aesthetics and are suitable for use in various
-        areas of the mouth.`,
-      },
-     
-    ],
+    mainTitleText: 'Fluoride treatment',
+    title: 'What is Fluoride treatment?',
+    description: `Dental fluoride treatment is a preventive dental procedure aimed at strengthening tooth enamel and
+    preventing tooth decay. Fluoride is a natural mineral that helps to rebuild weakened tooth enamel and
+    make it more resistant to acid attacks from bacteria and sugars in the mouth.
+    During a fluoride treatment, a concentrated fluoride gel, foam, or varnish is applied to the teeth. The
+    dentist or dental hygienist may use a brush, swab, or tray to apply the fluoride to the teeth. The
+    treatment is usually quick and painless.
+    It's important to note that fluoride is also available in toothpaste, mouthwash, and some drinking water
+    supplies. The American Dental Association (ADA) and other dental health organizations recommend the
+    use of fluoride products as part of a comprehensive oral care routine.`,
   };
 
 const FlourideTreatments = () => {
@@ -58,6 +20,23 @@ const FlourideTreatments = () => {
         <>
      
    <GenericServiceComponent {...flourideTreatmentsData}/>
+   <div className="container3">
+    <h2>Who benefits from fluoride treatments?</h2>
+   </div>
+   <div className="container3">
+   <div className="card1">
+      <img src="https://via.placeholder.com/150" alt="Fluoride Benefits" />
+      <div className="card-content">
+        <h3>Children and adults who are at high risk of cavities can benefit from fluoride treatments. This includes people with:</h3>
+        <ul>
+          <li>Dry mouth</li>
+          <li>Weak tooth enamel</li>
+          <li>A history of cavities</li>
+          <li>Orthodontic appliances</li>
+        </ul>
+      </div>
+    </div>
+   </div>
             </>
     );
   };

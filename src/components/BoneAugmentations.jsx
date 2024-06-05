@@ -1,53 +1,53 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './CrownLenghthening.css'
 const boneAugmentationsData = {
-    title: 'What are dental bonAugmentations?',
-    description: `Dental bonAugmentations are essentially tooth-shaped caps custom-made to fit over your existing tooth,
-    restoring its function and appearance. They're like little protective helmets for your teeth!`,
-    sectionOneTitle: 'bonAugmentations serve various purposes, including:',
+    mainTitleText: 'Bone Augmentations',
+    title: 'Bone Augmentations (PRF and BMP)',
+    description: `Bone augmentations involve the use of various materials and techniques to enhance bone volume/
+    density, healing, and regeneration. Platelet-rich fibrin (PRF) and bone morphogenetic protein (BMP) are
+    two components commonly used in bone augmentation procedures.`,
+    sectionOneTitle: 'Bone augmentations are necessitated due to reasons such as:',
     sectionOneData: [
       {
-        title: 'Restoring a damaged or decayed tooth:',
-        description: `bonAugmentations can strengthen a weakened tooth, protect it
-        from further damage, and prevent future decay.`,
+        title: 'Trauma:',
+        description: `Fractures or injuries that damage bone tissue.`,
       },
       {
-        title: 'Improving functionality:',
-        description: `They can rebuild a severely broken or worn-down tooth, allowing you
-        to chew and speak effectively.`,
+        title: 'Surgery:',
+        description: `Removal of bone for tumor treatment or other procedures.`,
       },
       {
-        title: 'Enhancing aesthetics:',
-        description: `bonAugmentations can cover discolored or misshapen teeth, improve a misaligned
-        tooth, or even close gaps between teeth, creating a more aesthetically pleasing smile.`,
+        title: 'Congenital defects:',
+        description: `Malformations present from birth.`,
       },
       {
-        title: 'Supporting other dental procedures:',
-        description: `bonAugmentations can anchor dental bridges or hold a tooth implant
-        in place.`,
+        title: 'Periodontal disease:',
+        description: `Bone loss around teeth.`,
       },
     ],
-    sectionTwoTitle: 'What are different types of Crown materials:',
+    sectionTwoTitle: 'Two commonly used methods for bone augmentation are:',
     sectionTwoData: [
       {
-        title: 'Porcelain bonAugmentations:',
-        description: `These bonAugmentations provide a natural appearance and are suitable for front teeth.`,
+        title: 'Platelet-Rich Fibrin (PRF):',
+        description: `PRF is a biomaterial derived from the patient's own blood, which is processed to concentrate platelets,
+        growth factors, and fibrin. A blood sample is taken from the patient, and it undergoes centrifugation to
+        separate its components. The resulting PRF is then applied to the surgical site.
+        PRF contains a high concentration of platelets, which release growth factors that stimulate cell
+        proliferation, angiogenesis (formation of new blood vessels), and tissue regeneration. In bone
+        augmentation, PRF can enhance the healing process and promote bone formation.`,
       },
       {
-        title: 'Metal bonAugmentations:',
-        description: `Made of various metals, these bonAugmentations are highly durable and are often used for
-        back teeth.`,
+        title: 'Bone Morphogenetic Protein (BMP):',
+        description: `BMPs are a group of proteins naturally found in the body, with the ability to induce bone and cartilage
+        formation. BMPs can be produced synthetically and applied during surgery. They are often used in
+        conjunction with a carrier material such as collagen sponge. Recombinant human BMP-2 (rhBMP-2) is
+        the most commonly used type of BMP in bone augmentation.
+        BMPs play a crucial role in the induction of osteogenesis (bone formation). When applied to a specific
+        area, they promote the differentiation of mesenchymal stem cells into osteoblasts, which are
+        responsible for bone formation. This can be particularly useful in cases where there is a need for
+        significant bone regeneration.`,
       },
-      {
-        title: 'Porcelain-fused-to-metal (PFM) bonAugmentations:',
-        description: `Combine the strength of metal with the aesthetics of
-        porcelain.`,
-      },
-      {
-        title: 'All-Ceramic or All-Porcelain bonAugmentations:',
-        description: `Offer excellent aesthetics and are suitable for use in various
-        areas of the mouth.`,
-      },
+    
      
     ],
   };

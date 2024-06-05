@@ -52,7 +52,7 @@ const threedimagectscansData = {
     ],
   };
 
-const threedimagectscans = () => {
+const Threedimagectscans = () => {
 
     return (
         <>
@@ -62,4 +62,4 @@ const threedimagectscans = () => {
     );
   };
   
-  export default threedimagectscans;
+  export default Threedimagectscans;

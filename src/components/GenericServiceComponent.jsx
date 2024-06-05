@@ -49,7 +49,7 @@ const SIDEBAR_CONFIG = {
 
 const GenericServiceComponent = ({ 
   mainTitleText, title, description, sectionOneTitle, sectionOneData, 
-  sectionTwoTitle, sectionTwoData, sectionThreeData, sectionThreeTitle 
+  sectionTwoTitle, sectionTwoData, sectionThreeData, sectionThreeTitle, sectionFourData, sectionFourTitle 
 }) => {
 
     const location = useLocation();
@@ -110,6 +110,8 @@ const GenericServiceComponent = ({
     </div>
                     </div>
                         {/* <hr className='style-one'></hr> */}
+                        {sectionOneData &&
+                        
                 <div className="container3">
                   
                      
@@ -118,7 +120,7 @@ const GenericServiceComponent = ({
                 <div className="section">
                 <h2 className="section-title">{sectionOneTitle}</h2>
                 <ul className="card-list">
-                {sectionOneData.map((item, index) => (
+                {sectionOneData?.map((item, index) => (
                     <li className="card" key={index}>
                     <div className="card-content">
                     <h3 className="card-title">{item.title}</h3>
@@ -129,24 +131,8 @@ const GenericServiceComponent = ({
                     </ul>
                     </div>
 
-{/*                   
-                  {sectionThreeData && 
-                    <div className="section">
-                    <h2 className="section-title">{sectionThreeTitle}</h2>
-                    <ul className="feature-list">
-                    {sectionThreeData?.map((item, index) => (
-                        <li className="feature" key={index}>
-                        <div className="feature-content">
-                        <h3 className="feature-title">{item.title}</h3>
-                        <p className="feature-description">{item.description}</p>
-                        </div>
-                        </li>
-                        ))}
-                        </ul>
-                        </div>
-                    }
-                     */}
                     </div>
+                    }
                     {
                         sectionTwoData &&
                     <div className="container4">
@@ -167,6 +153,42 @@ const GenericServiceComponent = ({
                     </div>
                       
                           
+                    }
+                     {sectionThreeData && 
+                     <div className="container3">
+
+                    <div className="section">
+                    <h2 className="section-title">{sectionThreeTitle}</h2>
+                    <ul className="feature-list">
+                    {sectionThreeData?.map((item, index) => (
+                        <li className="feature" key={index}>
+                        <div className="feature-content">
+                        <h3 className="feature-title">{item.title}</h3>
+                        <p className="feature-description">{item.description}</p>
+                        </div>
+                        </li>
+                        ))}
+                        </ul>
+                        </div>
+                        </div>
+                    }
+                      {sectionFourData && 
+                     <div className="container4">
+
+                    <div className="section">
+                    <h2 className="section-title">{sectionFourTitle}</h2>
+                    <ul className="feature-list">
+                    {sectionFourData?.map((item, index) => (
+                        <li className="feature" key={index}>
+                        <div className="feature-content">
+                        <h3 className="feature-title">{item.title}</h3>
+                        <p className="feature-description">{item.description}</p>
+                        </div>
+                        </li>
+                        ))}
+                        </ul>
+                        </div>
+                        </div>
                     }
                     </>
   );

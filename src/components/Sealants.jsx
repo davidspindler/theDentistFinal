@@ -1,55 +1,13 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './oralSedation.css'
 const sealantsData = {
-    title: 'What are dental seaklantsn?',
-    description: `Dental oralSedation are essentially tooth-shaped caps custom-made to fit over your existing tooth,
-    restoring its function and appearance. They're like little protective helmets for your teeth!`,
-    sectionOneTitle: 'oralSedation serve various purposes, including:',
-    sectionOneData: [
-      {
-        title: 'Restoring a damaged or decayed tooth:',
-        description: `oralSedation can strengthen a weakened tooth, protect it
-        from further damage, and prevent future decay.`,
-      },
-      {
-        title: 'Improving functionality:',
-        description: `They can rebuild a severely broken or worn-down tooth, allowing you
-        to chew and speak effectively.`,
-      },
-      {
-        title: 'Enhancing aesthetics:',
-        description: `oralSedation can cover discolored or misshapen teeth, improve a misaligned
-        tooth, or even close gaps between teeth, creating a more aesthetically pleasing smile.`,
-      },
-      {
-        title: 'Supporting other dental procedures:',
-        description: `oralSedation can anchor dental bridges or hold a tooth implant
-        in place.`,
-      },
-    ],
-    sectionTwoTitle: 'What are different types of Crown materials:',
-    sectionTwoData: [
-      {
-        title: 'Porcelain oralSedation:',
-        description: `These oralSedation provide a natural appearance and are suitable for front teeth.`,
-      },
-      {
-        title: 'Metal oralSedation:',
-        description: `Made of various metals, these oralSedation are highly durable and are often used for
-        back teeth.`,
-      },
-      {
-        title: 'Porcelain-fused-to-metal (PFM) oralSedation:',
-        description: `Combine the strength of metal with the aesthetics of
-        porcelain.`,
-      },
-      {
-        title: 'All-Ceramic or All-Porcelain oralSedation:',
-        description: `Offer excellent aesthetics and are suitable for use in various
-        areas of the mouth.`,
-      },
-     
-    ],
+    mainTitleText: 'Sealants',
+    title: 'What are Sealants?',
+    description: `Dental sealants are a great way to prevent cavities, especially in children. They are thin, protective
+    coatings that are painted onto the chewing surfaces of the back teeth (molars and premolars). Once
+    applied, they harden and form a shield that keeps out food particles and bacteria, which can cause
+    cavities.`,
+   
   };
 
 const Sealants = () => {
@@ -58,6 +16,44 @@ const Sealants = () => {
         <>
      
    <GenericServiceComponent {...sealantsData}/>
+   <div className="container3">
+    <h2>Benefits of Sealants include:</h2>
+   </div>
+   <div className="container3">
+   <div className="cards-container">
+    <div className="card1">
+      <img src="https://via.placeholder.com/150" alt="Prevent Cavities" />
+      <div className="card-content">
+        <h3>Prevent Cavities</h3>
+        <p>Prevent up to 80% of cavities in molars for at least two years.</p>
+      </div>
+    </div>
+
+    <div className="card1">
+      <img src="https://via.placeholder.com/150" alt="Quick and Painless" />
+      <div className="card-content">
+        <h3>Quick and Painless</h3>
+        <p>Quick and painless to apply.</p>
+      </div>
+    </div>
+
+    <div className="card1">
+      <img src="https://via.placeholder.com/150" alt="Inexpensive" />
+      <div className="card-content">
+        <h3>Relatively Inexpensive</h3>
+        <p>They are relatively inexpensive.</p>
+      </div>
+    </div>
+
+    <div className="card1">
+      <img src="https://via.placeholder.com/150" alt="Long Lasting" />
+      <div className="card-content">
+        <h3>Long Lasting</h3>
+        <p>They can last for several years, although they may need to be reapplied if they chip or wear down.</p>
+      </div>
+    </div>
+  </div>
+   </div>
             </>
     );
   };

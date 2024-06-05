@@ -5,8 +5,8 @@ const smileDesignData = {
     title: 'What is Smile Design?',
     description: `Smile design or smile makeover is a cosmetic dental procedure that focuses on creating a beautiful and
     natural-looking smile that complements your facial features. It harnesses various cosmetic and
-    restorative dental procedures and also addresses any functional or oral health concerns. It&#39;s not just
-    about getting straight teeth; it&#39;s about considering the shape, size, color, and alignment of your teeth in
+    restorative dental procedures and also addresses any functional or oral health concerns. It's not just
+    about getting straight teeth; it's about considering the shape, size, color, and alignment of your teeth in
     relation to your lips, gums, and overall facial aesthetics.`,
     sectionOneTitle: 'Here are a few things the Dentist will take into consideration during the smile design.',
     sectionOneData: [

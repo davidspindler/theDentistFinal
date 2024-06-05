@@ -1,55 +1,39 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './ToothExtractions.css'
 const toothExtractionsData = {
-    title: 'What are dental toothExtractions?',
-    description: `Dental toothExtractions are essentially tooth-shaped caps custom-made to fit over your existing tooth,
-    restoring its function and appearance. They're like little protective helmets for your teeth!`,
-    sectionOneTitle: 'toothExtractions serve various purposes, including:',
+    mainTitleText: 'Tooth Extractions',
+    title: 'Tooth extractions (including wisdom teeth)',
+    description: `Tooth extractions, including wisdom teeth removal, are common dental procedures performed by
+    dental surgeons to relieve pain, prevent infection, or make room for other teeth to grow in properly.
+    Wisdom teeth are the third set of molars that typically erupt in the late teens or early twenties. They are
+    often extracted because they can cause pain, crowding, or infection.`,
+    sectionOneTitle: 'Why does a tooth need to be extracted?',
     sectionOneData: [
       {
-        title: 'Restoring a damaged or decayed tooth:',
-        description: `toothExtractions can strengthen a weakened tooth, protect it
-        from further damage, and prevent future decay.`,
+        title: 'Decay or Damage:',
+        description: `Teeth that are extensively decayed or damaged may need to be removed.`,
       },
       {
-        title: 'Improving functionality:',
-        description: `They can rebuild a severely broken or worn-down tooth, allowing you
-        to chew and speak effectively.`,
+        title: 'Impacted Wisdom Teeth:',
+        description: `Wisdom teeth, also known as third molars, may be removed if they are
+        impacted (unable to emerge properly) or causing issues like pain, infection, or damage to neighboring
+        teeth.`,
       },
       {
-        title: 'Enhancing aesthetics:',
-        description: `toothExtractions can cover discolored or misshapen teeth, improve a misaligned
-        tooth, or even close gaps between teeth, creating a more aesthetically pleasing smile.`,
+        title: 'Crowding:',
+        description: `Sometimes, tooth extraction is necessary to create space for orthodontic treatment when
+        there is dental crowding.`,
       },
       {
-        title: 'Supporting other dental procedures:',
-        description: `toothExtractions can anchor dental bridges or hold a tooth implant
-        in place.`,
+        title: 'Infection or Gum Disease:',
+        description: `Disease: Severe gum disease or infections may necessitate tooth extraction.`,
+      },
+      {
+        title: 'Fractured Teeth:',
+        description: `A tooth that is severely fractured may need to be extracted.`,
       },
     ],
-    sectionTwoTitle: 'What are different types of Crown materials:',
-    sectionTwoData: [
-      {
-        title: 'Porcelain toothExtractions:',
-        description: `These toothExtractions provide a natural appearance and are suitable for front teeth.`,
-      },
-      {
-        title: 'Metal toothExtractions:',
-        description: `Made of various metals, these toothExtractions are highly durable and are often used for
-        back teeth.`,
-      },
-      {
-        title: 'Porcelain-fused-to-metal (PFM) toothExtractions:',
-        description: `Combine the strength of metal with the aesthetics of
-        porcelain.`,
-      },
-      {
-        title: 'All-Ceramic or All-Porcelain toothExtractions:',
-        description: `Offer excellent aesthetics and are suitable for use in various
-        areas of the mouth.`,
-      },
-     
-    ],
+    
   };
 
 const ToothExtractions = () => {
@@ -58,6 +42,7 @@ const ToothExtractions = () => {
         <>
      
    <GenericServiceComponent {...toothExtractionsData}/>
+   <div>pic will go here</div>
             </>
     );
   };

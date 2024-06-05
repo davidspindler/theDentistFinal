@@ -1,54 +1,38 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './implantTreatment.css'
 const failedImplantTreatmentData = {
-    title: 'What are dental failed implantTreatment?',
-    description: `Dental implantTreatment are essentially tooth-shaped caps custom-made to fit over your existing tooth,
-    restoring its function and appearance. They're like little protective helmets for your teeth!`,
-    sectionOneTitle: 'implantTreatment serve various purposes, including:',
+    mainTitleText: 'Failed Implant Treatment',
+    title: 'What is a Failed Implant Treatment?',
+    description: `Dental implants have a success rate of 98% but a few can fail. A dental implant tends to fail if it has not
+    successfully integrated into the jawbone or has lost its functionality. This can be a frustrating and
+    concerning experience for patients, as dental implants are often seen as a permanent solution for
+    missing teeth.`,
+    sectionOneTitle: 'There are several reasons why a dental implant may fail, including:',
     sectionOneData: [
       {
-        title: 'Restoring a damaged or decayed tooth:',
-        description: `implantTreatment can strengthen a weakened tooth, protect it
-        from further damage, and prevent future decay.`,
+        title: 'Infection:',
+        description: `Bacteria can enter the area around the implant and cause an infection, which can damage the
+        bone and surrounding tissues.`,
       },
       {
-        title: 'Improving functionality:',
-        description: `They can rebuild a severely broken or worn-down tooth, allowing you
-        to chew and speak effectively.`,
+        title: 'Peri-implantitis:',
+        description: `This is a condition like gum disease that affects the tissues around the implant. It can
+        lead to bone loss and eventual implant failure.`,
       },
       {
-        title: 'Enhancing aesthetics:',
-        description: `implantTreatment can cover discolored or misshapen teeth, improve a misaligned
-        tooth, or even close gaps between teeth, creating a more aesthetically pleasing smile.`,
+        title: 'Medical conditions:',
+        description: `Certain medical conditions, such as diabetes or osteoporosis, can increase the risk of
+        implant failure.`,
       },
       {
-        title: 'Supporting other dental procedures:',
-        description: `implantTreatment can anchor dental bridges or hold a tooth implant
-        in place.`,
-      },
-    ],
-    sectionTwoTitle: 'What are different types of Crown materials:',
-    sectionTwoData: [
-      {
-        title: 'Porcelain implantTreatment:',
-        description: `These implantTreatment provide a natural appearance and are suitable for front teeth.`,
+        title: 'Smoking:',
+        description: `Smoking is a major risk factor for implant failure, as it can impair blood flow and healing.`,
       },
       {
-        title: 'Metal implantTreatment:',
-        description: `Made of various metals, these implantTreatment are highly durable and are often used for
-        back teeth.`,
+        title: 'Poor implant placement:',
+        description: `In some cases, implant failure may be due to errors made during the surgery.
+        Insufficient jaw bone or improper placement can lead to implant failures.`,
       },
-      {
-        title: 'Porcelain-fused-to-metal (PFM) implantTreatment:',
-        description: `Combine the strength of metal with the aesthetics of
-        porcelain.`,
-      },
-      {
-        title: 'All-Ceramic or All-Porcelain implantTreatment:',
-        description: `Offer excellent aesthetics and are suitable for use in various
-        areas of the mouth.`,
-      },
-     
     ],
   };
 
@@ -58,6 +42,12 @@ const FailedImplantTreatment = () => {
         <>
      
    <GenericServiceComponent {...failedImplantTreatmentData}/>
+   <div className="container3 padding-20">Treatment for a failed dental implant can vary depending on the cause of the failure. In some cases, the
+implant may simply need to be cleaned and the surrounding tissues treated. In other cases, the implant
+may need to be removed and replaced.
+We’re your source for treating a failed implant in Orange County. Our team is highly skilled at restoring
+and replacing failing implants. More importantly, we’ll make sure that your implant is set up for success
+this time.</div>
             </>
     );
   };

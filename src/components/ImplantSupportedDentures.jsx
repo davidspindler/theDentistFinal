@@ -1,53 +1,81 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './implantTreatment.css'
 const implantSupportedDenturesData = {
-    title: 'What are dental implantSupportedDentures?',
-    description: `Dental implantSupportedDentures are essentially tooth-shaped caps custom-made to fit over your existing tooth,
-    restoring its function and appearance. They're like little protective helmets for your teeth!`,
-    sectionOneTitle: 'implantSupportedDentures serve various purposes, including:',
+    mainTitleText: 'Implant Supported Dentures',
+    title: 'What are Implant Supported Dentures?',
+    description: `Implant-supported dentures are a type of dental prosthesis that is secured in place with the help of
+    dental implants. Unlike traditional dentures that rely on adhesive or suction to stay in place, implant-
+    supported dentures are anchored to dental implants surgically placed in the jawbone. They are superior
+    to traditional dentures due to these factors:`,
+    sectionOneTitle: 'Implant Supported Dentures serve various purposes, including:',
     sectionOneData: [
       {
-        title: 'Restoring a damaged or decayed tooth:',
-        description: `implantSupportedDentures can strengthen a weakened tooth, protect it
-        from further damage, and prevent future decay.`,
+        title: 'Improved stability:',
+        description: `Implant-supported dentures are much more stable than traditional dentures
+        because they are anchored to the jawbone. This means that they won&#39;t slip or move around
+        when you eat or talk.`,
       },
       {
-        title: 'Improving functionality:',
-        description: `They can rebuild a severely broken or worn-down tooth, allowing you
-        to chew and speak effectively.`,
+        title: 'Increased comfort:',
+        description: `Implant-supported dentures are also more comfortable than traditional
+        dentures because they don't irritate the gums.`,
       },
       {
-        title: 'Enhancing aesthetics:',
-        description: `implantSupportedDentures can cover discolored or misshapen teeth, improve a misaligned
-        tooth, or even close gaps between teeth, creating a more aesthetically pleasing smile.`,
+        title: 'Improved chewing:',
+        description: `Because they are more stable, implant-supported dentures allow you to
+        chew food more effectively.`,
+      },
+
+      {
+        title: 'Preserved bone health:',
+        description: `Traditional dentures can lead to bone loss in the jawbone. Implant-
+        supported dentures, on the other hand, actually help to preserve bone health.`,
       },
       {
-        title: 'Supporting other dental procedures:',
-        description: `implantSupportedDentures can anchor dental bridges or hold a tooth implant
-        in place.`,
+        title: 'Enhanced confidence:',
+        description: `Implant-supported dentures can give you back your confidence to smile
+        and speak in public.`,
       },
     ],
-    sectionTwoTitle: 'What are different types of Crown materials:',
+    sectionTwoTitle: 'The process typically involves:',
     sectionTwoData: [
-      {
-        title: 'Porcelain implantSupportedDentures:',
-        description: `These implantSupportedDentures provide a natural appearance and are suitable for front teeth.`,
-      },
-      {
-        title: 'Metal implantSupportedDentures:',
-        description: `Made of various metals, these implantSupportedDentures are highly durable and are often used for
-        back teeth.`,
-      },
-      {
-        title: 'Porcelain-fused-to-metal (PFM) implantSupportedDentures:',
-        description: `Combine the strength of metal with the aesthetics of
-        porcelain.`,
-      },
-      {
-        title: 'All-Ceramic or All-Porcelain implantSupportedDentures:',
-        description: `Offer excellent aesthetics and are suitable for use in various
-        areas of the mouth.`,
-      },
+        {
+            title: 'Consultation and Evaluation:',
+            description: `The first step involves a consultation where we assess your oral
+            health, bone density, and overall suitability for dental implants.`,
+          },
+          {
+            title: 'Implant Placement:',
+            description: `Dental implants, usually made of titanium, are surgically placed into the
+            jawbone. The number of implants can vary based on individual needs.`,
+          },
+          {
+            title: 'Healing Period (Osseointegration):',
+            description: `After implant placement, there is a healing period during
+            which the implants fuse with the surrounding bone in a process called osseointegration. This
+            provides a stable foundation for the dentures.`,
+          },
+          {
+            title: 'Abutment Attachment:',
+            description: `Once the implants have integrated with the jawbone, abutments
+            (connector pieces) are attached to the implants. These abutments will serve as attachment
+            points for the dentures.`,
+          },
+          {
+            title: 'Denture Fabrication:',
+            description: `The dentures are custom-made to fit your mouth and are designed to
+            attach securely to the abutments.`,
+          },
+          {
+            title: 'Attachment of Dentures:',
+            description: `The final step involves attaching the dentures to the abutments.
+            Implant-supported dentures can be removable or fixed in place, depending on the specific type
+            chosen.`,
+          },
+    
+    
+    
+    
      
     ],
   };

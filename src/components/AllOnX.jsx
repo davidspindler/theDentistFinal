@@ -1,55 +1,51 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './allOnX.css'
 const allOnXData = {
-    title: 'What are dental allOnX?',
-    description: `Dental allOnX are essentially tooth-shaped caps custom-made to fit over your existing tooth,
-    restoring its function and appearance. They're like little protective helmets for your teeth!`,
-    sectionOneTitle: 'allOnX serve various purposes, including:',
+    mainTitleText: 'All on X and All on 4s',
+    title: 'What is All on X and All on 4s?',
+    description: `The All-on-X dental procedure is a revolutionary treatment that can replace an entire arch of missing
+    teeth. This approach is often employed when a patient has lost all or most of their natural teeth. The "X"
+    in "All-on-X" represents the number of dental implants supporting the prosthetic teeth, with common
+    variations being All-on-4 and All-on-6.`,
+    sectionOneTitle: 'This innovative technique offers several advantages over traditional methods of teeth replacement, such as:',
     sectionOneData: [
-      {
-        title: 'Restoring a damaged or decayed tooth:',
-        description: `allOnX can strengthen a weakened tooth, protect it
-        from further damage, and prevent future decay.`,
-      },
-      {
-        title: 'Improving functionality:',
-        description: `They can rebuild a severely broken or worn-down tooth, allowing you
-        to chew and speak effectively.`,
-      },
-      {
-        title: 'Enhancing aesthetics:',
-        description: `allOnX can cover discolored or misshapen teeth, improve a misaligned
-        tooth, or even close gaps between teeth, creating a more aesthetically pleasing smile.`,
-      },
-      {
-        title: 'Supporting other dental procedures:',
-        description: `allOnX can anchor dental bridges or hold a tooth implant
-        in place.`,
-      },
+        {
+            title: 'Reduced number of implants:',
+            description: `Traditionally, replacing all the teeth in an arch would require
+            placing an implant for each missing tooth. The All-on-X procedure significantly reduces the
+            number of implants needed, making it a more cost-effective and less invasive option.`,
+          },
+          {
+            title: 'Shorter treatment time:',
+            description: `Because fewer implants are required, the All-on-X procedure can be
+            completed in a single visit, while traditional implant-supported restorations often take months
+            or even years to complete.`,
+          },
+          {
+            title: 'Improved stability, comfort and permanence:',
+            description: `The strategically angled implants used in the All-
+            on-X procedure provide excellent support for the new teeth, resulting in a more stable,
+            permanent and comfortable fit than traditional dentures.`,
+          },
+    
+          {
+            title: 'Natural-looking results:',
+            description: `The All-on-X procedure uses custom-made dentures that are designed
+            to look and feel like natural teeth.`,
+          },
+          {
+            title: 'Immediate restoration of function:',
+            description: `Patients can eat and speak normally soon after the All-on-X
+            procedure is completed.`,
+          },
+          {
+            title: 'Permanent and stable solution',
+            description: ``,
+          },
+    
+        
     ],
-    sectionTwoTitle: 'What are different types of Crown materials:',
-    sectionTwoData: [
-      {
-        title: 'Porcelain allOnX:',
-        description: `These allOnX provide a natural appearance and are suitable for front teeth.`,
-      },
-      {
-        title: 'Metal allOnX:',
-        description: `Made of various metals, these allOnX are highly durable and are often used for
-        back teeth.`,
-      },
-      {
-        title: 'Porcelain-fused-to-metal (PFM) allOnX:',
-        description: `Combine the strength of metal with the aesthetics of
-        porcelain.`,
-      },
-      {
-        title: 'All-Ceramic or All-Porcelain allOnX:',
-        description: `Offer excellent aesthetics and are suitable for use in various
-        areas of the mouth.`,
-      },
-     
-    ],
+   
   };
 
 const AllOnX = () => {
