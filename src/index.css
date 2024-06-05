@@ -304,6 +304,14 @@ MEDIA QUERIES
   .container {
     max-width: 768px;
   }
+  
+}
+@media (max-width: 500px) {
+  .toolbar {
+    /* border:10px solid blue; */
+    gap:.3rem;
+  }
+  
 }
 
 @media (min-width: 996px) {

@@ -45,6 +45,13 @@ const SIDEBAR_CONFIG = {
       { path: '/services/softtissuelasers', label: 'Soft Tissue Lasers' },
       { path: '/services/bonegrafting', label: 'Bone Grafting' },
     ],
+    'More About Us': [
+        { path: '/about/occfad', label: 'OCCFAD' },
+        { path: '/about/meetthedoctors', label: 'Meet the Doctors' },
+        { path: '/about/address', label: 'Address / Google Maps' },
+        { path: '/about/officetour', label: 'Office Tour' },
+        { path: '/about/patientexperiences', label: 'Patient Experiences' },
+      ],
   };
 
 const GenericServiceComponent = ({ 

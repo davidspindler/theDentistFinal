@@ -1,0 +1,30 @@
+.team-info-container {
+    display: flex;
+    flex-direction: column; /* Display rows vertically */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .team-member {
+    background-color: #ade8f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    max-width: 800px; /* Adjust max-width to fit your design */
+    margin: 0 auto; /* Center align each row horizontally */
+  }
+  
+  .team-member h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .team-member p {
+    margin-bottom: 10px;
+  }
+  
+  .team-member ul {
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }

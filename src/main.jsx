@@ -45,6 +45,11 @@ import OtherProsthetics from './components/OtherProsthetics';
 import FullMouthExtractions from './components/FullMouthExtractions';
 import BoneAugmentations from './components/BoneAugmentations';
 import GumTreatment from './components/GumTreatment';
+import OCCFAD from './components/OCCFAD';
+import Address from './components/Address';
+import MeettheDoctors from './components/MeetTheDoctors';
+import OfficeTour from './components/OfficeTour';
+import PatientExperiences from './components/PatientExperiences';
 const services = [
   {
     title: 'Cosmetic and Restorative Dentistry',
@@ -242,23 +247,23 @@ const router = createBrowserRouter([
           },
           {
             path:"OCCFAD",
-            element: <div>OCCFAD</div>
+            element: <OCCFAD />
           },
           {
             path:"address",
-            element: <div>address</div>
+            element: <Address />
           },
           {
             path:"meetthedoctors",
-            element: <div>meetthedoctors</div>
+            element: <MeettheDoctors />
           },
           {
             path:"officetour",
-            element: <div>officetour</div>
+            element: <OfficeTour />
           },
           {
             path:"patientexperiences",
-            element: <div>Patient Experiences</div>
+            element: <PatientExperiences />
           },
 
         ]
