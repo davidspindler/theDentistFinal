@@ -38,7 +38,7 @@ const gingivalGumContouringData = {
         affecting the overall balance of their smile.`,
       },
       {
-        title: 'Laser Gum Contouring::',
+        title: 'Laser Gum Contouring:',
         description: `Laser technology is commonly used for gingival contouring. It is a minimally invasive procedure that
         involves the use of a laser to trim and shape the gum tissue. Laser procedures often result in less
         discomfort, swelling, and a quicker recovery compared to traditional methods.`,

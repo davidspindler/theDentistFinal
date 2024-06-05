@@ -1,55 +1,51 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './CrownLenghthening.css'
 const threedimagectscansData = {
-    title: 'What are dental 3dimagect scans?',
-    description: `Dental 3dimagect scans are essentially tooth-shaped caps custom-made to fit over your existing tooth,
-    restoring its function and appearance. They're like little protective helmets for your teeth!`,
-    sectionOneTitle: '3dimagect scans serve various purposes, including:',
+    mainTitleText: "CT Scans/ 3D Imaging",
+    title: 'What are CT Scans and 3D imaging?',
+    description: `A Dental CT scan, also known as Cone Beam Computed Tomography (CBCT), is a specialized type of CT
+    scan designed for imaging the structures of the oral and maxillofacial region.`,
+    sectionOneTitle: 'What is a CBCT?',
     sectionOneData: [
       {
-        title: 'Restoring a damaged or decayed tooth:',
-        description: `3dimagect scans can strengthen a weakened tooth, protect it
-        from further damage, and prevent future decay.`,
+        title: 'The technology uses a narrow cone-shaped X-ray beam to capture multiple images from different angles while rotating around your head. Software then reconstructs these images into detailed 3D views.',
+        description: ``,
       },
-      {
-        title: 'Improving functionality:',
-        description: `They can rebuild a severely broken or worn-down tooth, allowing you
-        to chew and speak effectively.`,
-      },
-      {
-        title: 'Enhancing aesthetics:',
-        description: `3dimagect scans can cover discolored or misshapen teeth, improve a misaligned
-        tooth, or even close gaps between teeth, creating a more aesthetically pleasing smile.`,
-      },
-      {
-        title: 'Supporting other dental procedures:',
-        description: `3dimagect scans can anchor dental bridges or hold a tooth implant
-        in place.`,
-      },
+      
     ],
-    sectionTwoTitle: 'What are different types of Crown materials:',
+    sectionTwoTitle: 'When is CBCT used?',
     sectionTwoData: [
       {
-        title: 'Porcelain 3dimagect scans:',
-        description: `These 3dimagect scans provide a natural appearance and are suitable for front teeth.`,
+        title: `When regular dental X-rays aren't enough to provide necessary information.`,
+        description: `Common uses include:
+
+        <li> -Planning for implant placement </li>
+        <li> -Investigating impacted teeth and wisdom teeth issues </li>
+        <li> -Diagnosing jaw fractures or tumors </li>
+        <li> -Assessing root canal anatomy</li>
+        <li> -Evaluating orthodontic treatment options</li>`,
       },
-      {
-        title: 'Metal 3dimagect scans:',
-        description: `Made of various metals, these 3dimagect scans are highly durable and are often used for
-        back teeth.`,
-      },
-      {
-        title: 'Porcelain-fused-to-metal (PFM) 3dimagect scans:',
-        description: `Combine the strength of metal with the aesthetics of
-        porcelain.`,
-      },
-      {
-        title: 'All-Ceramic or All-Porcelain 3dimagect scans:',
-        description: `Offer excellent aesthetics and are suitable for use in various
-        areas of the mouth.`,
-      },
-     
     ],
+     sectionThreeTitle: 'What are the benefits of CBCT?',
+     sectionThreeData: [
+        {title: 'Lower Radiation Exposure:',
+        description: "While CBCT involves X-rays, the radiation exposure is generally lower compared to traditional medical CT scans."
+        },
+        {
+            title: 'High Resolution:',
+            description: `Dental CT scans offer high-resolution images, allowing for precise visualization
+            of teeth, bone, soft tissues, and nerve pathways. This enables precise diagnostics and treatment
+            planning. This provides much more detailed information than standard X-rays.`,
+          },
+          {
+            title: 'Diagnostics and treatment planning',
+            description: ``,
+          },
+         
+    
+    
+     ]
+
   };
 
 const Threedimagectscans = () => {
@@ -58,6 +54,10 @@ const Threedimagectscans = () => {
         <>
      
    <GenericServiceComponent {...threedimagectscansData}/>
+   <div className="container3">
+   We use state-of-the-art, full-cranial cone-beam CT technology that provides highly accurate 3-D
+radiographic images for the diagnosis, planning and treatment of oral surgery and implants.
+   </div>
             </>
     );
   };

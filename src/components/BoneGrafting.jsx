@@ -1,52 +1,49 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './CrownLenghthening.css'
 const boneGraftingData = {
-    title: 'What are dental boneGrafting?',
-    description: `Dental boneGrafting are essentially tooth-shaped caps custom-made to fit over your existing tooth,
-    restoring its function and appearance. They're like little protective helmets for your teeth!`,
-    sectionOneTitle: 'boneGrafting serve various purposes, including:',
+    mainTitleText: 'Bone Grafting',
+    title: 'What is Bone Grafting?',
+    description: `Dental bone grafting is a surgical procedure that involves replacing or augmenting the bone in the jaw to
+    provide a stable foundation for dental implants or other restorative procedures. This is often necessary
+    when there is insufficient bone mass in the jaw to support dental implants.`,
+    sectionOneTitle: 'Bone loss in the jaw can occur due to several reasons, including:',
     sectionOneData: [
       {
-        title: 'Restoring a damaged or decayed tooth:',
-        description: `boneGrafting can strengthen a weakened tooth, protect it
-        from further damage, and prevent future decay.`,
+        title: 'Missing teeth:',
+        description: `When a tooth is lost, the surrounding jawbone begins to deteriorate over time.`,
       },
       {
-        title: 'Improving functionality:',
-        description: `They can rebuild a severely broken or worn-down tooth, allowing you
-        to chew and speak effectively.`,
+        title: 'Gum disease:',
+        description: `Severe gum disease can damage the bone that supports the teeth.`,
       },
       {
-        title: 'Enhancing aesthetics:',
-        description: `boneGrafting can cover discolored or misshapen teeth, improve a misaligned
-        tooth, or even close gaps between teeth, creating a more aesthetically pleasing smile.`,
+        title: 'Facial trauma:',
+        description: `Injuries to the jaw can cause bone loss.`,
       },
       {
-        title: 'Supporting other dental procedures:',
-        description: `boneGrafting can anchor dental bridges or hold a tooth implant
-        in place.`,
+        title: 'Tumors:',
+        description: `Tumors in the jaw can destroy bone tissue.`,
       },
     ],
-    sectionTwoTitle: 'What are different types of Crown materials:',
+    sectionTwoTitle: 'Types of Bone Grafts:',
     sectionTwoData: [
       {
-        title: 'Porcelain boneGrafting:',
-        description: `These boneGrafting provide a natural appearance and are suitable for front teeth.`,
+        title: 'Autograft:',
+        description: `Bone is taken from the patient&#39;s own body (often from the hip or jaw) and
+        transplanted to the deficient area.`,
       },
       {
-        title: 'Metal boneGrafting:',
-        description: `Made of various metals, these boneGrafting are highly durable and are often used for
-        back teeth.`,
+        title: 'Allograft:',
+        description: `Bone is sourced from a donor, typically processed and sterilized before use.`,
       },
       {
-        title: 'Porcelain-fused-to-metal (PFM) boneGrafting:',
-        description: `Combine the strength of metal with the aesthetics of
-        porcelain.`,
+        title: 'Xenograft:',
+        description: `Bone is derived from an animal source, usually bovine (cow) or porcine (pig) bone,
+        and processed for transplantation.`,
       },
       {
-        title: 'All-Ceramic or All-Porcelain boneGrafting:',
-        description: `Offer excellent aesthetics and are suitable for use in various
-        areas of the mouth.`,
+        title: 'Synthetic Graft:',
+        description: `Artificial bone graft materials are used.`,
       },
      
     ],
@@ -58,6 +55,13 @@ const BoneGrafting = () => {
         <>
      
    <GenericServiceComponent {...boneGraftingData}/>
+   <div className="container3">
+   The success rate of bone grafting is very high. In most cases, the bone graft will integrate with the
+jawbone and provide a strong foundation for dental implants or to preserve remaining teeth. Dental
+bone grafting is a common and effective procedure that has significantly improved the success rates of
+dental implant placements, allowing individuals with insufficient bone mass to benefit from permanent
+tooth replacements.
+   </div>
             </>
     );
   };

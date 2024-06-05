@@ -1,55 +1,18 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './CrownLenghthening.css'
 const intraoralScannerData = {
-    title: 'What are dental intraoralScanner?',
-    description: `Dental intraoralScanner are essentially tooth-shaped caps custom-made to fit over your existing tooth,
-    restoring its function and appearance. They're like little protective helmets for your teeth!`,
-    sectionOneTitle: 'boneGrafting serve various purposes, including:',
-    sectionOneData: [
-      {
-        title: 'Restoring a damaged or decayed tooth:',
-        description: `boneGrafting can strengthen a weakened tooth, protect it
-        from further damage, and prevent future decay.`,
-      },
-      {
-        title: 'Improving functionality:',
-        description: `They can rebuild a severely broken or worn-down tooth, allowing you
-        to chew and speak effectively.`,
-      },
-      {
-        title: 'Enhancing aesthetics:',
-        description: `boneGrafting can cover discolored or misshapen teeth, improve a misaligned
-        tooth, or even close gaps between teeth, creating a more aesthetically pleasing smile.`,
-      },
-      {
-        title: 'Supporting other dental procedures:',
-        description: `boneGrafting can anchor dental bridges or hold a tooth implant
-        in place.`,
-      },
-    ],
-    sectionTwoTitle: 'What are different types of Crown materials:',
-    sectionTwoData: [
-      {
-        title: 'Porcelain boneGrafting:',
-        description: `These boneGrafting provide a natural appearance and are suitable for front teeth.`,
-      },
-      {
-        title: 'Metal boneGrafting:',
-        description: `Made of various metals, these boneGrafting are highly durable and are often used for
-        back teeth.`,
-      },
-      {
-        title: 'Porcelain-fused-to-metal (PFM) boneGrafting:',
-        description: `Combine the strength of metal with the aesthetics of
-        porcelain.`,
-      },
-      {
-        title: 'All-Ceramic or All-Porcelain boneGrafting:',
-        description: `Offer excellent aesthetics and are suitable for use in various
-        areas of the mouth.`,
-      },
-     
-    ],
+    mainTitleText: "Intraoral Scanners:",
+    title: 'What are Intraoral Scanners?',
+    description: `An intraoral scanner is a handheld device used in dentistry to create digital 3D models of the teeth and
+    gums. It has revolutionized dentistry by offering a more accurate, comfortable, and efficient alternative
+    to taking traditional impressions using trays with dental putty.
+    The scanner typically consists of a handheld wand with a small camera that captures thousands of digital
+    impressions per second of the oral structures. These images are then processed to create a highly
+    accurate and detailed 3D model of the patient&#39;s teeth. Intraoral scanners are commonly used in various
+    dental procedures, including the fabrication of Veneers, crowns, bridges, braces, and other dental
+    restorations.
+    We use the latest 3shape® wireless scanner, which has the best-in-class functionality in this space.`,
+   
   };
 
 const IntraoralScanners = () => {

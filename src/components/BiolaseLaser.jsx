@@ -1,54 +1,54 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './CrownLenghthening.css'
 const biolaseData = {
-    title: 'What are dental BiolaseLaser?',
-    description: `Dental boneGrafting are essentially tooth-shaped caps custom-made to fit over your existing tooth,
-    restoring its function and appearance. They're like little protective helmets for your teeth!`,
-    sectionOneTitle: 'boneGrafting serve various purposes, including:',
+    mainTitleText: 'BIOLASE® Waterlase® Laser',
+    title: 'What is a BIOLASE® Waterlase® Laser?',
+    description: `Technology continues to change our lives every day. Increasingly, cutting-edge tools like dental lasers
+    are being leveraged to take care of your oral health. Depending on the type of laser your dentist uses,
+    they can successfully treat many common dental conditions in a gentle, minimally invasive way.
+    BIOLASE® is the world’s leading innovator in dental lasers. With thousands of lasers in use in
+    operatories worldwide, millions of patients have experienced the benefits of laser dentistry, such as
+    gentler procedures and comfortable healing.
+    The award-winning Waterlase® system is a safe and gentle alternative to traditional dental tools. Using
+    laser energy and water spray, Waterlase® can perform many procedures without a shot or a drill. The
+    Waterlase® is a dental laser that enables the dentist to use minimal and in some cases even no
+    anesthetic or drills to perform many routine dental procedures.`,
+    sectionOneTitle: 'Some of the benefits include:',
     sectionOneData: [
       {
-        title: 'Restoring a damaged or decayed tooth:',
-        description: `boneGrafting can strengthen a weakened tooth, protect it
-        from further damage, and prevent future decay.`,
+        title: 'Virtually Painless:',
+        description: `Are you scared of going to the dentist because you’ll hear the dreaded drill screeching in your ear? Or
+        maybe you are terrified of the needle — and who likes leaving the dental office with a droopy or puffy
+        face? <li>These dental fears can be alleviated with a Waterlase® dentist. The Waterlase® is a dental laser
+        that enables the dentist to use minimal and in some cases even no anesthetic or drills to perform many
+        routine dental procedures!</li>`,
       },
       {
-        title: 'Improving functionality:',
-        description: `They can rebuild a severely broken or worn-down tooth, allowing you
-        to chew and speak effectively.`,
+        title: 'More Natural Dentistry:',
+        description: `The Waterlase® combines water, air, and laser energy for safe use on human tissue in the mouth. Our
+        teeth are partially made up of water and when the laser makes contact with the tooth it excites the
+        water molecules to cut through the tooth. <li>This patented technology helps prevent heat and gives a
+        virtually pain-free experience while creating less aerosols than traditional dental handpieces.</li>`,
       },
       {
-        title: 'Enhancing aesthetics:',
-        description: `boneGrafting can cover discolored or misshapen teeth, improve a misaligned
-        tooth, or even close gaps between teeth, creating a more aesthetically pleasing smile.`,
+        title: 'More Convenient:',
+        description: `Even for those who floss, brush, and use fluoride regularly, sometimes you still end up with a cavity.
+        Between all of your commitments, you may not have the time to schedule another dental appointment.
+        <li>
+        With Waterlase® you don’t have to worry! Waterlase® is gentle enough that your dentist can complete
+        most of your dental needs in a single visit. Plus, in some cases, your Waterlase® dentist can save you the
+        hassle of going to a specialist or schedule multiple dental visits. </li>`,
       },
       {
-        title: 'Supporting other dental procedures:',
-        description: `boneGrafting can anchor dental bridges or hold a tooth implant
-        in place.`,
+        title: 'Safe and Precise:',
+        description: `The Waterlase® is cleared for numerous dental applications that can be performed on both pediatric
+        and adult patients. One of the Waterlase’s® greatest strengths is how precise it is!
+        <li>
+        The Waterlase® removes very precise amounts of tooth, without damaging or cracking the rest of the
+        tooth! And because it is so precise, anesthetic is rarely needed. </li>
+        If you are interested in more information about the benefits of Waterlase and laser dentistry in general
+        please call for a consult with Dr. Peddireddy at OC Center For Advanced Dentistry.`,
       },
-    ],
-    sectionTwoTitle: 'What are different types of Crown materials:',
-    sectionTwoData: [
-      {
-        title: 'Porcelain boneGrafting:',
-        description: `These boneGrafting provide a natural appearance and are suitable for front teeth.`,
-      },
-      {
-        title: 'Metal boneGrafting:',
-        description: `Made of various metals, these boneGrafting are highly durable and are often used for
-        back teeth.`,
-      },
-      {
-        title: 'Porcelain-fused-to-metal (PFM) boneGrafting:',
-        description: `Combine the strength of metal with the aesthetics of
-        porcelain.`,
-      },
-      {
-        title: 'All-Ceramic or All-Porcelain boneGrafting:',
-        description: `Offer excellent aesthetics and are suitable for use in various
-        areas of the mouth.`,
-      },
-     
     ],
   };
 

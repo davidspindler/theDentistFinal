@@ -1,55 +1,29 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './ToothExtractions.css'
 const softTissueLasersData = {
-    title: 'What are dental soft tissue lasers?',
-    description: `Dental toothExtractions are essentially tooth-shaped caps custom-made to fit over your existing tooth,
-    restoring its function and appearance. They're like little protective helmets for your teeth!`,
-    sectionOneTitle: 'toothExtractions serve various purposes, including:',
+    mainTitleText: 'Soft Tissue Lasers',
+    title: 'What are soft tissue lasers?',
+    description: `Laser stands for light amplification by stimulated emission of radiation. During a procedure, the laser will
+    emit light energy in a narrow, concentrated beam. This light produces a reaction when it hits tissue,
+    allowing it to remove or shape tissue. Soft tissue lasers are used for procedures involving soft tissues in
+    the mouth, like gums.`,
+    sectionOneTitle: 'In general, lasers are used for various purposes in dentistry:',
     sectionOneData: [
       {
-        title: 'Restoring a damaged or decayed tooth:',
-        description: `toothExtractions can strengthen a weakened tooth, protect it
-        from further damage, and prevent future decay.`,
-      },
-      {
-        title: 'Improving functionality:',
-        description: `They can rebuild a severely broken or worn-down tooth, allowing you
-        to chew and speak effectively.`,
-      },
-      {
-        title: 'Enhancing aesthetics:',
-        description: `toothExtractions can cover discolored or misshapen teeth, improve a misaligned
-        tooth, or even close gaps between teeth, creating a more aesthetically pleasing smile.`,
-      },
-      {
-        title: 'Supporting other dental procedures:',
-        description: `toothExtractions can anchor dental bridges or hold a tooth implant
-        in place.`,
+        title: '',
+        description: `  <li>-Removing tissue around an exposed wisdom tooth</li>
+        <li>-Reshaping gum tissue</li>
+        <li>-Removing and reshaping bone and gum tissue during crown lengthening procedures</li>
+        <li>-Removing inflamed gum tissue</li>
+        <li>-Removing muscle attachments that restrict tongue or lip movement</li>
+        <li>-Accelerating in-office tooth whitening procedures</li>
+        <li>-Reducing the discomfort from cold sores and cankers</li>
+        <li>-Removing small amounts of tooth enamel</li>
+        <li>-Preparing tooth enamel for composite bonding</li>
+        <li>-Repairing certain worn-down fillings</li>`,
       },
     ],
-    sectionTwoTitle: 'What are different types of Crown materials:',
-    sectionTwoData: [
-      {
-        title: 'Porcelain toothExtractions:',
-        description: `These toothExtractions provide a natural appearance and are suitable for front teeth.`,
-      },
-      {
-        title: 'Metal toothExtractions:',
-        description: `Made of various metals, these toothExtractions are highly durable and are often used for
-        back teeth.`,
-      },
-      {
-        title: 'Porcelain-fused-to-metal (PFM) toothExtractions:',
-        description: `Combine the strength of metal with the aesthetics of
-        porcelain.`,
-      },
-      {
-        title: 'All-Ceramic or All-Porcelain toothExtractions:',
-        description: `Offer excellent aesthetics and are suitable for use in various
-        areas of the mouth.`,
-      },
-     
-    ],
+  
   };
 
 const SoftTissueLasers = () => {

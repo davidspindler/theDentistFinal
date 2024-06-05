@@ -1,7 +1,7 @@
 import './GenericServiceComponent.css';
 // import { BookCheck } from 'lucide-react';
 import { useLocation, Link } from 'react-router-dom';
-
+import React from 'react';
 
 const SIDEBAR_CONFIG = {
     'Cosmetic and Restorative Dentistry': [
@@ -53,6 +53,33 @@ const GenericServiceComponent = ({
 }) => {
 
     const location = useLocation();
+    const createListFromString = (htmlString) => {
+        const container = document.createElement('div');
+        container.innerHTML = htmlString;
+    
+        const convertToReactElements = (node) => {
+          if (node.nodeType === Node.TEXT_NODE) {
+            return node.textContent;
+          }
+    
+          const nodeName = node.nodeName.toLowerCase();
+          const nodeProps = {};
+    
+          node.getAttributeNames().forEach((attrName) => {
+            nodeProps[attrName] = node.getAttribute(attrName);
+          });
+    
+          const children = Array.from(node.childNodes).map((childNode, index) =>
+            convertToReactElements(childNode)
+          );
+    
+          return React.createElement(nodeName, { ...nodeProps, key: Math.random() }, children);
+        };
+    
+        return Array.from(container.childNodes).map((childNode) =>
+          convertToReactElements(childNode)
+        );
+      };
 
 
     const getSidebarTitleAndLinks = () => {
@@ -124,7 +151,7 @@ const GenericServiceComponent = ({
                     <li className="card" key={index}>
                     <div className="card-content">
                     <h3 className="card-title">{item.title}</h3>
-                    <p className="card-description">{item.description}</p>
+                    <p className="card-description">{createListFromString(item.description)}</p>
                     </div>
                     </li>
                     ))}
@@ -144,7 +171,7 @@ const GenericServiceComponent = ({
                         <li className="feature" key={index}>
                         <div className="feature-content">
                         <h3 className="feature-title">{item.title}</h3>
-                        <p className="feature-description">{item.description}</p>
+                        <p className="feature-description">{createListFromString(item.description)}</p>
                         </div>
                         </li>
                         ))}
