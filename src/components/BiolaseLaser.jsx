@@ -1,5 +1,6 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './CrownLenghthening.css'
+import biolase from '../../src/assets/images/biolase.jpg'
 const biolaseData = {
     mainTitleText: 'BIOLASE® Waterlase® Laser',
     title: 'What is a BIOLASE® Waterlase® Laser?',
@@ -50,6 +51,7 @@ const biolaseData = {
         please call for a consult with Dr. Peddireddy at OC Center For Advanced Dentistry.`,
       },
     ],
+    imgSrc: biolase
   };
 
 const BiolaseLaser = () => {

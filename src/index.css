@@ -294,6 +294,19 @@ Mobile
   font-size: 14px;
   padding-left: 1rem;
 }
+.styled-image2 {
+  /* padding: 10px; */
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  /* max-height: 20rem; */
+  display: block;
+  margin: auto;
+  object-fit: cover; /* Ensures the image covers the given area without distortion */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add drop shadow */
+  transition: transform 0.2s; /* Add a transition effect for hover */
+}
 /* ================================ 
 MEDIA QUERIES
 =======================================*/
@@ -304,6 +317,9 @@ MEDIA QUERIES
   .container {
     max-width: 768px;
   }
+  .hero-title {
+    font-size: x-large;
+  }
   
 }
 @media (max-width: 500px) {
@@ -311,8 +327,19 @@ MEDIA QUERIES
     /* border:10px solid blue; */
     gap:.3rem;
   }
+
   
 }
+@media (max-width: 374px) {
+ 
+  .styled-image2 {
+    /* padding: 10px; */
+    width: 260px;
+   
+  }
+  
+}
+
 
 @media (min-width: 996px) {
   .hero-title {

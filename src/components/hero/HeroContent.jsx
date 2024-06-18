@@ -22,9 +22,9 @@ const HeroContent = ({ imageSrc = defaultBanner, children }) => {
             <div className="hero-content">
               
                 <h1 className='hero-title'>
-                  Bringing Joy One Smile at a Time
+                Bringing Joy to patients through technology driven high skilled, comprehensive and economically valued dentistry.
                   </h1>
-                <p className='hero-desc'>We are dedicated to bringing you services that will give you value and keep your smile clean</p>
+                {/* <p className='hero-desc'>We are dedicated to bringing you services that will give you value and keep your smile clean</p> */}
             </div>
         </div>
   );

@@ -3,6 +3,7 @@ import './GenericServiceComponent.css';
 import { useLocation, Link } from 'react-router-dom';
 import React from 'react';
 
+
 const SIDEBAR_CONFIG = {
     'Cosmetic and Restorative Dentistry': [
       { path: '/services/smiledesign', label: 'Smile Design' },
@@ -56,7 +57,7 @@ const SIDEBAR_CONFIG = {
 
 const GenericServiceComponent = ({ 
   mainTitleText, title, description, sectionOneTitle, sectionOneData, 
-  sectionTwoTitle, sectionTwoData, sectionThreeData, sectionThreeTitle, sectionFourData, sectionFourTitle 
+  sectionTwoTitle, sectionTwoData, sectionThreeData, sectionThreeTitle, sectionFourData, sectionFourTitle, imgSrc 
 }) => {
 
     const location = useLocation();
@@ -104,7 +105,6 @@ const GenericServiceComponent = ({
 
   return (
     <>
-    
     <div className="container2">
 
     <div className="generic-service-component">
@@ -136,7 +136,7 @@ const GenericServiceComponent = ({
               <h2>{title}</h2>
               <p>{description}</p>
             </div>
-            <img src="https://via.placeholder.com/300x200" alt="Placeholder" className="card-image padding-20" />
+            <img src={imgSrc}alt={`Image for ${mainTitleText}`} className="responsive-image padding-20" />
           </div>
       
         </div>

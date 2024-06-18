@@ -1,5 +1,6 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './CrownLenghthening.css'
+import intraoral from '../../src/assets/images/intraoral.png'
 const intraoralScannerData = {
     mainTitleText: "Intraoral Scanners:",
     title: 'What are Intraoral Scanners?',
@@ -12,7 +13,7 @@ const intraoralScannerData = {
     dental procedures, including the fabrication of Veneers, crowns, bridges, braces, and other dental
     restorations.
     We use the latest 3shape® wireless scanner, which has the best-in-class functionality in this space.`,
-   
+   imgSrc: intraoral
   };
 
 const IntraoralScanners = () => {

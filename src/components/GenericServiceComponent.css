@@ -164,6 +164,35 @@
     /* color: white; */
   }
   
+  .responsive-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    max-height: 300px;
+    display: block;
+    margin: auto;
+    object-fit: cover; /* Ensures the image covers the given area without distortion */
+  }
+  .styled-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    max-height: 300px;
+    display: block;
+    margin: auto;
+    object-fit: cover; /* Ensures the image covers the given area without distortion */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add drop shadow */
+    transition: transform 0.2s; /* Add a transition effect for hover */
+  }
+  
+  /* Media query for larger screens */
+  @media (min-width: 1000px) {
+    .responsive-image {
+      max-width: 400px;
+      max-height: 600px;
+    }
+  }
   @media (max-width: 768px) {
     .generic-service-component {
       flex-direction: column;

@@ -25,3 +25,8 @@
 .footer-section p {
     margin: 5px 0;
 }
+.containerFooter {
+    display: flex;
+    justify-content: space-around;
+    /* gap:20rem; */
+}

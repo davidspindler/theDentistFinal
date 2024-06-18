@@ -1,5 +1,6 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './CrownLenghthening.css'
+import hi from '../../src/assets/images/hi.png'
 const threedimagectscansData = {
     mainTitleText: "CT Scans/ 3D Imaging",
     title: 'What are CT Scans and 3D imaging?',
@@ -44,7 +45,8 @@ const threedimagectscansData = {
          
     
     
-     ]
+     ],
+     imgSrc: hi
 
   };
 

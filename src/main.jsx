@@ -5,6 +5,7 @@ import './index.css';
 import {
   createBrowserRouter,
   RouterProvider,
+  Navigate
 } from 'react-router-dom';
 
 import Layout from './routes/layout';
@@ -16,7 +17,7 @@ import SellPage from './routes/sell';
 import HomePage from './routes/home';
 import NewsPage from './routes/news';
 import Mortgage from './routes/mortgage';
-import ServiceComponent from './components/ServiceLayout';
+// import ServiceComponent from './components/ServiceLayout';
 import SmileDesign from './components/SmileDesign';
 import Veneers from './components/Veneers';
 import Crowns from './components/Crowns';
@@ -54,7 +55,7 @@ const services = [
   {
     title: 'Cosmetic and Restorative Dentistry',
     description: 'This is a brief description of the first service.',
-    bullets: [  { label: 'Smile Design', href: '/services/smiledesign' },
+    bullets: [{ label: 'Smile Design', href: '/services/smiledesign' },
     {
       label:
         'Veneers',
@@ -110,175 +111,165 @@ const router = createBrowserRouter([
         children: [
           {
             index: true,
-            element:  <div className="service-container">
-            {services.map((service, index) => (
-              <ServiceComponent
-                key={index}
-                title={service.title}
-                description={service.description}
-                bullets={service.bullets}
-                isEven={index % 2 === 0}
-              />
-            ))}
-          </div>
+            //   element:  <div className="service-container">
+            //   {services.map((service, index) => (
+            //     <ServiceComponent
+            //       key={index}
+            //       title={service.title}
+            //       description={service.description}
+            //       bullets={service.bullets}
+            //       isEven={index % 2 === 0}
+            //     />
+            //   ))}
+            // </div>
+            element: <Navigate to="smiledesign" />
           },
           {
-            path:"smiledesign",
+            path: "smiledesign",
             element: <SmileDesign />
           },
           {
-            path:"veneers",
+            path: "veneers",
             element: <Veneers />
           },
           {
-            path:"crowns",
+            path: "crowns",
             element: <Crowns />
           },
           {
-            path:"teethwhitening",
+            path: "teethwhitening",
             element: <TeethWhitening />
           },
           {
-            path:"crownlengthening",
+            path: "crownlengthening",
             element: <CrownLengthening />
           },
           {
-            path:"Gingivalgumcontouring",
+            path: "Gingivalgumcontouring",
             element: <GingivalGumContouring />
           },
           {
-            path:"fillings",
+            path: "fillings",
             element: <Fillings />
           },
           {
-            path:"rootcanals",
+            path: "rootcanals",
             element: <RootCanals />
           },
           {
-            path:"toothextractions",
+            path: "toothextractions",
             element: <ToothExtractions />
           },
           {
-            path:"fullmouthextractions",
+            path: "fullmouthextractions",
             element: <FullMouthExtractions />
           },
           {
-            path:"boneaugmentations",
+            path: "boneaugmentations",
             element: <BoneAugmentations />
           },
           {
-            path:"gumtreatment",
+            path: "gumtreatment",
             element: <GumTreatment />
           },
           {
-            path:"implanttreatment",
+            path: "implanttreatment",
             element: <ImplantTreatment />
           },
           {
-            path:"failedimplanttreatment",
+            path: "failedimplanttreatment",
             element: <FailedImplantTreatment />
           },
           {
-            path:"sinuslift",
+            path: "sinuslift",
             element: <SinusLift />
           },
-          { 
-            path:"implantsupporteddentures",
+          {
+            path: "implantsupporteddentures",
             element: <ImplantSupportedDentures />
           },
           {
-            path:"allonx",
+            path: "allonx",
             element: <AllOnX />
           },
           {
-            path:"otherprosthetics",
+            path: "otherprosthetics",
             element: <OtherProsthetics />
           },
           {
-            path:"checkupandcleanings",
+            path: "checkupandcleanings",
             element: <CheckupAndCleanings />
           },
           {
-            path:"sealants",
+            path: "sealants",
             element: <Sealants />
           },
           {
-            path:"flouridetreatments",
+            path: "flouridetreatments",
             element: <FlourideTreatments />
           },
           {
-            path:"ivanesthesiasedation",
+            path: "ivanesthesiasedation",
             element: <Ivanesthesiasedation />
           },
           {
-            path:"oralsedation",
+            path: "oralsedation",
             element: <OralSedation />
           },
           {
-            path:"3dimagectscans",
+            path: "3dimagectscans",
             element: <Threedimagectscans />
           },
           {
-            path:"intraoralscanners",
+            path: "intraoralscanners",
             element: <IntraoralScanners />
           },
           {
-            path:"biolaselaser",
+            path: "biolaselaser",
             element: <BiolaseLaser />
           },
           {
-            path:"softtissuelasers",
+            path: "softtissuelasers",
             element: <SoftTissueLasers />
           },
           {
-            path:"bonegrafting",
+            path: "bonegrafting",
             element: <BoneGrafting />
           },
 
         ]
       },
       {
-        path: 'about/*',
+        path: 'about',
         element: <AboutPage />,
         children: [
           {
             index: true,
-            element: <div>Main About Page</div>
+            element: <Navigate to="occfad" />
           },
           {
-            path:"OCCFAD",
+            // index: true,
+            path: "OCCFAD",
             element: <OCCFAD />
           },
           {
-            path:"address",
+            path: "address",
             element: <Address />
           },
           {
-            path:"meetthedoctors",
+            path: "meetthedoctors",
             element: <MeettheDoctors />
           },
           {
-            path:"officetour",
+            path: "officetour",
             element: <OfficeTour />
           },
           {
-            path:"patientexperiences",
+            path: "patientexperiences",
             element: <PatientExperiences />
           },
 
         ]
-      },
-      {
-        path: 'sell',
-        element: <SellPage />,
-      },
-      {
-        path: 'news',
-        element: <NewsPage />,
-      },
-      {
-        path: 'mortgage',
-        element: <Mortgage />,
       },
     ],
   },

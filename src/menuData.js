@@ -86,4 +86,16 @@ export const menuData = [
 
     ],
   },
+  {
+    label: 'Insurance',
+    href: '',
+    children: [
+      {
+        heading: 'We are in network for Medicare and most Dental insurances ',
+        submenu: [
+        
+        ],
+      }
+    ],
+  },
 ];

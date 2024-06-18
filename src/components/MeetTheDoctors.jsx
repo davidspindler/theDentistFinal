@@ -3,7 +3,7 @@ import './MeetTheDoctors.css'
 const meettheDoctorsData = {
     mainTitleText: 'Meet the Doctors',
     title: 'Who are we?',
-    description: `We are a team dedicated to bringing you quality service in Orange County. `,
+    description: `We are a dedicated team committed to providing exceptional quality service to our valued clients in Orange County, ensuring that each visit exceeds your expectations and contributes to your overall well-being and satisfaction. `,
     
 
 
