@@ -56,7 +56,7 @@ const Threedimagectscans = () => {
         <>
      
    <GenericServiceComponent {...threedimagectscansData}/>
-   <div className="container3">
+   <div className="cardImplantTreatment">
    We use state-of-the-art, full-cranial cone-beam CT technology that provides highly accurate 3-D
 radiographic images for the diagnosis, planning and treatment of oral surgery and implants.
    </div>

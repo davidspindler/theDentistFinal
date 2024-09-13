@@ -66,7 +66,7 @@ const RootCanals = () => {
         <>
      
    <GenericServiceComponent {...rootCanalsData}/>
-   <div>
+   <div className="cardRootCanals">
    Root canal treatment is a common and highly successful procedure. It is essential to seek prompt dental
 care if one experiences symptoms such as severe toothache, swelling, or sensitivity, as these may
 indicate the need for a root canal. Sometimes the longevity of the saved tooth is also taken into

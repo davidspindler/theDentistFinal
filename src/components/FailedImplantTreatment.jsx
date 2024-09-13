@@ -42,7 +42,7 @@ const FailedImplantTreatment = () => {
         <>
      
    <GenericServiceComponent {...failedImplantTreatmentData}/>
-   <div className="container3 padding-20">Treatment for a failed dental implant can vary depending on the cause of the failure. In some cases, the
+   <div className="cardImplantTreatment">Treatment for a failed dental implant can vary depending on the cause of the failure. In some cases, the
 implant may simply need to be cleaned and the surrounding tissues treated. In other cases, the implant
 may need to be removed and replaced.
 We’re your source for treating a failed implant in Orange County. Our team is highly skilled at restoring

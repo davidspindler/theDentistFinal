@@ -444,3 +444,48 @@ MEDIA QUERIES
     max-width: 1280px;
   }
 }
+.navbar_logo {
+  border: 2px solid white;
+}
+.cardGumTreatment {
+  max-width: 100%;
+  /* margin: 50px auto; */
+  padding: 20px;
+  background-color: #ade8f4;
+  /* border-radius: 10px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.cardGumTreatment div {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.cardImplantTreatment {
+  max-width: 100%;
+  /* margin: 50px auto; */
+  padding: 20px;
+  background-color: #ade8f4;
+  /* border-radius: 10px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.cardImplantTreatment div {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.cardBoneGrafting {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ade8f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.cardBoneGrafting div {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}

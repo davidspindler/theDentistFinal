@@ -4,12 +4,14 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className='containerFooter'>
-                <div>
-                <div>logo</div>
-
-                <div>OC Center for Advanced Therapy</div>
+                <div class="containerLogo">
+                    <img src="/OC_Center_FAD.jpg" alt="OC CENTER LOGO" class="logo" />
+                    <div>OC Center for Advanced Therapy</div>
                 </div>
-            <div>Copyright 2024</div>
+                <div className='containerLogo'>
+
+                    <div>Copyright 2024</div>
+                </div>
             </div>
             <hr></hr>
             <div className="footer-content">
@@ -17,7 +19,7 @@ const Footer = () => {
                     <h3>Our Address</h3>
                     <p>3070 BRISTOL STREET SUITE 180</p>
                     <p>COSTA MESA, CA 92626</p>
-                    <p>Country</p>
+                    <p>United States</p>
                 </div>
                 <div className="footer-section contact">
                     <h3>Contact Us</h3>

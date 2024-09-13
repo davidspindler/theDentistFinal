@@ -42,7 +42,7 @@ const ToothExtractions = () => {
         <>
      
    <GenericServiceComponent {...toothExtractionsData}/>
-   <div>pic will go here</div>
+   {/* <div>pic will go here</div> */}
             </>
     );
   };

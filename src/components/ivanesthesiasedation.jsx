@@ -61,7 +61,7 @@ const Ivanesthesiasedation = () => {
         <>
      
    <GenericServiceComponent {...ivData}/>
-   <div className="container3">The patient will be provided with detailed information about what to expect before, during, and after
+   <div className="cardImplantTreatment">The patient will be provided with detailed information about what to expect before, during, and after
 the procedure by the doctor during consultation.</div>
             </>
     );

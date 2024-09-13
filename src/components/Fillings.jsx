@@ -59,10 +59,13 @@ const Fillings = () => {
         <>
      
    <GenericServiceComponent {...fillingsData}/>
-   <div>
+   <div className="cardFillings">
+    <div>
+
    The best type of filling depends on the location and size of the cavity, tooth structure left intact,
 structural integrity of the tooth, and cosmetic preferences. The dentist can discuss your options and
 recommend the best filling material for your individual needs.
+    </div>
    </div>
             </>
     );

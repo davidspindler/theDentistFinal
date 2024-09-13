@@ -39,15 +39,20 @@ const TeethWhitening = () => {
         <>
      {/* <h1>Teeth Whitening</h1> */}
    <GenericServiceComponent {...teethWhiteningData}/>
-   <div>Teeth whitening is a safe and effective way to brighten your smile. However, it&#39;s important to talk to
-your dentist before you start any type of whitening treatment. An experienced dentist can assess the
-condition of your teeth, recommend the most suitable method, and address any potential issues or
-sensitivity. Teeth whitening may not be effective for all types of discoloration and the dentist can help
-guide towards effective outcomes.</div>
-<div>Additionally, maintaining good oral hygiene practices, such as regular brushing, flossing, and dental
-check-ups, can contribute to overall oral health and help prevent future staining. Limiting the
-consumption of staining substances like coffee, tea, and tobacco can also help preserve the results of
-teeth whitening treatments.</div>
+   <div class="cardTeethWhitening">
+    <div>Teeth whitening is a safe and effective way to brighten your smile. However, it&#39;s important to talk to
+      your dentist before you start any type of whitening treatment. An experienced dentist can assess the
+      condition of your teeth, recommend the most suitable method, and address any potential issues or
+      sensitivity. Teeth whitening may not be effective for all types of discoloration and the dentist can help
+      guide towards effective outcomes.
+    </div>
+    <div>
+      Additionally, maintaining good oral hygiene practices, such as regular brushing, flossing, and dental
+      check-ups, can contribute to overall oral health and help prevent future staining. Limiting the
+      consumption of staining substances like coffee, tea, and tobacco can also help preserve the results of
+      teeth whitening treatments.
+    </div>
+  </div>
             </>
     );
   };

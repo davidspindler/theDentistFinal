@@ -63,8 +63,8 @@ const stages = [
           </ul>
           </div>
           </div>
-          <div className="container3">Our dental implants will restore your health and breathe new life into your smile.
-PICTURE FOR IMPLANTS</div>
+          <div className="cardImplantTreatment">Our dental implants will restore your health and breathe new life into your smile.
+</div>
             </>
     );
   };

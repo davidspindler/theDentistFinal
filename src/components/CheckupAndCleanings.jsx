@@ -141,7 +141,7 @@ const CheckupAndCleanings = () => {
   </div>
 
         </div>
-<div className="container3">
+<div className="cardImplantTreatment">
 It's crucial to attend regular dental checkups, usually recommended every six months, to catch potential
 issues early and maintain optimal oral health. If you have any specific questions or concerns about
 dental checkups and cleanings, feel let us know!

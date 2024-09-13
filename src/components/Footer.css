@@ -30,3 +30,24 @@
     justify-content: space-around;
     /* gap:20rem; */
 }
+
+.containerLogo {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the image and the text */
+    margin-bottom: 20px;
+    margin-left:10px;
+  }
+  
+  .logo {
+    width: 75px; /* Adjust as needed */
+    border: 2px solid white;
+    height: auto; /* Keeps the aspect ratio */
+  }
+  @media only screen and (max-width: 600px) {
+    .containerFooter {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start;
+      width: 100%;
+    }
+  }  

@@ -1,5 +1,5 @@
 import GenericServiceComponent from "./GenericServiceComponent";
-import './Fillings.css'
+import './FullMouthExtractions.css'
 const fullMouthExtractionsData = {
     mainTitleText: 'Full Mouth Extractions',
     title: 'What are Full Mouth Extractions?',
@@ -47,7 +47,7 @@ const FullMouthExtractions = () => {
         <>
      
    <GenericServiceComponent {...fullMouthExtractionsData}/>
-   <div>
+   <div className="cardFullMouthExtractions">
    The process of full mouth extractions typically involves a thorough examination, X-rays, and consultation
 with the dentist/surgeon. The procedure can be done either under local anesthesia or general
 anesthesia to ensure the patient's comfort and may be completed in one or more appointments,

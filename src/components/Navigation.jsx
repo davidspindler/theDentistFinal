@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Container from './Container';
 
-import logo from '../assets/logoipsum.svg';
+import logo from '/OC_Center_FAD.jpg';
 import UserProfile from './UserProfile';
 import { AlignJustify } from 'lucide-react';
 import MegaMenu from './MegaMenu';
@@ -27,7 +27,7 @@ const Navigation = () => {
             <AlignJustify />
           </button>
           <Link className="logo__link" to={'/'}>
-            <img src={logo} />
+            <img className='navbar_logo' src={logo} />
             <h2 className='logo_text'>OC Center for Advanced Dentistry</h2>
           </Link>
 
