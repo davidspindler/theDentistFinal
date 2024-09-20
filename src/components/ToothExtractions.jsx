@@ -33,7 +33,7 @@ const toothExtractionsData = {
         description: `A tooth that is severely fractured may need to be extracted.`,
       },
     ],
-    
+    imgSrc: '/ToothExtractions.mp4'
   };
 
 const ToothExtractions = () => {

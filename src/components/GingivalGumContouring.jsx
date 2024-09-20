@@ -44,6 +44,7 @@ const gingivalGumContouringData = {
         discomfort, swelling, and a quicker recovery compared to traditional methods.`,
       },
     ],
+    imgSrc: "/CrownLengthening.mp4"
    
   };
 

@@ -34,6 +34,7 @@ const failedImplantTreatmentData = {
         Insufficient jaw bone or improper placement can lead to implant failures.`,
       },
     ],
+    imgSrc: '/ImplantTreatment.jpg'
   };
 
 const FailedImplantTreatment = () => {

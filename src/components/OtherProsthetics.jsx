@@ -72,6 +72,7 @@ const otherProstheticsData = {
       },
      
     ],
+    imgSrc: '/OtherProsthetics.jpg'
   };
 
 const OtherProsthetics = () => {

@@ -51,6 +51,7 @@ const fillingsData = {
       },
      
     ],
+    imgSrc: "/Fillings.mp4"
   };
 
 const Fillings = () => {

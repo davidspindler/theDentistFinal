@@ -12,6 +12,7 @@ const flourideTreatmentsData = {
     It's important to note that fluoride is also available in toothpaste, mouthwash, and some drinking water
     supplies. The American Dental Association (ADA) and other dental health organizations recommend the
     use of fluoride products as part of a comprehensive oral care routine.`,
+    imgSrc: '/FlourideTreatment.jpg'
   };
 
 const FlourideTreatments = () => {

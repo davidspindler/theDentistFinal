@@ -38,7 +38,7 @@ const fullMouthExtractionsData = {
         recommended.`,
       },
     ],
-  
+    imgSrc: '/FullMouthExtractions.jpg'
   };
 
 const FullMouthExtractions = () => {

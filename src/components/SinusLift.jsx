@@ -37,7 +37,7 @@ const sinusLiftData = {
         description: ``,
       },
     ],
-    
+    imgSrc: '/SinusLift.mp4'
   };
 
 const SinusLift = () => {

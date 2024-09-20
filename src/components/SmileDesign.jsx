@@ -75,6 +75,7 @@ const smileDesignData = {
             appearance of the smile.`,
           },
     ],
+    imgSrc: '/SmileDesignPic.jpg'
   };
 
 const SmileDesign = () => {

@@ -60,7 +60,7 @@ const checkupAndCleaningsData = {
         },
        
     ],
-
+   imgSrc: '/CheckupandCleanings.jpg'
      
   };
 

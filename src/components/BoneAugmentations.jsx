@@ -50,6 +50,7 @@ const boneAugmentationsData = {
     
      
     ],
+    imgSrc: '/BoneAug.mp4'
   };
 
 const BoneAugmentations = () => {

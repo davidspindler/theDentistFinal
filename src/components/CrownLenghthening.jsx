@@ -34,6 +34,7 @@ const crownLengtheningData = {
         correct biological width when it has been compromised due to various reasons.`,
       },
     ],
+    imgSrc: "/CrownLengthening.mp4"
   };
 
 const CrownLengthening = () => {

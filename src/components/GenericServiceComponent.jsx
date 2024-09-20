@@ -102,7 +102,11 @@ const GenericServiceComponent = ({
       };
     
       const { title: sidebarTitle, links: sidebarLinks } = getSidebarTitleAndLinks();
-
+      const isVideo = (imgSrc) => {
+        const videoExtensions = ['mp4', 'webm', 'ogg'];
+        const extension = imgSrc.split('.').pop().toLowerCase();
+        return videoExtensions.includes(extension);
+      };
   return (
     <>
     <div className="container2">
@@ -136,7 +140,14 @@ const GenericServiceComponent = ({
               <h2>{title}</h2>
               <p>{description}</p>
             </div>
-            <img src={imgSrc}alt={`Image for ${mainTitleText}`} className="responsive-image padding-20" />
+            {imgSrc && (isVideo(imgSrc) ? (
+        <video className="responsive-video padding-20" controls>
+          <source src={imgSrc} type={`video/${imgSrc.split('.').pop()}`} />
+          Your browser does not support the video tag.
+        </video>
+      ) : (
+        <img src={imgSrc} alt={`Image for ${mainTitleText}`} className="responsive-image padding-20" />
+      ))}
           </div>
       
         </div>

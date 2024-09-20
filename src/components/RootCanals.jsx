@@ -58,6 +58,7 @@ const rootCanalsData = {
       },
      
     ],
+    imgSrc: "/RootCanals.jpg"
   };
 
 const RootCanals = () => {

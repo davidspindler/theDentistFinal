@@ -31,6 +31,7 @@ const teethWhiteningData = {
         concentration of peroxide. You wear the trays for a specified time period each day.`,
       }
     ],
+    imgSrc: '/TeethWhitening.jpg'
   };
 
 const TeethWhitening = () => {

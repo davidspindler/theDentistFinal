@@ -45,6 +45,7 @@ const allOnXData = {
     
         
     ],
+    imgSrc: '/AllOnXAllOn4s.jpg'
    
   };
 

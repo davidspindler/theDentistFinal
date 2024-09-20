@@ -7,7 +7,7 @@ const sealantsData = {
     coatings that are painted onto the chewing surfaces of the back teeth (molars and premolars). Once
     applied, they harden and form a shield that keeps out food particles and bacteria, which can cause
     cavities.`,
-   
+    imgSrc: '/DentalSealants.jpg'
   };
 
 const Sealants = () => {

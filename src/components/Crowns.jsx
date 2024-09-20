@@ -51,6 +51,7 @@ const crownsData = {
       },
      
     ],
+    imgSrc: '/Crowns.mp4'
   };
 
 const Crowns = () => {

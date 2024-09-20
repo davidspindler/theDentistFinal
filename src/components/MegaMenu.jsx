@@ -4,7 +4,7 @@ import MenuItem from './MenuItem';
 const MegaMenu = ({ handleToggle, clicked, setIsDrawerOpen }) => {
   return (
     <div className="nav__container">
-      <nav>
+      <nav className='navBoxContainer'>
         <ul>
           {menuData.map(({ label, href, children }, index) => {
             return (

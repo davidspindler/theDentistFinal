@@ -49,6 +49,7 @@ const gumTreatmentData = {
     
     
     ],
+    imgSrc: '/BoneAug.mp4'
   };
 
 const GumTreatment = () => {

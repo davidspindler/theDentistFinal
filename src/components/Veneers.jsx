@@ -60,6 +60,7 @@ const veneersData = {
     //   },
      
     // ],
+    imgSrc: '/Veneers.mp4'
   };
 
 const Veneers = () => {

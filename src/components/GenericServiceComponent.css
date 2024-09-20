@@ -173,6 +173,15 @@
     margin: auto;
     object-fit: cover; /* Ensures the image covers the given area without distortion */
   }
+  .responsive-video {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    max-height: 300px;
+    display: block;
+    margin: auto;
+    object-fit: cover; /* Ensures the video covers the given area without distortion */
+}
   .styled-image {
     width: 100%;
     max-width: 200px;

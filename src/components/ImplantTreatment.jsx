@@ -30,7 +30,7 @@ const implantTreatmentData = {
     
     
     ],
-    
+    imgSrc: '/ImplantTreatment.jpg'
   };
 
 const ImplantTreatment = () => {
