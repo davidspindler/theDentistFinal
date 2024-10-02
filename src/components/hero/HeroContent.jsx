@@ -15,7 +15,7 @@ const HeroContent = ({ imageSrc = defaultBanner, children }) => {
     // </div>
     <div className="hero-container">
          
-            <video className="hero-video" width="500" height="500" autoPlay loop muted>
+            <video className="hero-video" width="500" height="500" autoPlay playsInline loop muted>
                 <source src="/vid.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
