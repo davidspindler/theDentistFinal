@@ -19,7 +19,7 @@
   }
   
   .sidebar {
-    width: 30%;
+    width: 20%;
     background-color: #ade8f4;
     padding: 20px;
     /* height: 100vh; */
@@ -237,3 +237,7 @@
       flex-direction: column;
     } */
   }
+  .styled-content-backwards {
+    display:flex;
+    flex-direction: column-reverse; 
+  } 

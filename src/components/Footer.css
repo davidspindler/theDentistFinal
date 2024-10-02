@@ -1,5 +1,6 @@
 .footer {
-    background-color: #50B8E7; /* Sky blue color */
+    /* background-color: #50B8E7; Sky blue color */
+    background-color: #0B75BC; /* Sky blue color */
     color: white;
     padding: 20px 0;
 }
@@ -40,7 +41,8 @@
   }
   
   .logo {
-    width: 75px; /* Adjust as needed */
+    margin: 20px;
+    width: 150px; /* Adjust as needed */
     border: 2px solid white;
     height: auto; /* Keeps the aspect ratio */
   }
@@ -51,3 +53,28 @@
       width: 100%;
     }
   }  
+  .legal-button {
+    background-color: #3498db; /* Light blue */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .legal-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  .legal-button:active {
+    background-color: #1c598a; /* Even darker on click */
+    transform: translateY(1px); /* Slight press effect */
+  }
+  
+  .legal-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5); /* Focus ring */
+  }

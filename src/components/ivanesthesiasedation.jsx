@@ -1,8 +1,8 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 // import './implantTreatment.css'
 const ivData = {
-    mainTitleText: 'IV Anesthesia Sedation',
-    title: 'What is IV Anesthesia Sedation?',
+    mainTitleText: 'Moderate Sedation',
+    title: 'What is Moderate Sedation?',
     description: `In dentistry, IV (intravenous) anesthesia sedation is a form of sedation used to help patients relax and
     remain comfortable during dental procedures.`,
     sectionOneTitle: 'Some important points include:',

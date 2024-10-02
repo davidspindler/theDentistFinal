@@ -2,6 +2,7 @@ import './GenericServiceComponent.css';
 // import { BookCheck } from 'lucide-react';
 import { useLocation, Link } from 'react-router-dom';
 import React from 'react';
+import parse, {domToReact} from 'html-react-parser'
 
 
 const SIDEBAR_CONFIG = {
@@ -36,30 +37,42 @@ const SIDEBAR_CONFIG = {
       { path: '/services/flouridetreatments', label: 'Flouride Treatments' },
     ],
     'Sedation': [
-      { path: '/services/ivanesthesiasedation', label: 'IV Anesthesia Sedation' },
+      { path: '/services/moderatesedation', label: 'Moderate Sedation' },
       { path: '/services/oralsedation', label: 'Oral Sedation' },
     ],
     'Technological Advancements': [
       { path: '/services/3dimagectscans', label: '3D Image / CT Scans' },
       { path: '/services/intraoralscanners', label: 'Intraoral Scanners' },
-      { path: '/services/biolaselaser', label: 'Biolase Laser' },
+      // { path: '/services/biolaselaser', label: 'Biolase Laser' },
       { path: '/services/softtissuelasers', label: 'Soft Tissue Lasers' },
-      { path: '/services/bonegrafting', label: 'Bone Grafting' },
+      // { path: '/services/bonegrafting', label: 'Bone Grafting' },
     ],
     'More About Us': [
-        { path: '/about/occfad', label: 'OCCFAD' },
+        // { path: '/about/occfad', label: 'OCCFAD' },
         { path: '/about/meetthedoctors', label: 'Meet the Doctors' },
-        { path: '/about/address', label: 'Address / Google Maps' },
-        { path: '/about/officetour', label: 'Office Tour' },
-        { path: '/about/patientexperiences', label: 'Patient Experiences' },
+        { path: '/about/address', label: 'Google Maps and Parking' },
+        // { path: '/about/officetour', label: 'Office Tour' },
+        // { path: '/about/patientexperiences', label: 'Patient Experiences' },
       ],
   };
 
 const GenericServiceComponent = ({ 
   mainTitleText, title, description, sectionOneTitle, sectionOneData, 
-  sectionTwoTitle, sectionTwoData, sectionThreeData, sectionThreeTitle, sectionFourData, sectionFourTitle, imgSrc 
+  sectionTwoTitle, sectionTwoData, sectionThreeData, sectionThreeTitle, sectionFourData, sectionFourTitle, imgSrc, descriptionToBeParsed, AdditionalComponent 
 }) => {
-
+  const handleBlurb = () => {
+    return parse(descriptionToBeParsed, {
+      replace: (domNode) => {
+        if (domNode.name === 'ul') {
+          return (
+            <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+              {domToReact(domNode.children)}
+            </ul>
+          );
+        }
+    }
+  })
+  };
     const location = useLocation();
     const createListFromString = (htmlString) => {
         const container = document.createElement('div');
@@ -135,10 +148,12 @@ const GenericServiceComponent = ({
     <h1 className='main-title-text'>{mainTitleText}</h1>
     }
         
-          <div className="styled-content">
+          <div className={`${AdditionalComponent ? 'styled-content-backwards' : 'styled-content'}`}>
             <div className="padding-20">
-              <h2>{title}</h2>
-              <p>{description}</p>
+             {title && <h2>{title}</h2>} 
+             {description &&  <p>{description}</p> }
+              {AdditionalComponent && <AdditionalComponent />}
+              {descriptionToBeParsed && handleBlurb()}
             </div>
             {imgSrc && (isVideo(imgSrc) ? (
         <video className="responsive-video padding-20" controls>

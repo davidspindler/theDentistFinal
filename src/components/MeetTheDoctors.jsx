@@ -1,21 +1,15 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 import './MeetTheDoctors.css'
+import parse from 'html-react-parser';
 const meettheDoctorsData = {
     mainTitleText: 'Meet the Doctors',
-    title: 'Who are we?',
-    description: `We are a dedicated team committed to providing exceptional quality service to our valued clients in Orange County, ensuring that each visit exceeds your expectations and contributes to your overall well-being and satisfaction. `,
-    
-
-
   };
 
 const MeettheDoctors = () => {
-
+  const HandleMeetDoctors = () => {
     return (
-        <>
-     
-   <GenericServiceComponent {...meettheDoctorsData}/>
-   <div className="team-info-container">
+      <>
+      <div className="team-info-container">
     <div className="team-member">
       <h2>Divya Peddireddy, DDS, MS</h2>
       <p>
@@ -30,7 +24,7 @@ on the Clinical Advisory Board of one of the nation’s largest dental service p
 aesthetic, and preventive dentistry. She has completed multiple fellowships across various disciplines in
 the field of dentistry.
       </p>
-      <ul>
+      <ul className="list-style-disc">
         <li>Periodontal fellowship with International Academy of Dental Implantology</li>
         <li>Implant fellowship with International Academy of Dental Implantology</li>
         <li>Sedation fellowship with International Academy of Dental Implantology</li>
@@ -50,7 +44,7 @@ suppression, diabetes, etc., and is happy to hear patients commonly express joy 
 experiences:
 
       </p>
-      <ul>
+      <ul className="list-style-disc">
         <li>The lack of trauma and dexterity with which she carries out complex teeth extractions and the
 resulting quick recovery.</li>
 <li>
@@ -66,37 +60,15 @@ Smiles designed and delivered that reflect patient’s objectives.
 restaurant scene in the Orange County area, cooking at home, outdoor activities like hiking, going to the
 beach, and watching her son in Taekwondo and swimming sessions.
       </p>
+    </div> 
     </div>
-
-    {/* <div className="team-member">
-      <h2>Dr. Kevin Uyesugi, DDS</h2>
-      <p>
-        Dr. Kevin Uyesugi has been practicing general dentistry for over 30 years. He graduated with DDS from the University of Pacific in 1990. He is known for his conservative approach to dentistry and expertise in leveraging gold in dental procedures.
-      </p>
-      <p>
-        Dr. Uyesugi was a varsity level wrestler in college and enjoys playing basketball in his spare time. He also takes pleasure in watching his son play college basketball in Oregon.
-      </p>
-    </div>
-
-    <div className="team-member">
-      <h2>Dr. Teruo Yamamoto, DDS</h2>
-      <p>
-        Dr. Teruo Yamamoto provided exceptional dental care for over 40 years to patients in the Orange County area before mostly retiring. He kept himself abreast of technology and served as the chief dentist to the Superbowl winning Rams team in 1978.
-      </p>
-    </div>
-
-    <div className="team-member">
-      <h2>Rebecca Martinez – Patient Care Administration Manager</h2>
-    </div>
-
-    <div className="team-member">
-      <h2>Shahana – Patient Care Administrator</h2>
-    </div>
-
-    <div className="team-member">
-      <h2>Louis Martinez - Registered Dental Assistant</h2>
-    </div> */}
-  </div>
+      </>
+    )
+  };
+    return (
+        <>
+     
+   <GenericServiceComponent {...meettheDoctorsData} AdditionalComponent={HandleMeetDoctors}/>
             </>
     );
   };

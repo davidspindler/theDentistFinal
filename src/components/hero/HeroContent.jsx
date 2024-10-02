@@ -19,13 +19,34 @@ const HeroContent = ({ imageSrc = defaultBanner, children }) => {
                 <source src="/vid.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
-            <div className="hero-content">
+            {/* <div className="hero-content">
               
                 <h1 className='hero-title'>
-                Bringing Joy to patients through technology driven high skilled, comprehensive and economically valued dentistry.
+                Our mission is to bring joy to patients through
+                <ul className='list-style-disc'>
+                  <li>High Skilled Dentistry</li>
+                  <li>Advanced Technology</li>
+                  <li>Economically Valuable Patient Care</li>
+                </ul>
                   </h1>
-                {/* <p className='hero-desc'>We are dedicated to bringing you services that will give you value and keep your smile clean</p> */}
-            </div>
+            
+            </div> */}
+            <div className="hero-content">
+  {/* <div className="hero-title-container">
+    <h1 className='hero-title'>
+      Our mission is to bring joy to patients through:
+    </h1>
+      <div className="vertical-line"></div>
+    <div className='hero-list-container'>
+      <ul className='hero-list'>
+        <li>High Skilled Dentistry</li>
+        <li>Advanced Technology</li>
+        <li>Economically Valuable Patient Care</li>
+      </ul>
+    </div>
+  </div> */}
+</div>
+<div>HELLO TEXT HERE LOREM30</div>
         </div>
   );
 };

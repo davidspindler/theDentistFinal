@@ -13,7 +13,7 @@ const DropdownContent = ({
           <section>
             <h4>{item.heading}</h4>
             <ul>
-              {item.submenu.map(({ label, href }, index) => (
+              {item.submenu?.map(({ label, href }, index) => (
                 <li
                   key={index}
                   onClick={() => {

@@ -51,6 +51,7 @@ import Address from './components/Address';
 import MeettheDoctors from './components/MeetTheDoctors';
 import OfficeTour from './components/OfficeTour';
 import PatientExperiences from './components/PatientExperiences';
+import LegalDisclaimers from './components/PrivacyPolicy';
 const services = [
   {
     title: 'Cosmetic and Restorative Dentistry',
@@ -104,6 +105,11 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <HomePage />,
+      },
+      {
+        path: 'privacypolicy',
+        element: <LegalDisclaimers />,
+
       },
       {
         path: 'services',
@@ -209,7 +215,7 @@ const router = createBrowserRouter([
             element: <FlourideTreatments />
           },
           {
-            path: "ivanesthesiasedation",
+            path: "moderatesedation",
             element: <Ivanesthesiasedation />
           },
           {
@@ -232,10 +238,10 @@ const router = createBrowserRouter([
             path: "softtissuelasers",
             element: <SoftTissueLasers />
           },
-          {
-            path: "bonegrafting",
-            element: <BoneGrafting />
-          },
+          // {
+          //   path: "bonegrafting",
+          //   element: <BoneGrafting />
+          // },
 
         ]
       },

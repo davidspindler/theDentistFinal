@@ -6,7 +6,7 @@ const MegaMenu = ({ handleToggle, clicked, setIsDrawerOpen }) => {
     <div className="nav__container">
       <nav className='navBoxContainer'>
         <ul>
-          {menuData.map(({ label, href, children }, index) => {
+          {menuData?.map(({ label, href, children }, index) => {
             return (
               <MenuItem
                 key={index}

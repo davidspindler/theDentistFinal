@@ -1,0 +1,72 @@
+.bone-augmentation-wrapper {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d1d8ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section titles */
+  .bone-augmentation-title, .bone-grafting-title {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+  }
+  
+  /* Description paragraphs */
+  .bone-augmentation-description, .bone-grafting-description, .bone-grafting-success {
+    font-size: 16px;
+    color: #34495e;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Card container */
+  .bone-augmentation-reasons, .grafting-types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Individual cards */
+  .reason-card, .graft-card {
+    background-color: #1435c5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: calc(50% - 20px); /* Two cards per row */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .reason-card:hover, .graft-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Card titles */
+  .reason-title, .graft-title {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  /* Card descriptions */
+  .reason-description, .graft-description {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.5;
+  }
+  
+  /* Sub headers */
+  .grafting-types-title {
+    font-size: 22px;
+    color: #2c3e50;
+    margin: 20px 0 10px;
+    text-align: center;
+  }

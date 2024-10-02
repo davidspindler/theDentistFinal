@@ -2,16 +2,16 @@ export const menuData = [
   { label: 'Home', href: '/' },
   {
     label: 'Meet Us',
-    href: '/about',
+    href: '/about/meetthedoctors',
     children: [
       {
         heading: 'More about us',
         submenu: [
-          { label: 'About OCCFAD', href: '/about/occfad' },
+          // { label: 'About OCCFAD', href: '/about/occfad' },
           { label: 'Meet the Doctors', href: '/about/meetthedoctors' },
-          { label: 'Address / Google Map / Location Dot', href: 'about/address' },
-          { label: 'Office Tour (location / building / how to access / photos)', href: 'about/officetour' },
-          { label: 'Patient Experiences', href: '/about/patientexperiences' }
+          { label: 'Google Maps and Parking', href: 'about/address' },
+          // { label: 'Office Tour (location / building / how to access / photos)', href: 'about/officetour' },
+          // { label: 'Patient Experiences', href: '/about/patientexperiences' }
         ],
       }
     ],
@@ -69,7 +69,7 @@ export const menuData = [
       {
         heading: 'Sedation',
         submenu: [
-          { label: 'IV Anesthesia Sedation', href: '/services/ivanesthesiasedation' },
+          { label: 'Moderate Sedation', href: '/services/moderatesedation' },
           { label: 'Oral Sedation', href: '/services/oralsedation' }
         ],
       },
@@ -78,9 +78,9 @@ export const menuData = [
         submenu: [
           { label: '3D Image / CT Scans', href: '/services/3dimagectscans' },
           { label: 'Intraoral Scanners', href: '/services/intraoralscanners' },
-          { label: 'Biolase Laser', href: '/services/biolaselaser' },
+          // { label: 'Biolase Laser', href: '/services/biolaselaser' },
           { label: 'Soft Tissue Lasers', href: '/services/softtissuelasers' },
-          { label: 'Bone Grafting', href: '/services/bonegrafting' }
+          // { label: 'Bone Grafting', href: '/services/bonegrafting' }
         ],
       },
 
@@ -91,7 +91,7 @@ export const menuData = [
     href: '',
     children: [
       {
-        heading: 'We are in network for Medicare and most Dental insurances ',
+        heading: 'MEDICARE: We are in the network for MEDICARE, all PPO insurances and most HMO insurances.',
         submenu: [
         
         ],

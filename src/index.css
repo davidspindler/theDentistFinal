@@ -10,11 +10,12 @@
   --mainColor: #2b2b2b;
   --borderColor: #cacaca;
   --navbarText: #fff;
+  --navBarFooter: #0B75BC;
 }
 
 body,
 :root {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Calibri', sans-serif;
 }
 
 /* ================================ 
@@ -64,7 +65,7 @@ End Global
 .nav__header {
   position: static;
   height: 120px;
-  background-color: #50B8E7;
+  background-color: var(--navBarFooter);
   /* border-bottom: 1px solid var(--borderColor); */
 }
 
@@ -173,7 +174,7 @@ End Global
 }
 
 .dropdown {
-  background-color: #50B8E7;
+  background-color: #215273;
   box-shadow: 25px 24px 74px 18px rgba(0, 0, 0, .15);
 }
 
@@ -290,7 +291,8 @@ Mobile
   background-color: white;
 }
 .logo_text {
-  color: var(--navbarText);
+  /* color: var(--navbarText); */
+  color:#ffffff !important;
   width: 10rem;
   font-size: 16px;
   padding-left: 1rem;
@@ -453,7 +455,8 @@ MEDIA QUERIES
     left: 0;
     bottom: 0;
     width: 100%;
-    border-bottom: 2px solid var(--navbarText);
+    /* border-bottom: 2px solid var(--navbarText); */
+    border-bottom: 2px solid #f1cd71;
     /* transition: 0.5s ease-in-out; */
     /* transform: translateY(50%); */
    
