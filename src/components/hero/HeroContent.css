@@ -58,8 +58,11 @@
 
 .hero-title-container {
     display: flex;
+    width: 100% !important;
+    font-size:25px;
+    font-weight: bold;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
     padding: 20px;
     border-radius: 10px; /* Optional: rounded corners */

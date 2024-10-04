@@ -15,7 +15,7 @@ const Navigation = () => {
 
   return (
     <header className="nav__header">
-      <Container>
+      {/* <Container> */}
         <div className="toolbar">
           <button
             ref={drawerButtonRef}
@@ -43,7 +43,7 @@ const Navigation = () => {
             />
           </div>
         </div>
-      </Container>
+      {/* </Container> */}
     </header>
   );
 };

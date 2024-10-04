@@ -83,6 +83,7 @@ End Global
   align-items: center;
   justify-content: space-between;
   gap: 3rem;
+  padding: 10px;
   height: 120px;
   /* background-color: blue; */
 }
@@ -125,7 +126,7 @@ End Global
 .nav_item_content a {
   color:var(--navbarText);
   width: 100%;
-  font-size: 14.5px;
+  font-size: 20px;
   font-weight: 500;
   padding-inline: 1rem;
   display: flex;
@@ -409,7 +410,7 @@ MEDIA QUERIES
     line-height: 120px;
   }
 .navBoxContainer {
-  width: 400px;
+  /* width: 400px; */
 }
   .nav_item_content {
     border-style: none;
@@ -425,7 +426,7 @@ MEDIA QUERIES
   }
 
   .register {
-    margin-left: auto;
+    /* margin-left: auto; */
   }
 
   .dropdown {
@@ -530,7 +531,7 @@ MEDIA QUERIES
   line-height: 1.6;
 }
 @media (min-width: 1600px) {
-  .navBoxContainer {
+  /* .navBoxContainer {
     margin-left: 2rem;
-  }
+  } */
 }
