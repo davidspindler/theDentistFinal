@@ -3,6 +3,9 @@
     background-color: #0B75BC; /* Sky blue color */
     color: white;
     padding: 20px 0;
+    flex-grow: 1; /* This allows the main section to take up remaining height */
+  display: flex; /* Optionally, if you want the content inside the main to have flex properties */
+  flex-direction: column; /* Keeps any inner elements in a column layout */
 }
 
 .footer-content {
@@ -11,6 +14,7 @@
     justify-content: space-around;
     max-width: 1200px;
     margin: 0 auto;
+    /* margin-top: auto; */
 }
 
 .footer-section {

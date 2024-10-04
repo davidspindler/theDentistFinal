@@ -16,7 +16,25 @@
 body,
 :root {
   font-family: 'Calibri', sans-serif;
+  /* border: 3px solid green;
+  min-height: 100vh; */
 }
+
+.layout-styles-1 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* border: 3px solid red; */
+}
+.main-content-2 {
+  flex-grow: 1; /* This allows the main section to take up remaining height */
+  display: flex; /* Optionally, if you want the content inside the main to have flex properties */
+  flex-direction: column; /* Keeps any inner elements in a column layout */
+}
+/* .main {
+  flex-grow: 1;
+} */
+/* Main Content */
 
 /* ================================ 
 Global
@@ -68,7 +86,17 @@ End Global
   background-color: var(--navBarFooter);
   /* border-bottom: 1px solid var(--borderColor); */
 }
-
+/* @media (min-width: 1600px) {
+ 
+  .nav__header {
+   
+   height: 200px;
+  }
+  .toolbar {
+    height: 200px !important;
+  }
+  
+} */
 .container {
   width: 100%;
   /* max-width: 1280px; */
@@ -187,6 +215,7 @@ End Global
   font-weight: 700;
   line-height: 1.25rem;
   color:white;
+  font-size: 18px;
   margin-top: 0.75rem;
 }
 
@@ -197,6 +226,7 @@ End Global
 .dropdown_content li a {
   color: var(--navbarText);
   font-weight: 400;
+  font-size: 16px;
 }
 
 /* ================================ 
@@ -351,6 +381,7 @@ MEDIA QUERIES
 
   
 }
+
 @media (max-width: 374px) {
  
   .styled-image2 {
@@ -360,6 +391,7 @@ MEDIA QUERIES
   }
   
 }
+
 
 
 @media (min-width: 996px) {
