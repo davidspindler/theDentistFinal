@@ -85,9 +85,9 @@ const Veneers = () => {
           <div className="veneers-benefits">
       <div className="section">
       <h2 className="section-title">Benefits of Veneers</h2>
-      <ul className="card-list">
+      <ul className="">
       {benefits.map((benefit, index) => (
-          <li className="card" key={index}>
+          <li className="" key={index}>
           <div className="card-content">
           <p className="card-description">{benefit}</p>
           </div>
@@ -98,9 +98,9 @@ const Veneers = () => {
           
           <div className="section">
           <h2 className="section-title">Considerations for Veneers</h2>
-          <ul className="feature-list">
+          <ul className="">
           {considerations.map((consideration, index) => (
-              <li className="feature" key={index}>
+              <li className="" key={index}>
               <div className="feature-content">
               <p className="feature-description">{consideration}</p>
               </div>

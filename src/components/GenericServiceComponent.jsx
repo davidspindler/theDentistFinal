@@ -47,13 +47,13 @@ const SIDEBAR_CONFIG = {
       { path: '/services/softtissuelasers', label: 'Soft Tissue Lasers' },
       // { path: '/services/bonegrafting', label: 'Bone Grafting' },
     ],
-    'More About Us': [
-        // { path: '/about/occfad', label: 'OCCFAD' },
-        { path: '/about/meetthedoctors', label: 'Meet the Doctors' },
-        { path: '/about/address', label: 'Google Maps and Parking' },
-        // { path: '/about/officetour', label: 'Office Tour' },
-        // { path: '/about/patientexperiences', label: 'Patient Experiences' },
-      ],
+    // 'More About Us': [
+    //     // { path: '/about/occfad', label: 'OCCFAD' },
+    //     { path: '/about/meetthedoctors', label: 'Meet the Doctors' },
+    //     { path: '/about/address', label: 'Google Maps and Parking' },
+    //     // { path: '/about/officetour', label: 'Office Tour' },
+    //     // { path: '/about/patientexperiences', label: 'Patient Experiences' },
+    //   ],
   };
 
 const GenericServiceComponent = ({ 
@@ -115,6 +115,8 @@ const GenericServiceComponent = ({
       };
     
       const { title: sidebarTitle, links: sidebarLinks } = getSidebarTitleAndLinks();
+      console.log(sidebarTitle)
+      const isSidebar = sidebarTitle == "Sidebar"
       const isVideo = (imgSrc) => {
         const videoExtensions = ['mp4', 'webm', 'ogg'];
         const extension = imgSrc.split('.').pop().toLowerCase();
@@ -125,6 +127,8 @@ const GenericServiceComponent = ({
     <div className="container2">
 
     <div className="generic-service-component">
+      {!isSidebar &&
+      
       <div className="sidebar">
         <h2>{sidebarTitle}</h2>
         <ul>
@@ -141,6 +145,7 @@ const GenericServiceComponent = ({
         </ul>
         {/* Add sidebar content here */}
       </div>
+}
       <div className="main-content">
         <div className="smile-design">
       {
@@ -179,9 +184,9 @@ const GenericServiceComponent = ({
 
                 <div className="section">
                 <h2 className="section-title">{sectionOneTitle}</h2>
-                <ul className="card-list">
+                <ul className="">
                 {sectionOneData?.map((item, index) => (
-                    <li className="card" key={index}>
+                    <li className="" key={index}>
                     <div className="card-content">
                     <h3 className="card-title">{item.title}</h3>
                     <p className="card-description">{createListFromString(item.description)}</p>
@@ -199,9 +204,9 @@ const GenericServiceComponent = ({
                     
                     <div className="section">
                     <h2 className="section-title">{sectionTwoTitle}</h2>
-                    <ul className="feature-list">
+                    <ul className="">
                     {sectionTwoData.map((item, index) => (
-                        <li className="feature" key={index}>
+                        <li className="" key={index}>
                         <div className="feature-content">
                         <h3 className="feature-title">{item.title}</h3>
                         <p className="feature-description">{createListFromString(item.description)}</p>
@@ -219,12 +224,12 @@ const GenericServiceComponent = ({
 
                     <div className="section">
                     <h2 className="section-title">{sectionThreeTitle}</h2>
-                    <ul className="feature-list">
+                    <ul className="">
                     {sectionThreeData?.map((item, index) => (
-                        <li className="feature" key={index}>
-                        <div className="feature-content">
-                        <h3 className="feature-title">{item.title}</h3>
-                        <p className="feature-description">{item.description}</p>
+                        <li className="" key={index}>
+                        <div className="">
+                        <h3 className="">{item.title}</h3>
+                        <p className="">{item.description}</p>
                         </div>
                         </li>
                         ))}
@@ -237,10 +242,10 @@ const GenericServiceComponent = ({
 
                     <div className="section">
                     <h2 className="section-title">{sectionFourTitle}</h2>
-                    <ul className="feature-list">
+                    <ul className="">
                     {sectionFourData?.map((item, index) => (
-                        <li className="feature" key={index}>
-                        <div className="feature-content">
+                        <li className="" key={index}>
+                        <div className="">
                         <h3 className="feature-title">{item.title}</h3>
                         <p className="feature-description">{item.description}</p>
                         </div>

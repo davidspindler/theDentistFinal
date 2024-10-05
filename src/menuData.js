@@ -8,8 +8,8 @@ export const menuData = [
         heading: 'More about us',
         submenu: [
           // { label: 'About OCCFAD', href: '/about/occfad' },
-          { label: 'Meet the Doctors', href: '/about/meetthedoctors' },
-          { label: 'Google Maps and Parking', href: 'about/address' },
+          { label: 'Meet Us, Address', href: '/about/meetthedoctors' },
+          // { label: 'Google Maps and Parking', href: 'about/address' },
           // { label: 'Office Tour (location / building / how to access / photos)', href: 'about/officetour' },
           // { label: 'Patient Experiences', href: '/about/patientexperiences' }
         ],
@@ -20,23 +20,6 @@ export const menuData = [
     label: 'Patient Care Services',
     href: '/services',
     children: [
-      {
-        heading: 'Cosmetic and Restorative Dentistry',
-        submenu: [
-          { label: 'Smile Design', href: '/services/smiledesign' },
-          {
-            label:
-              'Veneers',
-            href: '/services/veneers',
-          },
-          { label: 'Crowns', href: '/services/crowns' },
-          { label: 'Teeth Whitening', href: '/services/teethwhitening' },
-          { label: 'Crown Lengthening', href: '/services/crownlengthening' },
-          { label: 'Gingival/Gum Contouring', href: '/services/gingivalgumcontouring' },
-          { label: 'Fillings (Resin and porcelain)', href: '/services/fillings' },
-          { label: 'Root Canals', href: '/services/rootcanals' },
-        ],
-      },
       {
         heading: 'Oral and Perio Surgery',
         submenu: [
@@ -58,6 +41,31 @@ export const menuData = [
           { label: 'Other Prosthetics', href: '/services/otherprosthetics' }
         ],
       },
+      
+      {
+        heading: 'Sedation',
+        submenu: [
+          { label: 'Moderate Sedation', href: '/services/moderatesedation' },
+          { label: 'Oral Sedation', href: '/services/oralsedation' }
+        ],
+      },
+      {
+        heading: 'Cosmetic and Restorative Dentistry',
+        submenu: [
+          { label: 'Smile Design', href: '/services/smiledesign' },
+          {
+            label:
+              'Veneers',
+            href: '/services/veneers',
+          },
+          { label: 'Crowns', href: '/services/crowns' },
+          { label: 'Teeth Whitening', href: '/services/teethwhitening' },
+          { label: 'Crown Lengthening', href: '/services/crownlengthening' },
+          { label: 'Gingival/Gum Contouring', href: '/services/gingivalgumcontouring' },
+          { label: 'Fillings (Resin and porcelain)', href: '/services/fillings' },
+          { label: 'Root Canals', href: '/services/rootcanals' },
+        ],
+      },
       {
         heading: 'Preventative Dentistry',
         submenu: [
@@ -66,13 +74,7 @@ export const menuData = [
           { label: 'Flouride Treatments', href: '/services/flouridetreatments' }
         ],
       },
-      {
-        heading: 'Sedation',
-        submenu: [
-          { label: 'Moderate Sedation', href: '/services/moderatesedation' },
-          { label: 'Oral Sedation', href: '/services/oralsedation' }
-        ],
-      },
+      
       {
         heading: 'Technological Advancements',
         submenu: [
