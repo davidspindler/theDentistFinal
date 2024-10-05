@@ -45,8 +45,8 @@
   }
   
   .logo {
-    margin: 20px;
-    width: 150px; /* Adjust as needed */
+    /* margin: 20px; */
+    width: 120px; /* Adjust as needed */
     border: 2px solid white;
     height: auto; /* Keeps the aspect ratio */
   }
