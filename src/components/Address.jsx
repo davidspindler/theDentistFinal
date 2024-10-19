@@ -12,6 +12,8 @@ const Address = () => {
 const AddressComponent = () => {
   return (
     <>
+    <div className="carder-container">
+
 <div className="carder">
     <div className="card-content">
       <h3>Our Location: 3070 Bristol Street SUITE 180 COSTA MESA CA 92626</h3>
@@ -31,6 +33,7 @@ const AddressComponent = () => {
     </div>
   </div>
  
+        </div>
         </>
   )
 }

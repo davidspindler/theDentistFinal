@@ -68,6 +68,8 @@ beach, and watching her son in Taekwondo and swimming sessions.
     return (
         <>
      <HandleMeetDoctors />
+     <div className="carder-container">
+
      <div className="carder">
     <div className="card-content">
       <h3>Our Location: 3070 Bristol Street SUITE 180 COSTA MESA CA 92626</h3>
@@ -86,6 +88,7 @@ beach, and watching her son in Taekwondo and swimming sessions.
       </h4>
     </div>
   </div>
+        </div>
             </>
     );
   };

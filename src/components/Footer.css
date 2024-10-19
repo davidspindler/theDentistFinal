@@ -58,10 +58,11 @@
     }
   }  
   .legal-button {
-    background-color: #3498db; /* Light blue */
+    background-color: #0B75BC; 
     color: white;
     font-size: 16px;
-    padding: 10px 20px;
+    font-family: 'Calibri', sans-serif;
+    /* padding: 10px 20px; */
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -69,7 +70,7 @@
   }
   
   .legal-button:hover {
-    background-color: #2980b9; /* Darker blue on hover */
+    background-color: #061926; /* Darker blue on hover */
     transform: translateY(-2px); /* Slight lift on hover */
   }
   

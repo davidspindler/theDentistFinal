@@ -57,77 +57,76 @@ const BoneAugmentations = () => {
 const BoneAugComponent = () => {
 return (
   <>
-  <div className="bone-augmentation-wrapper">
-    <h2 className="bone-augmentation-title">Bone Augmentation</h2>
-    <p className="bone-augmentation-description">
-      Bone augmentations involve the use of various materials and techniques to enhance bone volume/density, healing, and regeneration. Bone augmentations are necessitated due to various reasons such as:
-    </p>
+ <div>
+  <h2>Bone Augmentation</h2>
+  <p>
+    Bone augmentations involve the use of various materials and techniques to enhance bone volume/density, healing, and regeneration. Bone augmentations are necessitated due to various reasons such as:
+  </p>
 
-    <div className="bone-augmentation-reasons">
-      <div className="reason-card">
-        <h3 className="reason-title">Trauma</h3>
-        <p className="reason-description">Fractures or injuries that damage bone tissue.</p>
-      </div>
-      <div className="reason-card">
-        <h3 className="reason-title">Tumors</h3>
-        <p className="reason-description">Tumors in the jaw can destroy bone tissue.</p>
-      </div>
-      <div className="reason-card">
-        <h3 className="reason-title">Surgery</h3>
-        <p className="reason-description">Removal of bone for tumor treatment or other procedures.</p>
-      </div>
-      <div className="reason-card">
-        <h3 className="reason-title">Congenital Defects</h3>
-        <p className="reason-description">Malformations present from birth.</p>
-      </div>
-      <div className="reason-card">
-        <h3 className="reason-title">Periodontal Disease</h3>
-        <p className="reason-description">Bone loss around teeth.</p>
-      </div>
-      <div className="reason-card">
-        <h3 className="reason-title">Missing Teeth</h3>
-        <p className="reason-description">When a tooth is lost, the surrounding jawbone begins to deteriorate over time.</p>
-      </div>
+  <div>
+    <div>
+      <h3>Trauma</h3>
+      <p>Fractures or injuries that damage bone tissue.</p>
     </div>
-
-    <h2 className="bone-grafting-title">Bone Grafting</h2>
-    <p className="bone-grafting-description">
-      Bone grafting is a surgical procedure that involves replacing or augmenting the bone in the jaw to provide a stable foundation for dental implants or other restorative procedures. This is often necessary when there is insufficient bone mass in the jaw to support dental implants.
-    </p>
-
-    <h3 className="grafting-types-title">Types of Bone Grafts</h3>
-
-    <div className="grafting-types">
-      <div className="graft-card">
-        <h3 className="graft-title">Autograft</h3>
-        <p className="graft-description">
-          Bone is taken from the patient's own body (often from the hip or jaw) and transplanted to the deficient area.
-        </p>
-      </div>
-      <div className="graft-card">
-        <h3 className="graft-title">Allograft</h3>
-        <p className="graft-description">
-          Bone is sourced from a donor, typically processed and sterilized before use.
-        </p>
-      </div>
-      <div className="graft-card">
-        <h3 className="graft-title">Xenograft</h3>
-        <p className="graft-description">
-          Bone is derived from an animal source, usually bovine (cow) or porcine (pig) bone, and processed for transplantation.
-        </p>
-      </div>
-      <div className="graft-card">
-        <h3 className="graft-title">Synthetic Graft</h3>
-        <p className="graft-description">
-          Artificial bone graft materials are used.
-        </p>
-      </div>
+    <div>
+      <h3>Tumors</h3>
+      <p>Tumors in the jaw can destroy bone tissue.</p>
     </div>
-
-    <p className="bone-grafting-success">
-      The success rate of bone grafting is very high. In most cases, the bone graft will integrate with the jawbone and provide a strong foundation for dental implants or to preserve remaining teeth.
-    </p>
+    <div>
+      <h3>Surgery</h3>
+      <p>Removal of bone for tumor treatment or other procedures.</p>
+    </div>
+    <div>
+      <h3>Congenital Defects</h3>
+      <p>Malformations present from birth.</p>
+    </div>
+    <div>
+      <h3>Periodontal Disease</h3>
+      <p>Bone loss around teeth.</p>
+    </div>
+    <div>
+      <h3>Missing Teeth</h3>
+      <p>When a tooth is lost, the surrounding jawbone begins to deteriorate over time.</p>
+    </div>
   </div>
+
+  <h2>Bone Grafting</h2>
+  <p>
+    Bone grafting is a surgical procedure that involves replacing or augmenting the bone in the jaw to provide a stable foundation for dental implants or other restorative procedures. This is often necessary when there is insufficient bone mass in the jaw to support dental implants.
+  </p>
+
+  <h3>Types of Bone Grafts</h3>
+
+  <div>
+    <div>
+      <h3>Autograft</h3>
+      <p>
+        Bone is taken from the patient's own body (often from the hip or jaw) and transplanted to the deficient area.
+      </p>
+    </div>
+    <div>
+      <h3>Allograft</h3>
+      <p>
+        Bone is sourced from a donor, typically processed and sterilized before use.
+      </p>
+    </div>
+    <div>
+      <h3>Xenograft</h3>
+      <p>
+        Bone is derived from an animal source, usually bovine (cow) or porcine (pig) bone, and processed for transplantation.
+      </p>
+    </div>
+    <div>
+      <h3>Synthetic Graft</h3>
+      <p>Artificial bone graft materials are used.</p>
+    </div>
+  </div>
+
+  <p>
+    The success rate of bone grafting is very high. In most cases, the bone graft will integrate with the jawbone and provide a strong foundation for dental implants or to preserve remaining teeth.
+  </p>
+</div>
+
   </>
 )
 }

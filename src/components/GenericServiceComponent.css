@@ -6,7 +6,7 @@
   .container2 {
     display: flex;
     justify-content: center;
-    background-color: #d7f8ff;
+    background-color: #e7fbff;
   }
   .container3 {
         display: flex;
@@ -20,7 +20,7 @@
   
   .sidebar {
     width: 30%;
-    background-color: #d7f8ff;
+    background-color: #e7fbff;
     padding: 20px;
     /* border-right: 1px solid #91e4f7; */
     /* height: 100vh; */
