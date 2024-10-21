@@ -53,6 +53,7 @@ import OfficeTour from './components/OfficeTour';
 import PatientExperiences from './components/PatientExperiences';
 import LegalDisclaimers from './components/PrivacyPolicy';
 import DentalPrinters from './components/DentalPrinters';
+import Inlays from './components/Inlays.jsx'
 // const services = [
 //   {
 //     title: 'Cosmetic and Restorative Dentistry',
@@ -146,6 +147,10 @@ const router = createBrowserRouter([
           {
             path: "teethwhitening",
             element: <TeethWhitening />
+          },
+          {
+            path: "inlays",
+            element: <Inlays />
           },
           {
             path: "crownlengthening",

@@ -28,7 +28,7 @@ const smileDesignData = {
     <strong>Gingival or gum contouring: </strong> Also known as gum reshaping or gum sculpting, is a cosmetic dental procedure designed to improve the appearance of the gums. The main goal of this procedure is to create a more aesthetically pleasing smile by reshaping the gum line. The procedure may involve the use of laser technology or traditional surgical methods to reshape the gum tissue.
   </li>
   <li>
-  <strong className="padding-bottom-5">Digital Smile Design (DSD):</strong>
+  <strong className="padding-bottom-5">Digital Smile Design (DSD): </strong>
     Advanced technology, such as Digital Smile Design, may be used to plan and visualize the potential outcomes of the smile makeover. This involves digital imaging and simulation tools to help patients and dentists preview the expected results.
   </li>
   </ul>

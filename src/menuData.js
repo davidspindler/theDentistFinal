@@ -25,6 +25,7 @@ export const menuData = [
         submenu: [
           { label: 'Tooth Extractions (including Wisdom Teeth)', href: '/services/toothextractions' },
           { label: 'Full Mouth Extractions', href: '/services/fullmouthextractions' },
+          { label: 'Crown Lengthening', href: '/services/crownlengthening' },
           { label: 'Bone Augmentations (PRF and BMP)', href: '/services/boneaugmentations' },
           { label: 'Gingival / Gum Contouring', href: '/services/gingivalgumcontouring' },
           { label: 'Gum Treatment', href: '/services/gumtreatment' }
@@ -58,9 +59,8 @@ export const menuData = [
             href: '/services/veneers',
           },
           { label: 'Teeth Whitening', href: '/services/teethwhitening' },
-          { label: 'Crown Lengthening', href: '/services/crownlengthening' },
-          { label: 'Gingival/Gum Contouring', href: '/services/gingivalgumcontouring' },
-          { label: 'Fillings (Resin and porcelain)', href: '/services/fillings' },
+          { label: 'Inlays / Onlays', href: '/services/inlays' },
+          { label: 'Resin Fillings', href: '/services/fillings' },
           { label: 'Root Canals', href: '/services/rootcanals' },
         ],
       },

@@ -579,7 +579,9 @@ MEDIA QUERIES
 .padding-left-5 {
   padding-left: 5px;
 }
-
+.padding-left-15 {
+  padding-left: 15px;
+}
 .arrow-list {
   list-style-type: none; /* Remove default bullets */
   padding-left: 10px;

@@ -10,16 +10,19 @@ const SIDEBAR_CONFIG = {
       { path: '/services/smiledesign', label: 'Smile Design' },
       { path: '/services/veneers', label: 'Veneers/Crowns' },
       { path: '/services/teethwhitening', label: 'Teeth Whitening' },
-      { path: '/services/crownlengthening', label: 'Crown Lengthening' },
-      { path: '/services/gingivalgumcontouring', label: 'Gingival/Gum Contouring' },
-      { path: '/services/fillings', label: 'Fillings (Resin and porcelain)' },
+      { path: '/services/inlays', label: 'Inlays / Onlays' },
+
+     
+      // { path: '/services/gingivalgumcontouring', label: 'Gingival/Gum Contouring' },
+      { path: '/services/fillings', label: 'Resin Fillings' },
       { path: '/services/rootcanals', label: 'Root Canals' },
     ],
     'Oral and Perio Surgery': [
       { path: '/services/toothextractions', label: 'Tooth Extractions (including Wisdom Teeth)' },
       { path: '/services/fullmouthextractions', label: 'Full Mouth Extractions' },
       { path: '/services/boneaugmentations', label: 'Bone Augmentations (PRF and BMP)' },
-      { path: '/services/gingivalgumcontouring', label: 'Gingival/Gum Contouring' },
+      { path: '/services/crownlengthening', label: 'Crown Lengthening' },
+      // { path: '/services/gingivalgumcontouring', label: 'Gingival/Gum Contouring' },
       { path: '/services/gumtreatment', label: 'Gum Treatment' },
     ],
     'Implants and Prosthetics': [
