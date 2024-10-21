@@ -567,3 +567,27 @@ MEDIA QUERIES
     margin-left: 2rem;
   } */
 }
+.padding-bottom-5 {
+  padding-bottom: 5px;
+}
+.padding-top-5 {
+  padding-top: 5px;
+}
+.padding-top-10 {
+  padding-top: 10px;
+}
+.padding-left-5 {
+  padding-left: 5px;
+}
+
+.arrow-list {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 10px;
+}
+
+.arrow-list li::before {
+  content: "⇒"; /* Add arrow symbol */
+  color: #000; /* Set arrow color */
+  padding-right: 10px; /* Space between arrow and text */
+  font-size: 16px; /* Adjust size of the arrow */
+}

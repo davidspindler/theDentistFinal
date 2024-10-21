@@ -8,8 +8,7 @@ import parse, {domToReact} from 'html-react-parser'
 const SIDEBAR_CONFIG = {
     'Cosmetic and Restorative Dentistry': [
       { path: '/services/smiledesign', label: 'Smile Design' },
-      { path: '/services/veneers', label: 'Veneers' },
-      { path: '/services/crowns', label: 'Crowns' },
+      { path: '/services/veneers', label: 'Veneers/Crowns' },
       { path: '/services/teethwhitening', label: 'Teeth Whitening' },
       { path: '/services/crownlengthening', label: 'Crown Lengthening' },
       { path: '/services/gingivalgumcontouring', label: 'Gingival/Gum Contouring' },
@@ -37,10 +36,12 @@ const SIDEBAR_CONFIG = {
       { path: '/services/flouridetreatments', label: 'Flouride Treatments' },
     ],
     'Sedation': [
-      { path: '/services/moderatesedation', label: 'Moderate Sedation' },
-      { path: '/services/oralsedation', label: 'Oral Sedation' },
+      { path: '/services/sedation', label: 'Sedation' },
+      // { path: '/services/oralsedation', label: 'Oral Sedation' },
     ],
     'Technological Advancements': [
+
+      { path: '/services/3DDentalPrinters', label: '3D Dental Printers' },
       { path: '/services/3dimagectscans', label: '3D Image / CT Scans' },
       { path: '/services/intraoralscanners', label: 'Intraoral Scanners' },
       // { path: '/services/biolaselaser', label: 'Biolase Laser' },
@@ -154,7 +155,7 @@ const GenericServiceComponent = ({
     }
         
           <div className={`${AdditionalComponent ? 'styled-content-backwards' : 'styled-content'}`}>
-            <div className="padding-20">
+            <div className="">
              {title && <h2>{title}</h2>} 
              {description &&  <p>{description}</p> }
               {AdditionalComponent && <AdditionalComponent />}

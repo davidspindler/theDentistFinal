@@ -43,10 +43,9 @@ export const menuData = [
       },
       
       {
-        heading: 'Sedation',
+        heading: 'All On Xs',
         submenu: [
-          { label: 'Moderate Sedation', href: '/services/moderatesedation' },
-          { label: 'Oral Sedation', href: '/services/oralsedation' }
+          { label: 'All On Xs', href: '/services/allonxs' },
         ],
       },
       {
@@ -55,10 +54,9 @@ export const menuData = [
           { label: 'Smile Design', href: '/services/smiledesign' },
           {
             label:
-              'Veneers',
+              'Veneers/Crowns',
             href: '/services/veneers',
           },
-          { label: 'Crowns', href: '/services/crowns' },
           { label: 'Teeth Whitening', href: '/services/teethwhitening' },
           { label: 'Crown Lengthening', href: '/services/crownlengthening' },
           { label: 'Gingival/Gum Contouring', href: '/services/gingivalgumcontouring' },
@@ -76,8 +74,10 @@ export const menuData = [
       },
       
       {
-        heading: 'Technological Advancements',
+        heading: 'Sedation and Tech advancements',
         submenu: [
+          { label: 'Sedation', href: '/services/sedation' },
+          { label: '3D Dental Printers', href: '/services/3DDentalPrinters' },
           { label: '3D Image / CT Scans', href: '/services/3dimagectscans' },
           { label: 'Intraoral Scanners', href: '/services/intraoralscanners' },
           // { label: 'Biolase Laser', href: '/services/biolaselaser' },

@@ -52,50 +52,51 @@ import MeettheDoctors from './components/MeetTheDoctors';
 import OfficeTour from './components/OfficeTour';
 import PatientExperiences from './components/PatientExperiences';
 import LegalDisclaimers from './components/PrivacyPolicy';
-const services = [
-  {
-    title: 'Cosmetic and Restorative Dentistry',
-    description: 'This is a brief description of the first service.',
-    bullets: [{ label: 'Smile Design', href: '/services/smiledesign' },
-    {
-      label:
-        'Veneers',
-      href: '/services/veneers',
-    },
-    { label: 'Crowns', href: '/services/crowns' },
-    { label: 'Teeth Whitening', href: '/services/teethwhitening' },
-    { label: 'Crown Lengthening', href: '/services/crownlengthening' },
-    { label: 'Gingival/Gum Contouring', href: '/services/gingivalgumcontouring' },
-    { label: 'Fillings (Resin and porcelain)', href: '/services/fillings' },
-    { label: 'Root Canals', href: '/services/rootcanals' },],
-  },
-  {
-    title: 'Oral and Perio Surgery',
-    description: 'This is a brief description of the second service.',
-    bullets: ['Bullet point 1', 'Bullet point 2', 'Bullet point 3'],
-  },
-  {
-    title: 'Implants and Prosthetics',
-    description: 'This is a brief description of the second service.',
-    bullets: ['Bullet point 1', 'Bullet point 2', 'Bullet point 3'],
-  },
-  {
-    title: 'Preventative Dentistr',
-    description: 'This is a brief description of the second service.',
-    bullets: ['Bullet point 1', 'Bullet point 2', 'Bullet point 3'],
-  },
-  {
-    title: 'Sedation',
-    description: 'This is a brief description of the second service.',
-    bullets: ['Bullet point 1', 'Bullet point 2', 'Bullet point 3'],
-  },
-  {
-    title: 'Technological Advancements',
-    description: 'This is a brief description of the second service.',
-    bullets: ['Bullet point 1', 'Bullet point 2', 'Bullet point 3'],
-  },
-  // Add more services as needed
-];
+import DentalPrinters from './components/DentalPrinters';
+// const services = [
+//   {
+//     title: 'Cosmetic and Restorative Dentistry',
+//     description: 'This is a brief description of the first service.',
+//     bullets: [{ label: 'Smile Design', href: '/services/smiledesign' },
+//     {
+//       label:
+//         'Veneers/Crowns',
+//       href: '/services/veneers',
+//     },
+//     { label: 'Crowns', href: '/services/crowns' },
+//     { label: 'Teeth Whitening', href: '/services/teethwhitening' },
+//     { label: 'Crown Lengthening', href: '/services/crownlengthening' },
+//     { label: 'Gingival/Gum Contouring', href: '/services/gingivalgumcontouring' },
+//     { label: 'Fillings (Resin and porcelain)', href: '/services/fillings' },
+//     { label: 'Root Canals', href: '/services/rootcanals' },],
+//   },
+//   {
+//     title: 'Oral and Perio Surgery',
+//     description: 'This is a brief description of the second service.',
+//     bullets: ['Bullet point 1', 'Bullet point 2', 'Bullet point 3'],
+//   },
+//   {
+//     title: 'Implants and Prosthetics',
+//     description: 'This is a brief description of the second service.',
+//     bullets: ['Bullet point 1', 'Bullet point 2', 'Bullet point 3'],
+//   },
+//   {
+//     title: 'Preventative Dentistr',
+//     description: 'This is a brief description of the second service.',
+//     bullets: ['Bullet point 1', 'Bullet point 2', 'Bullet point 3'],
+//   },
+//   {
+//     title: 'Sedation',
+//     description: 'This is a brief description of the second service.',
+//     bullets: ['Bullet point 1', 'Bullet point 2', 'Bullet point 3'],
+//   },
+//   {
+//     title: 'Technological Advancements',
+//     description: 'This is a brief description of the second service.',
+//     bullets: ['Bullet point 1', 'Bullet point 2', 'Bullet point 3'],
+//   },
+//   // Add more services as needed
+// ];
 const router = createBrowserRouter([
   {
     path: '/',
@@ -219,8 +220,12 @@ const router = createBrowserRouter([
             element: <Ivanesthesiasedation />
           },
           {
-            path: "oralsedation",
+            path: "sedation",
             element: <OralSedation />
+          },
+          {
+            path: "3DDentalPrinters",
+            element: <DentalPrinters />
           },
           {
             path: "3dimagectscans",
