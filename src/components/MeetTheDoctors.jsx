@@ -11,7 +11,7 @@ const MeettheDoctors = () => {
       <>
       <div className="team-info-container">
     <div className="team-member">
-      <h2>Divya Peddireddy, DDS, MS</h2>
+      <h2>Divya Peddireddy, DDS, MS, QME</h2>
       <p>
       Dr. Divya Peddireddy has been practicing dentistry for two decades. She graduated with a DDS degree
 from the University of Southern California Ostrow School of Dentistry and was on the Dean’s list for the

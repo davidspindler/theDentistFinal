@@ -23,12 +23,12 @@ export const menuData = [
       {
         heading: 'Oral and Perio Surgery',
         submenu: [
-          { label: 'Tooth Extractions (including Wisdom Teeth)', href: '/services/toothextractions' },
-          { label: 'Full Mouth Extractions', href: '/services/fullmouthextractions' },
+          { label: 'Tooth Extractions', href: '/services/toothextractions' },
+          { label: 'Bone Augmentations / Bone Grafting', href: '/services/boneaugmentations' },
           { label: 'Crown Lengthening', href: '/services/crownlengthening' },
-          { label: 'Bone Augmentations (PRF and BMP)', href: '/services/boneaugmentations' },
-          { label: 'Gingival / Gum Contouring', href: '/services/gingivalgumcontouring' },
-          { label: 'Gum Treatment', href: '/services/gumtreatment' }
+          { label: 'Full Mouth Extractions', href: '/services/fullmouthextractions' },
+          // { label: 'Gingival / Gum Contouring', href: '/services/gingivalgumcontouring' },
+          // { label: 'Gum Treatment', href: '/services/gumtreatment' }
         ],
       },
       {
@@ -38,15 +38,15 @@ export const menuData = [
           { label: 'Failed Implant Treatment', href: '/services/failedimplanttreatment' },
           { label: 'Sinus Lift', href: '/services/sinuslift' },
           { label: 'Implant Supported Dentures', href: '/services/implantsupporteddentures' },
-          { label: 'All on X and All on 4s', href: '/services/allonx' },
+          // { label: 'All on X and All on 4s', href: '/services/allonx' },
           { label: 'Other Prosthetics', href: '/services/otherprosthetics' }
         ],
       },
       
       {
-        heading: 'All On Xs',
+        heading: 'All On Xs and All on 4s',
         submenu: [
-          { label: 'All On Xs', href: '/services/allonxs' },
+          { label: 'All On Xs and All on 4s', href: '/services/allonx' },
         ],
       },
       {
@@ -77,11 +77,11 @@ export const menuData = [
         heading: 'Sedation and Tech advancements',
         submenu: [
           { label: 'Sedation', href: '/services/sedation' },
-          { label: '3D Dental Printers', href: '/services/3DDentalPrinters' },
           { label: '3D Image / CT Scans', href: '/services/3dimagectscans' },
           { label: 'Intraoral Scanners', href: '/services/intraoralscanners' },
-          // { label: 'Biolase Laser', href: '/services/biolaselaser' },
           { label: 'Soft Tissue Lasers', href: '/services/softtissuelasers' },
+          { label: '3D Dental Printers', href: '/services/3DDentalPrinters' },
+          // { label: 'Biolase Laser', href: '/services/biolaselaser' },
           // { label: 'Bone Grafting', href: '/services/bonegrafting' }
         ],
       },

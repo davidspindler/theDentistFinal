@@ -18,37 +18,37 @@ const SIDEBAR_CONFIG = {
       { path: '/services/rootcanals', label: 'Root Canals' },
     ],
     'Oral and Perio Surgery': [
-      { path: '/services/toothextractions', label: 'Tooth Extractions (including Wisdom Teeth)' },
-      { path: '/services/fullmouthextractions', label: 'Full Mouth Extractions' },
-      { path: '/services/boneaugmentations', label: 'Bone Augmentations (PRF and BMP)' },
+      { path: '/services/toothextractions', label: 'Tooth Extractions' },
+      { path: '/services/boneaugmentations', label: 'Bone Augmentations / Bone Grafting' },
       { path: '/services/crownlengthening', label: 'Crown Lengthening' },
+      { path: '/services/fullmouthextractions', label: 'Full Mouth Extractions' },
       // { path: '/services/gingivalgumcontouring', label: 'Gingival/Gum Contouring' },
-      { path: '/services/gumtreatment', label: 'Gum Treatment' },
+      // { path: '/services/gumtreatment', label: 'Gum Treatment' },
     ],
     'Implants and Prosthetics': [
       { path: '/services/implanttreatment', label: 'Implant Treatment' },
       { path: '/services/failedimplanttreatment', label: 'Failed Implant Treatment' },
       { path: '/services/sinuslift', label: 'Sinus Lift' },
       { path: '/services/implantsupporteddentures', label: 'Implant Supported Dentures' },
-      { path: '/services/allonx', label: 'All on X and All on 4s' },
+      // { path: '/services/allonx', label: 'All on X and All on 4s' },
       { path: '/services/otherprosthetics', label: 'Other Prosthetics' },
+    ],
+    'All on Xs and All on 4s': [
+      { path: '/services/allonx', label: 'All on Xs and All on 4s' },
     ],
     'Preventative Dentistry': [
       { path: '/services/checkupandcleanings', label: 'Checkup and Cleanings' },
       { path: '/services/sealants', label: 'Sealants' },
       { path: '/services/flouridetreatments', label: 'Flouride Treatments' },
     ],
-    'Sedation': [
+    'Sedation and Technological Advancements': [
+      
       { path: '/services/sedation', label: 'Sedation' },
-      // { path: '/services/oralsedation', label: 'Oral Sedation' },
-    ],
-    'Technological Advancements': [
-
-      { path: '/services/3DDentalPrinters', label: '3D Dental Printers' },
       { path: '/services/3dimagectscans', label: '3D Image / CT Scans' },
       { path: '/services/intraoralscanners', label: 'Intraoral Scanners' },
-      // { path: '/services/biolaselaser', label: 'Biolase Laser' },
       { path: '/services/softtissuelasers', label: 'Soft Tissue Lasers' },
+      { path: '/services/3DDentalPrinters', label: '3D Dental Printers' },
+      // { path: '/services/biolaselaser', label: 'Biolase Laser' },
       // { path: '/services/bonegrafting', label: 'Bone Grafting' },
     ],
     // 'More About Us': [

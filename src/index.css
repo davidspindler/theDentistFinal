@@ -403,7 +403,7 @@ MEDIA QUERIES
   .logo_text {
     color: var(--navbarText);
     width: 20rem;
-    font-size: 28px;
+    font-size: 32px;
     /* padding-left: 1rem; */
   }
   .logo__link img {
@@ -584,6 +584,10 @@ MEDIA QUERIES
 }
 .arrow-list {
   list-style-type: none; /* Remove default bullets */
+  padding-left: 10px;
+}
+.bullet-list {
+  list-style-type: disc; /* Remove default bullets */
   padding-left: 10px;
 }
 

@@ -220,13 +220,13 @@ const router = createBrowserRouter([
             path: "flouridetreatments",
             element: <FlourideTreatments />
           },
-          {
-            path: "moderatesedation",
-            element: <Ivanesthesiasedation />
-          },
+          // {
+          //   path: "moderatesedation",
+          //   element: <Ivanesthesiasedation />
+          // },
           {
             path: "sedation",
-            element: <OralSedation />
+            element: <Ivanesthesiasedation />
           },
           {
             path: "3DDentalPrinters",

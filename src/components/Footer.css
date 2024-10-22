@@ -2,7 +2,7 @@
     /* background-color: #50B8E7; Sky blue color */
     background-color: #0B75BC; /* Sky blue color */
     color: white;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     flex-grow: 1; /* This allows the main section to take up remaining height */
   display: flex; /* Optionally, if you want the content inside the main to have flex properties */
   flex-direction: column; /* Keeps any inner elements in a column layout */
@@ -37,15 +37,16 @@
 }
 
 .containerLogo {
-    display: flex;
-    align-items: center;
-    gap: 20px; /* Space between the image and the text */
-    margin-bottom: 20px;
-    margin-left:10px;
+    /* display: flex;
+    align-items: center; */
+  
+    /* margin-bottom: 20px; */
+    margin-top:10px;
   }
   
   .logo {
     /* margin: 20px; */
+    /* padding-top: 5px; */
     width: 120px; /* Adjust as needed */
     border: 2px solid white;
     height: auto; /* Keeps the aspect ratio */

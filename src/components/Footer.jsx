@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="containerLogo">
 
-            <img src="/OC_Center_FAD.jpg" alt="OC CENTER LOGO" class="logo" />
+            <img src="/OC_Center_FAD.jpg" alt="OC CENTER LOGO" className="logo" />
                 </div>
                 <div className="footer-section address">
                     <h3>Our Address</h3>

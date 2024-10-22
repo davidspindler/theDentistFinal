@@ -45,28 +45,21 @@ const FullMouthExtractionsContent = () => {
     <>
     <div>
     {/* <h2>Full Mouth Extractions</h2> */}
-    <p>
-      A full mouth extraction, also known as a complete dental extraction, is the surgical removal of all of a
-      patient's natural teeth from both the upper and lower jaws. It's a major dental procedure typically
-      recommended as a last resort when other options for preserving teeth have been exhausted.
-    </p>
-    <p>
-      The process of full mouth extractions typically involves a thorough examination, X-rays, and consultation
-      with the dentist/surgeon. The procedure can be done either under local anesthesia or general
-      anesthesia to ensure the patient's comfort and may be completed in one or more appointments,
-      depending on the complexity of the case and the experience of the dentist.
-    </p>
-    <p>
-      After the extractions, the dentist may provide immediate dentures or a temporary solution to help with
-      aesthetics and function while the mouth heals. It's important to follow post-extraction care instructions,
-      which may include avoiding certain foods, practicing good oral hygiene, and attending follow-up
-      appointments.
-    </p>
-    <p>
-      After the initial healing period, a more permanent dental restoration option, such as complete dentures
-      or implant-supported prosthetics, may be implemented. It is crucial for the patients to have
-      comprehensive discussions with their dentist to achieve the best outcomes.
-    </p>
+    <p className="padding-bottom-5">
+    A full mouth extraction, also known as a complete dental extraction, is the surgical removal of all of a patient's natural teeth from both the upper and lower jaws. It's a major dental procedure typically recommended as a last resort when other options for preserving teeth have been exhausted.
+  </p>
+  
+  <p className="padding-bottom-5">
+    The process of full mouth extractions typically involves a thorough examination, X-rays, and consultation with the dentist or surgeon. The procedure can be done either under local anesthesia or general anesthesia to ensure the patient's comfort and may be completed in one or more appointments, depending on the complexity of the case and the experience of the dentist.
+  </p>
+  
+  <p className="padding-bottom-5">
+    After the extractions, the dentist may provide immediate dentures or a temporary solution to help with aesthetics and function while the mouth heals. It's important to follow post-extraction care instructions, which may include avoiding certain foods, practicing good oral hygiene, and attending follow-up appointments.
+  </p>
+
+  <p className="padding-bottom-5">
+    After the initial healing period, a more permanent dental restoration option, such as complete dentures or implant-supported prosthetics, may be implemented. It is crucial for patients to have comprehensive discussions with their dentist to achieve the best outcomes.
+  </p>
   </div>
     </>
   )
