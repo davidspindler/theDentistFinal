@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const DropdownContent = ({
@@ -6,12 +6,24 @@ const DropdownContent = ({
   setIsDrawerOpen,
   handleClick,
 }) => {
+  const [openSections, setOpenSections] = useState({});
+
+  const toggleSection = (index) => {
+    setOpenSections((prev) => ({
+      ...prev,
+      [index]: !prev[index],
+    }));
+  };
   return (
     <div className="dropdown_content">
       {submenuscontent.map((item, index) => (
         <React.Fragment key={index}>
           <section>
-            <h4>{item.heading}</h4>
+            <h4
+             style={{ cursor: 'pointer' }}
+            onClick={() => toggleSection(index)}
+            >{item.heading}</h4>
+            {openSections[index] && (
             <ul>
               {item.submenu?.map(({ label, href }, index) => (
                 <li
@@ -25,6 +37,7 @@ const DropdownContent = ({
                 </li>
               ))}
             </ul>
+            )}
           </section>
         </React.Fragment>
       ))}

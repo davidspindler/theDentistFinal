@@ -119,7 +119,7 @@ const GenericServiceComponent = ({
       };
     
       const { title: sidebarTitle, links: sidebarLinks } = getSidebarTitleAndLinks();
-      console.log(sidebarTitle)
+      // console.log(sidebarTitle)
       const isSidebar = sidebarTitle == "Sidebar"
       const isVideo = (imgSrc) => {
         const videoExtensions = ['mp4', 'webm', 'ogg'];

@@ -14,11 +14,11 @@ const ToothExtractionsComponent = () => {
     </p>
     <h3 className="padding-top-10 padding-bottom-5">Why does a tooth need to be extracted?</h3>
     <ul className="arrow-list">
-      <li><strong>Decay or Damage:</strong> Teeth that are extensively decayed or damaged may need to be removed.</li>
-      <li><strong>Impacted Wisdom Teeth:</strong> Wisdom teeth, also known as third molars, may be removed if they are impacted (unable to emerge properly) or causing issues like pain, infection, or damage to neighboring teeth.</li>
-      <li><strong>Crowding:</strong> Sometimes, tooth extraction is necessary to create space for orthodontic treatment when there is dental crowding.</li>
-      <li><strong>Periodontal Infection:</strong> Severe gum disease or infections may necessitate tooth extraction.</li>
-      <li><strong>Fractured Teeth:</strong> A tooth that is severely fractured may need to be extracted.</li>
+      <li className="padding-bottom-5"><strong>Decay or Damage:</strong> Teeth that are extensively decayed or damaged may need to be removed.</li>
+      <li className="padding-bottom-5"><strong>Impacted Wisdom Teeth:</strong> Wisdom teeth, also known as third molars, may be removed if they are impacted (unable to emerge properly) or causing issues like pain, infection, or damage to neighboring teeth.</li>
+      <li className="padding-bottom-5"><strong>Crowding:</strong> Sometimes, tooth extraction is necessary to create space for orthodontic treatment when there is dental crowding.</li>
+      <li className="padding-bottom-5"><strong>Periodontal Infection:</strong> Severe gum disease or infections may necessitate tooth extraction.</li>
+      <li className="padding-bottom-5"><strong>Fractured Teeth:</strong> A tooth that is severely fractured may need to be extracted.</li>
     </ul>
   </div>
     </>

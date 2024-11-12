@@ -24,7 +24,7 @@ export const menuData = [
         heading: 'Oral and Perio Surgery',
         submenu: [
           { label: 'Tooth Extractions', href: '/services/toothextractions' },
-          { label: 'Bone Augmentations / Bone Grafting', href: '/services/boneaugmentations' },
+          { label: 'Bone Augmentations / Grafting', href: '/services/boneaugmentations' },
           { label: 'Crown Lengthening', href: '/services/crownlengthening' },
           { label: 'Full Mouth Extractions', href: '/services/fullmouthextractions' },
           // { label: 'Gingival / Gum Contouring', href: '/services/gingivalgumcontouring' },
