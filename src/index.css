@@ -394,7 +394,7 @@ MEDIA QUERIES
 
 
 
-@media (min-width: 996px) {
+@media (min-width: 1240px) {
   .register button {
  padding-left: .2rem;
     font-size: 24px;
@@ -598,3 +598,5 @@ MEDIA QUERIES
   padding-right: 10px; /* Space between arrow and text */
   font-size: 13px; /* Adjust size of the arrow */
 }
+
+
