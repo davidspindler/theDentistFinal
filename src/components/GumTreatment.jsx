@@ -58,12 +58,12 @@ const GumTreatment = () => {
         <>
      
    <GenericServiceComponent {...gumTreatmentData}/>
-   <div className="cardGumTreatment">
+   <section className="cardGumTreatment">
    It's crucial to address gum problems promptly to prevent further complications. If you suspect any issues
 with your gums, such as bleeding, swelling, or persistent bad breath, please consult with Dr.Peddireddy
 for a proper diagnosis and appropriate treatment plan. Regular dental check-ups and cleanings can also
 help prevent the development of gum diseases.
-   </div>
+   </section>
             </>
     );
   };

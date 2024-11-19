@@ -1,7 +1,7 @@
 import React from 'react';
 import './PrivacyPolicy.css'
 const LegalDisclaimers = () => (
-  <div className="legal-container">
+  <section className="legal-container">
     <h2 className="legal-header">Privacy Policy</h2>
     <p>
       <strong>OC Center for Advanced Dentistry</strong> ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <strong>[website URL]</strong>.
@@ -84,7 +84,7 @@ const LegalDisclaimers = () => (
     <p>
       If you have any questions or concerns about these policies, please contact us at Patientcare@OCCFAD.org or 714-540-3838.
     </p>
-  </div>
+  </section>
 );
 
 export default LegalDisclaimers;

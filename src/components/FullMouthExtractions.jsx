@@ -43,7 +43,7 @@ const fullMouthExtractionsData = {
 const FullMouthExtractionsContent = () => {
   return (
     <>
-    <div>
+    <section>
     {/* <h2>Full Mouth Extractions</h2> */}
     <p className="padding-bottom-5">
     A full mouth extraction, also known as a complete dental extraction, is the surgical removal of all of a patient's natural teeth from both the upper and lower jaws. It's a major dental procedure typically recommended as a last resort when other options for preserving teeth have been exhausted.
@@ -60,7 +60,7 @@ const FullMouthExtractionsContent = () => {
   <p className="padding-bottom-5">
     After the initial healing period, a more permanent dental restoration option, such as complete dentures or implant-supported prosthetics, may be implemented. It is crucial for patients to have comprehensive discussions with their dentist to achieve the best outcomes.
   </p>
-  </div>
+  </section>
     </>
   )
 }

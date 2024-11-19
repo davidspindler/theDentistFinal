@@ -8,7 +8,7 @@ const veneersData = {
 const VeneersContent = () => {
   return (
     <>
-    <div className="">
+    <section className="">
   <h3 className="padding-bottom-5">Veneers</h3>
   <p className="padding-bottom-5">
     Veneers are thin, custom-made shells that are bonded to the front surface of your teeth. They are typically made from porcelain or composite resin, both of which are strong, durable, stain resistant, and tooth-colored. Veneers are typically used to:
@@ -65,7 +65,7 @@ const VeneersContent = () => {
     <strong>Porcelain / Zirconia Crowns:</strong> These crowns provide a natural appearance and are suitable for front teeth.
     </li>
   </ul>
-</div>
+</section>
     </>
   )
 }

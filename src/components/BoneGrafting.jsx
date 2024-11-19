@@ -55,13 +55,13 @@ const BoneGrafting = () => {
         <>
      
    <GenericServiceComponent {...boneGraftingData}/>
-   <div className="cardBoneGrafting">
+   <section className="cardBoneGrafting">
    The success rate of bone grafting is very high. In most cases, the bone graft will integrate with the
 jawbone and provide a strong foundation for dental implants or to preserve remaining teeth. Dental
 bone grafting is a common and effective procedure that has significantly improved the success rates of
 dental implant placements, allowing individuals with insufficient bone mass to benefit from permanent
 tooth replacements.
-   </div>
+   </section>
             </>
     );
   };

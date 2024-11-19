@@ -27,7 +27,7 @@ const DropdownContent = ({
     }));
   };
   return (
-    <div className="dropdown_content">
+    <section className="dropdown_content">
     {submenuscontent.map((item, index) => (
       <React.Fragment key={index}>
         <section>
@@ -55,7 +55,7 @@ const DropdownContent = ({
         </section>
       </React.Fragment>
     ))}
-  </div>
+  </section>
   );
 };
 

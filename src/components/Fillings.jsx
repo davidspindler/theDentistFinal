@@ -7,7 +7,7 @@ const fillingsData = {
 const FillingsContent = () => {
   return (
     <>
-    <div className="">
+    <section className="">
   <p className="padding-bottom-5">
     Dental fillings are common dental restorations used to repair cavities, cracks, chips, or worn-down areas in teeth. They play a crucial role in maintaining oral health by:
   </p>
@@ -30,7 +30,7 @@ const FillingsContent = () => {
       <strong>Composite resin:</strong> These tooth-colored fillings are the most common type today. They are aesthetically pleasing, bond well to the tooth, and can be easily sculpted to the desired shape. However, they may not be as durable as other materials, especially in areas of high chewing pressure.
     </li>
   </ul>
-</div>
+</section>
     </>
   )
 }

@@ -14,8 +14,8 @@ const AddressComponent = () => {
     <>
     <div className="carder-container">
 
-<div className="carder">
-    <div className="card-content">
+<main className="carder">
+    <section className="card-content">
       <h3>Our Location: 3070 Bristol Street SUITE 180 COSTA MESA CA 92626</h3>
      
       <iframe
@@ -30,8 +30,8 @@ const AddressComponent = () => {
          <h4>
       There is a validation ticket parking lot conveniently located next to our office. Take an ariel view of these photos of surrounding buildings, entrance, waiting room, and operatories.
       </h4>
-    </div>
-  </div>
+    </section>
+  </main>
  
         </div>
         </>

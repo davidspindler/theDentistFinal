@@ -9,8 +9,8 @@ const MeettheDoctors = () => {
   const HandleMeetDoctors = () => {
     return (
       <>
-      <div className="team-info-container">
-    <div className="team-member">
+      <section className="team-info-container">
+    <section className="team-member">
       <h2>Divya Peddireddy, DDS, MS, QME</h2>
       <p>
       Dr. Divya Peddireddy has been practicing dentistry for two decades. She graduated with a DDS degree
@@ -60,18 +60,18 @@ Smiles designed and delivered that reflect patient’s objectives.
 restaurant scene in the Orange County area, cooking at home, outdoor activities like hiking, going to the
 beach, and watching her son in Taekwondo and swimming sessions.
       </p>
-    </div> 
-    </div>
+    </section> 
+    </section>
       </>
     )
   };
     return (
         <>
      <HandleMeetDoctors />
-     <div className="carder-container">
+     <section className="carder-container">
 
-     <div className="carder">
-    <div className="card-content">
+     <section className="carder">
+    <section className="card-content">
       <h3>Our Location: 3070 Bristol Street SUITE 180 COSTA MESA CA 92626</h3>
      
       <iframe
@@ -86,9 +86,9 @@ beach, and watching her son in Taekwondo and swimming sessions.
          <h4>
       There is a validation ticket parking lot conveniently located next to our office. Take an ariel view of these photos of surrounding buildings, entrance, waiting room, and operatories.
       </h4>
-    </div>
-  </div>
-        </div>
+    </section>
+  </section>
+        </section>
             </>
     );
   };

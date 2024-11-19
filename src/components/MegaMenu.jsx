@@ -3,7 +3,7 @@ import MenuItem from './MenuItem';
 
 const MegaMenu = ({ handleToggle, clicked, setIsDrawerOpen }) => {
   return (
-    <div className="nav__container">
+    <section className="nav__container">
       <nav className='navBoxContainer'>
         <ul>
           {menuData?.map(({ label, href, children }, index) => {
@@ -23,7 +23,7 @@ const MegaMenu = ({ handleToggle, clicked, setIsDrawerOpen }) => {
           })}
         </ul>
       </nav>
-    </div>
+    </section>
   );
 };
 

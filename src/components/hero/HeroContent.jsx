@@ -13,7 +13,7 @@ const HeroContent = ({ imageSrc = defaultBanner, children }) => {
     //     <Container>{children}</Container>
     //   </div>
     // </div>
-    <div className="hero-container">
+    <section className="hero-container">
          
             <video className="hero-video" width="500" height="500" autoPlay playsInline loop muted>
                 <source src="/vid.mp4" type="video/mp4" />
@@ -31,7 +31,7 @@ const HeroContent = ({ imageSrc = defaultBanner, children }) => {
                   </h1>
             
             </div> */}
-            <div className="hero-content">
+            <section className="hero-content">
   {/* <div className="hero-title-container">
     <h1 className='hero-title'>
       Our mission is to bring joy to patients through:
@@ -45,9 +45,8 @@ const HeroContent = ({ imageSrc = defaultBanner, children }) => {
       </ul>
     </div>
   </div> */}
-</div>
-<div>HELLO TEXT HERE LOREM30</div>
-        </div>
+</section>
+        </section>
   );
 };
 
