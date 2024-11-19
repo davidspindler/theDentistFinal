@@ -13,7 +13,7 @@ const HeroContent = ({ imageSrc = defaultBanner, children }) => {
     //     <Container>{children}</Container>
     //   </div>
     // </div>
-    <body className="hero-container">
+    <section className="hero-container">
          
             <video className="hero-video" width="500" height="500" autoPlay playsInline loop muted>
                 <source src="/vid.mp4" type="video/mp4" />
@@ -46,8 +46,7 @@ const HeroContent = ({ imageSrc = defaultBanner, children }) => {
     </div>
   </div> */}
 </section>
-<div>HELLO TEXT HERE LOREM30</div>
-        </body>
+        </section>
   );
 };
 
