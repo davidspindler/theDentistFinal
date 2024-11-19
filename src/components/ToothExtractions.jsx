@@ -7,7 +7,7 @@ const toothExtractionsData = {
 const ToothExtractionsComponent = () => {
   return (
     <>
-  <div>
+  <section>
     <h3 className="padding-bottom-5">Tooth Extractions (including wisdom teeth)</h3>
     <p>
     Tooth extractions, including wisdom teeth removal, are common dental procedures performed by dental surgeons to relieve pain, prevent infection, or make room for other teeth to grow in properly. 
@@ -20,7 +20,7 @@ const ToothExtractionsComponent = () => {
       <li className="padding-bottom-5"><strong>Periodontal Infection:</strong> Severe gum disease or infections may necessitate tooth extraction.</li>
       <li className="padding-bottom-5"><strong>Fractured Teeth:</strong> A tooth that is severely fractured may need to be extracted.</li>
     </ul>
-  </div>
+  </section>
     </>
   )
 }

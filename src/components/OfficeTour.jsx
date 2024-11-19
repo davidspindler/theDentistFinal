@@ -15,12 +15,12 @@ const OfficeTour = () => {
         <>
      
    <GenericServiceComponent {...officeTourData}/>
-<div className="container3">
-        <div className="padding-20">
+<section className="container3">
+        <section className="padding-20">
 
    <img src={officetour2}className="styled-image2" ></img>
-        </div>
-</div>
+        </section>
+</section>
             </>
     );
   };

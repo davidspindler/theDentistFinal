@@ -15,23 +15,23 @@ const Footer = () => {
                 </div>
             </div> */}
             {/* <hr></hr> */}
-            <div className="footer-content">
-                <div className="containerLogo">
+            <section className="footer-content">
+                <section className="containerLogo">
 
             <img src="/OC_Center_FAD.jpg" alt="OC CENTER LOGO" className="logo" />
-                </div>
-                <div className="footer-section address">
+                </section>
+                <section className="footer-section address">
                     <h3>Our Address</h3>
                     <p>3070 BRISTOL STREET SUITE 180</p>
                     <p>COSTA MESA, CA 92626</p>
                     <p>United States</p>
-                </div>
-                <div className="footer-section contact">
+                </section>
+                <section className="footer-section contact">
                     <h3>Contact Us</h3>
                     <p>Email: Patientcare@OCCFAD.org</p>
                     <p>Phone: (714) 540-3838</p>
-                </div>
-                <div className="footer-section social">
+                </section>
+                <section className="footer-section social">
                     <h3>Legal Disclaimers</h3>  
                     <NavLink 
                     to="/privacypolicy"
@@ -42,8 +42,8 @@ const Footer = () => {
                         </NavLink>       
                       
                          <p>© {currentYear} OC Center for Advanced Dentistry</p>
-                </div>
-            </div>
+                </section>
+            </section>
         </footer>
     );
 };

@@ -128,9 +128,9 @@ const GenericServiceComponent = ({
       };
   return (
     <>
-    <div className="container2">
+    <section className="container2">
 
-    <div className="generic-service-component">
+    <section className="generic-service-component">
       {!isSidebar &&
       
       <div className="sidebar">
@@ -176,8 +176,8 @@ const GenericServiceComponent = ({
       
         </div>
       </div>
-    </div>
-                    </div>
+    </section>
+                    </section>
                         {/* <hr className='style-one'></hr> */}
                         {sectionOneData &&
                         

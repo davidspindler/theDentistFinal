@@ -37,14 +37,14 @@ const MobileNavigationDrawer = ({
   };
 
   return (
-    <div
+    <section
       className="mobile_navigation"
       ref={drawerRef}
       tabIndex={isDrawerOpen ? 0 : -1}
       onKeyDown={handleKeyDown}
     >
       {isDrawerOpen && (
-        <div
+        <button
           className="backdrop"
           onClick={() => {
             setIsDrawerOpen(false);
@@ -53,7 +53,7 @@ const MobileNavigationDrawer = ({
               drawerButtonRef.current.focus();
             }
           }}
-        ></div>
+        ></button>
       )}
 
       <div
@@ -72,15 +72,15 @@ const MobileNavigationDrawer = ({
             <X size={30} />
           </button>
         </div>
-        <div>
+        <li>
           <MegaMenu
             handleToggle={handleToggle}
             clicked={clicked}
             setIsDrawerOpen={setIsDrawerOpen}
           />
-        </div>
+        </li>
       </div>
-    </div>
+    </section>
   );
 };
 

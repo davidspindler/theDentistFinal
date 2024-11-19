@@ -7,9 +7,9 @@ import { Outlet } from 'react-router-dom';
 
 const ServicesPage = () => {
   return (
- <div>
+ <main>
 <Outlet />
- </div>
+ </main>
   );
 };
 

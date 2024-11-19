@@ -7,7 +7,7 @@ const smileDesignData = {
   const SmileDesignComponent = () => {
     return (
       <>
-    <div className="">
+    <section className="">
   <p className="padding-bottom-5">
     Smile design or smile makeover is a cosmetic dental procedure that focuses on creating a beautiful and natural-looking smile that complements your facial features. It harnesses various cosmetic and restorative dental procedures and addresses any functional or oral health concerns. It's not just about getting straight teeth; it's about considering the shape, size, color, and alignment of your teeth in relation to your lips, gums, and overall facial aesthetics.
   </p>
@@ -32,7 +32,7 @@ const smileDesignData = {
     Advanced technology, such as Digital Smile Design, may be used to plan and visualize the potential outcomes of the smile makeover. This involves digital imaging and simulation tools to help patients and dentists preview the expected results.
   </li>
   </ul>
-</div>
+</section>
       </>
     )
   }

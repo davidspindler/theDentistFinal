@@ -7,7 +7,7 @@ const teethWhiteningData = {
 const TeethWhiteningContent = () => {
   return (
     <>
-    <div className="">
+    <section className="">
   <h3 className="padding-bottom-5">What is teeth whitening?</h3>
   <p className="padding-bottom-5">
     Teeth whitening is a cosmetic dental procedure designed to lighten the color of your teeth and remove stains and discoloration. There are two major approaches to teeth whitening:
@@ -36,7 +36,7 @@ const TeethWhiteningContent = () => {
   <p className="padding-top-10">
     Teeth whitening is a safe and effective way to brighten your smile. However, it's important to talk to your dentist before you start any type of whitening treatment.
   </p>
-</div>
+</section>
     </>
   )
 }
