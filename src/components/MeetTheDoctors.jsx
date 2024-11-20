@@ -56,7 +56,7 @@ Smiles designed and delivered that reflect patient’s objectives.
 </li>
       </ul>
       <p>
-      Outside of work Dr. Peddireddy likes spending time with her husband and 6-year-old son. She enjoys the
+      Outside of work Dr. Peddireddy likes spending time with her husband and son in elementary school. She enjoys the
 restaurant scene in the Orange County area, cooking at home, outdoor activities like hiking, going to the
 beach, and watching her son in Taekwondo and swimming sessions.
       </p>
