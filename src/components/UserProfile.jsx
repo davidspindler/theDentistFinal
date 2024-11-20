@@ -10,7 +10,7 @@ const UserProfile = () => {
     </button> */}
         {/* <Link to={`#`}>Log in</Link> */}
         {/* <Phone color="white" size={24} /> */}
-        <a href='tel:(714) 540-3838' className="sign"> <Phone color="black" size={18} />(714) 540-3838</a>
+        <button className="sign"> <Phone color="black" size={18} /><a href="tel:(714) 540-3838">(714) 540-3838</a></button>
       </section>
     </section>
   );
