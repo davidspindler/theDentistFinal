@@ -42,6 +42,7 @@ const DropdownContent = ({
               {item.submenu?.map(({ label, href }, idx) => (
                 <li
                   key={idx}
+                  className='padding-left-3'
                   onClick={() => {
                     setIsDrawerOpen && setIsDrawerOpen(false);
                     handleClick();
