@@ -93,7 +93,7 @@ export const menuData = [
     href: '',
     children: [
       {
-        heading: 'MEDICARE: We are in the network for MEDICARE, all PPO insurances and most HMO insurances.',
+        heading: 'We are in the network for MEDICARE, all PPO insurances and most HMO insurances.',
         submenu: [
         
         ],
