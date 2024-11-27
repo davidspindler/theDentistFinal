@@ -11,6 +11,8 @@ const MeettheDoctors = () => {
       <>
       <section className="team-info-container">
     <section className="team-member">
+      <div>
+
       <h2>Divya Peddireddy, DDS, MS, QME</h2>
       <p>
       Dr. Divya Peddireddy has been practicing dentistry for two decades. She graduated with a DDS degree
@@ -60,6 +62,7 @@ Smiles designed and delivered that reflect patient’s objectives.
 restaurant scene in the Orange County area, cooking at home, outdoor activities like hiking, going to the
 beach, and watching her son in Taekwondo and swimming sessions.
       </p>
+      </div>
       <img src="/170423-Divya-003.jpg" alt="Dr. Divya Peddireddy" className="team-member-image" />
     </section> 
     </section>

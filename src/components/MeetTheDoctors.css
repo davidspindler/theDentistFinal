@@ -1,3 +1,26 @@
+
+.team-member {
+  display: flex;
+  flex-direction: row; /* Arrange content in a row */
+  align-items: flex-start; /* Align items at the top */
+  gap: 20px; /* Space between text and image */
+  background-color: #f2fdff;
+  padding: 20px;
+  margin: 0 auto; /* Center align the content horizontally */
+}
+
+.team-member-details {
+  flex: 2; /* Allow text to take more space */
+}
+
+.team-member-image {
+  flex: 1; /* Allow the image to take up less space */
+  max-width: 300px; /* Limit the maximum width of the image */
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  align-self: flex-start; /* Align image to the top */
+}
 .team-info-container {
     display: flex;
     flex-direction: column; /* Display rows vertically */
@@ -8,28 +31,28 @@
 
   }
 
-  .team-member-details {
+  /* .team-member-details {
     flex: 2;
-  }
-  .team-member-image {
+  } */
+  /* .team-member-image {
     flex: 1;
     max-width: 300px;
     height: auto;
     object-fit: cover;
     border-radius: 10px;
     align-self: flex-start;
-  }
-  .team-member {
+  } */
+  /* .team-member {
     display: flex;
     flex-direction: column;
-  }
-  .team-member {
+  } */
+  /* .team-member {
     background-color: #f2fdff;
     padding: 20px;
     text-align: left;
     
-    margin: 0 auto; /* Center align each row horizontally */
-  }
+    margin: 0 auto; 
+  } */
   
   .team-member h2 {
     font-size: 20px;
@@ -72,4 +95,22 @@
     height: auto;
     object-fit: cover;
     border-radius: 10px;
+  }
+  @media (max-width: 768px) {
+    .team-member {
+      flex-direction: column; /* Stack content vertically */
+      align-items: center; /* Center content horizontally */
+    }
+  
+    .team-member-image {
+      order: -1; /* Move the image to the top */
+      align-self: center; /* Center the image */
+      margin-top: 20px; /* Add spacing above the image */
+    }
+  }
+  @media (max-width: 768px) {
+    .grid-layout {
+      grid-template-columns: 1fr; /* Change to 1 column */
+      grid-template-rows: repeat(4, auto); /* Stack all items vertically */
+    }
   }
