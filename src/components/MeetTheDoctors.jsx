@@ -10,7 +10,8 @@ const MeettheDoctors = () => {
     return (
       <>
       <section className="team-info-container">
-    <section className="team-member">
+    <section className="team-member fix-width">
+
       <div>
 
       <h2>Divya Peddireddy, DDS, MS, QME</h2>
@@ -64,6 +65,7 @@ beach, and watching her son in Taekwondo and swimming sessions.
       </p>
       </div>
       <img src="/170423-Divya-003.jpg" alt="Dr. Divya Peddireddy" className="team-member-image" />
+   
     </section> 
     </section>
       </>
