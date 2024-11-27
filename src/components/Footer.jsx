@@ -36,12 +36,12 @@ const Footer = () => {
                     <NavLink 
                     to="/privacypolicy"
                     >
-                        <button className='legal-button'>
+                        <button className='legal-button twelvepixel'>
                         Privacy Policy and Terms of Service
                         </button>
                         </NavLink>       
                       
-                         <p>© {currentYear} OC Center for Advanced Dentistry</p>
+                         <p className='twelvepixel'>© {currentYear} OC Center for Advanced Dentistry</p>
                 </section>
             </section>
         </footer>

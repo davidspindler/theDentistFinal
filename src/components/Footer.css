@@ -84,3 +84,6 @@
     outline: none;
     box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5); /* Focus ring */
   }
+  .twelvepixel {
+    font-size: 12px;
+  }

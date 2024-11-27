@@ -7,7 +7,22 @@
     background-color: #d7f8ff;
 
   }
-  
+
+  .team-member-details {
+    flex: 2;
+  }
+  .team-member-image {
+    flex: 1;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    align-self: flex-start;
+  }
+  .team-member {
+    display: flex;
+    flex-direction: column;
+  }
   .team-member {
     background-color: #f2fdff;
     padding: 20px;
@@ -31,4 +46,30 @@
   }
   .list-style-disc {
     list-style-type: disc;
+  }
+  .carder-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows */
+    gap: 20px; /* Space between grid items */
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .card-content {
+    grid-column: span 1; /* Take one grid cell */
+    grid-row: span 1; /* Take one grid cell */
+  }
+  
+  .grid-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
   }

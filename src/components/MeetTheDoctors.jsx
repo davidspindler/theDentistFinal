@@ -60,6 +60,7 @@ Smiles designed and delivered that reflect patient’s objectives.
 restaurant scene in the Orange County area, cooking at home, outdoor activities like hiking, going to the
 beach, and watching her son in Taekwondo and swimming sessions.
       </p>
+      <img src="/170423-Divya-003.jpg" alt="Dr. Divya Peddireddy" className="team-member-image" />
     </section> 
     </section>
       </>
@@ -69,11 +70,10 @@ beach, and watching her son in Taekwondo and swimming sessions.
         <>
      <HandleMeetDoctors />
      <section className="carder-container">
-
-     <section className="carder">
+  <div className="grid-layout">
+    {/* Existing content takes the first spot */}
     <section className="card-content">
       <h3>Our Location: 3070 Bristol Street SUITE 180 COSTA MESA CA 92626</h3>
-     
       <iframe
         title="Google Maps Location"
         width="100%"
@@ -82,13 +82,30 @@ beach, and watching her son in Taekwondo and swimming sessions.
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.4199173739963!2d-117.8876723849641!3d33.68281648070424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcc6598ab5e731%3A0x8e2e6f8efed6826c!2s3070%20Bristol%20St%20%23180%2C%20Costa%20Mesa%2C%20CA%2092626%2C%20USA!5e0!3m2!1sen!2sus!4v1623238587310!5m2!1sen!2sus"
         allowFullScreen=""
         aria-hidden="false"
-        ></iframe>
-         <h4>
-      There is a validation ticket parking lot conveniently located next to our office. Take an ariel view of these photos of surrounding buildings, entrance, waiting room, and operatories.
+      ></iframe>
+      <h4>
+        There is a validation ticket parking lot conveniently located next to our office. Take an aerial view of these photos of surrounding buildings, entrance, waiting room, and operatories.
       </h4>
     </section>
-  </section>
-        </section>
+
+    {/* Placeholder images for the remaining grid items */}
+    <img
+      src="/unnamed.png"
+      alt="Placeholder 1"
+      className="grid-image"
+    />
+    <img
+      src="/IMG_0606.jpg"
+      alt="Placeholder 2"
+      className="grid-image"
+    />
+    <img
+      src="/IMG_0613.jpg"
+      alt="Placeholder 3"
+      className="grid-image"
+    />
+  </div>
+</section>
             </>
     );
   };
