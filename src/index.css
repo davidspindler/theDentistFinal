@@ -590,10 +590,15 @@ MEDIA QUERIES
   list-style-type: none; /* Remove default bullets */
   padding-left: 10px;
 }
+.arrow-list li {
+  text-indent: -20px; /* Pull the text left for alignment */
+  padding-left: 20px; /* Push it back to align with the custom arrow */
+}
 .bullet-list {
   list-style-type: disc; /* Remove default bullets */
   padding-left: 10px;
 }
+
 
 .arrow-list li::before {
   content: "⮚"; /* Add arrow symbol */
