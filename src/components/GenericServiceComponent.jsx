@@ -165,7 +165,7 @@ const GenericServiceComponent = ({
               {descriptionToBeParsed && handleBlurb()}
             </div>
             {imgSrc && (isVideo(imgSrc) ? (
-        <video className="responsive-video padding-20" controls>
+        <video className="responsive-video padding-20" controls muted>
           <source src={imgSrc} type={`video/${imgSrc.split('.').pop()}`} />
           Your browser does not support the video tag.
         </video>
