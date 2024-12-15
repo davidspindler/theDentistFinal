@@ -611,7 +611,7 @@ MEDIA QUERIES
 .arrow-list li::before {
   content: "➤"; /* Add arrow symbol */
   /* font-size: small; */
-  color: #000; /* Set arrow color */
+  color: #696969; /* Set arrow color */
   padding-right: 10px; /* Space between arrow and text */
   font-size: 13px; /* Adjust size of the arrow */
 
