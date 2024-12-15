@@ -619,5 +619,6 @@ MEDIA QUERIES
 @supports not (content: "⮚") {
   .arrow-list li::before {
     content: "➔";  /* Fallback arrow */
+    color: blue;
   }
 }
