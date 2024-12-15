@@ -165,12 +165,12 @@ const GenericServiceComponent = ({
               {descriptionToBeParsed && handleBlurb()}
             </div>
             {imgSrc && (isVideo(imgSrc) ? (
-        <video className="responsive-video padding-20" controls muted autoPlay playsInline loop>
+        <video className="responsive-video padding-20 margin-5-bottom" controls muted autoPlay playsInline loop>
           <source src={imgSrc} type={`video/${imgSrc.split('.').pop()}`} />
           Your browser does not support the video tag.
         </video>
       ) : (
-        <img src={imgSrc} alt={`Image for ${mainTitleText}`} className="responsive-image padding-20" />
+        <img src={imgSrc} alt={`Image for ${mainTitleText}`} className="responsive-image padding-20 margin-5-bottom" />
       ))}
           </div>
       

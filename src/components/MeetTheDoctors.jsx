@@ -27,7 +27,7 @@ on the Clinical Advisory Board of one of the nation’s largest dental service p
 aesthetic, and preventive dentistry. She has completed multiple fellowships across various disciplines in
 the field of dentistry.
       </p>
-      <ul className="list-style-disc">
+      <ul className="arrow-list">
         <li>Periodontal fellowship with International Academy of Dental Implantology</li>
         <li>Implant fellowship with International Academy of Dental Implantology</li>
         <li>Sedation fellowship with International Academy of Dental Implantology</li>
@@ -47,7 +47,7 @@ suppression, diabetes, etc., and is happy to hear patients commonly express joy 
 experiences:
 
       </p>
-      <ul className="list-style-disc">
+      <ul className="arrow-list">
         <li>The lack of trauma and dexterity with which she carries out complex teeth extractions and the
 resulting quick recovery.</li>
 <li>
@@ -89,7 +89,7 @@ beach, and watching her son in Taekwondo and swimming sessions.
         aria-hidden="false"
       ></iframe>
       <h4>
-        There is a validation ticket parking lot conveniently located next to our office. Take an aerial view of these photos of surrounding buildings, entrance, waiting room, and operatories.
+      There is a covered parking structure conveniently located adjacent to the building. We validate the parking ticket.
       </h4>
     </section>
 

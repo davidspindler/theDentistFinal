@@ -2,7 +2,7 @@ import GenericServiceComponent from "./GenericServiceComponent";
 // import './DentalPrinters.css'
 const DentalPrintersData = {
     mainTitleText: 'Dental Printers',
-    // imgSrc: '/DentalPrinters.mp4'
+    imgSrc: '/3dprinter.jpg'
   };
 const DentalPrintersComponent = () => {
   return (

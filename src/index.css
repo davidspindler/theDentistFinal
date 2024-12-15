@@ -52,6 +52,7 @@ ul {
 }
 p {
   line-height: 1.5;
+  font-size: 17px;
 }
 button {
   cursor: pointer;
@@ -68,6 +69,9 @@ button {
 
 .h-0 {
   height: 0;
+}
+h3 {
+  font-size: 20px;
 }
 
 .overflow-hidden {
@@ -593,6 +597,10 @@ MEDIA QUERIES
 .arrow-list li {
   text-indent: -20px; /* Pull the text left for alignment */
   padding-left: 20px; /* Push it back to align with the custom arrow */
+  font-size: 17px;
+}
+.sidebar-label {
+ font-size: 17px;
 }
 .bullet-list {
   list-style-type: disc; /* Remove default bullets */
@@ -608,4 +616,8 @@ MEDIA QUERIES
   font-size: 13px; /* Adjust size of the arrow */
 }
 
-
+@supports not (content: "⮚") {
+  .arrow-list li::before {
+    content: "➔";  /* Fallback arrow */
+  }
+}
