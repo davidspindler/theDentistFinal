@@ -609,7 +609,7 @@ MEDIA QUERIES
 
 
 .arrow-list li::before {
-  content: "⯌"; /* Add arrow symbol */
+  content: "🢖"; /* Add arrow symbol */
   /* font-size: small; */
   color: #000; /* Set arrow color */
   padding-right: 10px; /* Space between arrow and text */
