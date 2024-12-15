@@ -609,16 +609,12 @@ MEDIA QUERIES
 
 
 .arrow-list li::before {
-  content: "➔"; /* Add arrow symbol */
+  content: "⮚"; /* Add arrow symbol */
   /* font-size: small; */
-  color: #000; /* Set arrow color */
+  color: pink; /* Set arrow color */
   padding-right: 10px; /* Space between arrow and text */
   font-size: 13px; /* Adjust size of the arrow */
+  font-family: "Segoe UI Symbol", Arial, sans-serif; /* Fallback fonts */
 }
 
-@supports not (content: "⮚") {
-  .arrow-list li::before {
-    content: "➔";  /* Fallback arrow */
-    color: blue;
-  }
-}
+
