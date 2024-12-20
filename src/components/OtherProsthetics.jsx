@@ -9,7 +9,7 @@ const otherProstheticsData = {
 const OtherProstheticsContent = () => {
   return (
     <>
-    <h2 className="padding-bottom-5">What Are Dental Prosthetics?</h2>
+    <h3 className="padding-bottom-5">What Are Dental Prosthetics?</h3>
   <p className="padding-bottom-5">
     Dental prosthetics are a vital branch of prosthetics, focused on restoring function and aesthetics to the mouth and dentition. They cover a wide range of options, addressing issues like missing teeth, damaged teeth, and jawbone deficiencies.
   </p>
