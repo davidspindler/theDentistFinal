@@ -18,7 +18,7 @@ const OfficeTour = () => {
 <section className="container3">
         <section className="padding-20">
 
-   <img src={officetour2}className="styled-image2" ></img>
+   <img src={officetour2}className="styled-image2" alt="Description of the image" ></img>
         </section>
 </section>
             </>

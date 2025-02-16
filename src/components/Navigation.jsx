@@ -27,7 +27,7 @@ const Navigation = () => {
             <AlignJustify />
           </button>
           <Link className="logo__link" to={'/'}>
-            <img className='navbar_logo' src={logo} />
+            <img className='navbar_logo' src={logo} alt="OC Center for Advanced Dentistry Logo" />
             <h2 className='logo_text'>OC Center for Advanced Dentistry</h2>
           </Link>
 
