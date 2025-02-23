@@ -27,8 +27,8 @@ const Navigation = () => {
             <AlignJustify />
           </button>
           <Link className="logo__link" to={'/'}>
-            <img className='navbar_logo' src={logo} alt="OC Center for Advanced Dentistry Logo" />
-            <h2 className='logo_text'>OC Center for Advanced Dentistry</h2>
+            <img className='navbar_logo' src={logo} alt="O.C. Center For Advanced Dentistry Logo" />
+            <h2 className='logo_text'>O.C. Center For Advanced Dentistry</h2>
           </Link>
 
           <div className="hidden md:block">

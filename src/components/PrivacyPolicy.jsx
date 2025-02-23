@@ -4,7 +4,7 @@ const LegalDisclaimers = () => (
   <section className="legal-container">
     <h2 className="legal-header">Privacy Policy</h2>
     <p>
-      <strong>OC Center for Advanced Dentistry</strong> ("we," "our," or "us")
+      <strong>O.C. Center For Advanced Dentistry</strong> ("we," "our," or "us")
       is committed to protecting your privacy. This Privacy Policy explains how
       we collect, use, disclose, and safeguard your information when you visit
       our website <strong>[www.OCCFAD.com]</strong>.
@@ -88,7 +88,7 @@ const LegalDisclaimers = () => (
     <h3 className="legal-subheader">Intellectual Property</h3>
     <p>
       All intellectual property, including but not limited to trademarks, logos,
-      and content, is the property of OC Center for Advanced Dentistry.
+      and content, is the property of O.C. Center For Advanced Dentistry.
       Unauthorized use is prohibited.
     </p>
 

@@ -28,8 +28,9 @@ const Footer = () => {
                 </section>
                 <section className="footer-section contact">
                     <h3>Contact Us</h3>
-                    <p>Email: Patientcare@OCCFAD.org</p>
-                    <p>Phone: (714) 540-3838</p>
+                    <p><strong>Email: </strong><a href="mailto:Patientcare@OCCFAD.org">Patientcare@OCCFAD.org</a></p>
+                    <p><strong>Phone: </strong><a href="tel:+17145403838">(714) 540-3838</a></p>
+                    <p><strong>Hours:</strong> Mon - Fri, 8:30 AM - 5:30 PM</p>
                 </section>
                 <section className="footer-section social">
                     <h3>Legal Disclaimers</h3>  
@@ -41,7 +42,7 @@ const Footer = () => {
                         </button>
                         </NavLink>       
                       
-                         <p className='twelvepixel'>© {currentYear} OC Center for Advanced Dentistry</p>
+                         <p className='twelvepixel'>© {currentYear} O.C. Center For Advanced Dentistry</p>
                 </section>
             </section>
         </footer>

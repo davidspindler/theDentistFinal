@@ -48,7 +48,7 @@ const biolaseData = {
         The Waterlase® removes very precise amounts of tooth, without damaging or cracking the rest of the
         tooth! And because it is so precise, anesthetic is rarely needed. </li>
         If you are interested in more information about the benefits of Waterlase and laser dentistry in general
-        please call for a consult with Dr. Peddireddy at OC Center For Advanced Dentistry.`,
+        please call for a consult with Dr. Peddireddy at O.C. Center For Advanced Dentistry.`,
       },
     ],
     imgSrc: biolase
