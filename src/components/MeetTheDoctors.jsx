@@ -1,5 +1,6 @@
 import GenericServiceComponent from "./GenericServiceComponent";
 import './MeetTheDoctors.css'
+import LocationSection from './LocationSection';
 import parse from 'html-react-parser';
 const meettheDoctorsData = {
     mainTitleText: 'Meet the Doctors',
@@ -30,11 +31,13 @@ the field of dentistry.
       <ul className="arrow-list">
         <li>Periodontal fellowship with International Academy of Dental Implantology</li>
         <li>Implant fellowship with International Academy of Dental Implantology</li>
+        <li>Advanced training in Orofacial pain, Oral medicine, and Temporomandibular (TMJ) and sleep disorders from University of Southern California</li>
         <li>Sedation fellowship with International Academy of Dental Implantology</li>
         <li>Mini residency in Oral and Maxillofacial radiology</li>
       </ul>
       <p>
-      Dr. Peddireddy keeps abreast of the latest developments in dentistry through interactions with leading
+      Dr. Peddireddy has carried out over 15,000 (fifteen thousand) surgical extractions and restorations over
+the last two decades. She keeps abreast of the latest developments in dentistry through interactions with leading
 experts in various disciplines. She has also spoken on implants and restorative techniques at
 conferences organized by leading implant manufacturers.
       </p>
@@ -59,7 +62,8 @@ Smiles designed and delivered that reflect patient’s objectives.
 </li>
       </ul>
       <p>
-      Outside of work Dr. Peddireddy likes spending time with her husband and son in elementary school. She enjoys the
+      Outside of work Dr. Peddireddy likes spending time with her husband and their son who is in elementary school and catching up on the latest
+research in dental science. She enjoys the
 restaurant scene in the Orange County area, cooking at home, outdoor activities like hiking, going to the
 beach, and watching her son in Taekwondo and swimming sessions.
       </p>
@@ -74,43 +78,7 @@ beach, and watching her son in Taekwondo and swimming sessions.
     return (
         <>
      <HandleMeetDoctors />
-     <section className="carder-container">
-  <div className="grid-layout">
-    {/* Existing content takes the first spot */}
-    <section className="card-content">
-      <h3>Our Location: 3070 Bristol Street SUITE 180 COSTA MESA CA 92626</h3>
-      <iframe
-        title="Google Maps Location"
-        width="100%"
-        height="400"
-        style={{ border: 0 }}
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.4199173739963!2d-117.8876723849641!3d33.68281648070424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcc6598ab5e731%3A0x8e2e6f8efed6826c!2s3070%20Bristol%20St%20%23180%2C%20Costa%20Mesa%2C%20CA%2092626%2C%20USA!5e0!3m2!1sen!2sus!4v1623238587310!5m2!1sen!2sus"
-        allowFullScreen=""
-        aria-hidden="false"
-      ></iframe>
-      <h4>
-      There is a covered parking structure conveniently located adjacent to the building. We validate the parking ticket.
-      </h4>
-    </section>
-
-    {/* Placeholder images for the remaining grid items */}
-    <img
-      src="/unnamed.png"
-      alt="Placeholder 1"
-      className="grid-image"
-    />
-    <img
-      src="/IMG_0606.jpg"
-      alt="Placeholder 2"
-      className="grid-image"
-    />
-    <img
-      src="/IMG_0613.jpg"
-      alt="Placeholder 3"
-      className="grid-image"
-    />
-  </div>
-</section>
+     <LocationSection />
             </>
     );
   };

@@ -225,6 +225,24 @@ End Global
   margin-top: 0.75rem;
 }
 
+.dropdown_note p {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin: 0.75rem 0;
+}
+
+.dropdown_note p:first-child {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.dropdown_note p + p::before {
+  content: '\2713';
+  color: #f1cd71;
+  margin-right: 8px;
+}
+
 .dropdown_content li {
   line-height: 1.85rem;
 }
@@ -511,6 +529,15 @@ MEDIA QUERIES
   .dropdown_content h4 {
     margin-top: 0;
     margin-bottom: 0.75rem;
+  }
+
+  /* One-section menus (Meet Us, Insurance) size to their content instead of three empty columns */
+  .dropdown_content--single {
+    grid-template-columns: max-content;
+  }
+
+  .dropdown_note p {
+    margin: 0 0 0.5rem;
   }
 
   .hero_title {

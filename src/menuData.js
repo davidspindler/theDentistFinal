@@ -5,11 +5,10 @@ export const menuData = [
     href: '/about/meetthedoctors',
     children: [
       {
-        heading: 'More about us',
         submenu: [
           // { label: 'About OCCFAD', href: '/about/occfad' },
-          { label: 'Meet Us, Address', href: '/about/meetthedoctors' },
-          // { label: 'Google Maps and Parking', href: 'about/address' },
+          { label: 'Dr. Divya Peddireddy', href: '/about/meetthedoctors' },
+          { label: 'Location & Parking', href: '/about/address' },
           // { label: 'Office Tour (location / building / how to access / photos)', href: 'about/officetour' },
           // { label: 'Patient Experiences', href: '/about/patientexperiences' }
         ],
@@ -93,9 +92,10 @@ export const menuData = [
     href: '',
     children: [
       {
-        heading: 'We are in network for Medicare and accept all PPO insurances and some HMO insurances.',
-        submenu: [
-        
+        note: [
+          'In network for Medicare',
+          'All PPO plans accepted',
+          'Some HMO plans accepted',
         ],
       }
     ],

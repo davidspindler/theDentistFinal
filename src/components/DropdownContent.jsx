@@ -27,17 +27,26 @@ const DropdownContent = ({
     }));
   };
   return (
-    <section className="dropdown_content">
+    <section className={`dropdown_content${submenuscontent.length === 1 ? ' dropdown_content--single' : ''}`}>
     {submenuscontent.map((item, index) => (
       <React.Fragment key={index}>
         <section>
+          {item.note && (
+            <div className="dropdown_note">
+              {item.note.map((line, idx) => (
+                <p key={idx}>{line}</p>
+              ))}
+            </div>
+          )}
+          {item.heading && (
           <h4
             onClick={() => isMobile && toggleSection(index)} // Toggle only if mobile
             style={{ cursor: isMobile ? 'pointer' : 'default' }} // Pointer cursor only on mobile
           >
             {item.heading}
           </h4>
-          {(isMobile ? openSections[index] : true) && ( // Conditionally render `ul` based on `isMobile`
+          )}
+          {item.submenu && (!item.heading || !isMobile || openSections[index]) && ( // No heading to tap on mobile, so always show the links
             <ul>
               {item.submenu?.map(({ label, href }, idx) => (
                 <li
